@@ -501,6 +501,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Commander Shadowsun",
@@ -1059,6 +1064,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Commander Farsight",
@@ -1690,6 +1700,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Commander in Crisis Battlesuit",
@@ -2727,6 +2742,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Commander in Enforcer Battlesuit",
@@ -3683,6 +3703,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Commander in Coldstar Battlesuit",
@@ -4732,6 +4757,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Cadre Fireblade",
@@ -5376,6 +5406,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ethereal",
@@ -6198,6 +6233,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Aun'va",
@@ -6444,6 +6484,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Ethereal Guard",
@@ -6682,6 +6727,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Aun'shi",
@@ -6972,6 +7022,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Darkstrider",
@@ -7430,6 +7485,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Longstrike",
@@ -8375,6 +8435,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Strike Team",
@@ -8517,6 +8582,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Strike Team",
@@ -8612,6 +8682,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Fire Warrior Shas'ui",
@@ -9486,6 +9561,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Breacher Fire Warrior",
@@ -9699,6 +9779,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Breacher Fire Warrior Shas'ui",
@@ -10219,6 +10304,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot Carnivores",
@@ -11292,6 +11382,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Krootox Riders",
@@ -12956,6 +13051,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Crisis Shas’ui",
@@ -13533,6 +13633,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Crisis Shas’vre",
@@ -14259,6 +14364,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Stealth Shas'ui",
@@ -14458,6 +14568,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Stealth Shas'ui",
@@ -14806,6 +14921,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Stealth Shas'vre",
@@ -15279,6 +15399,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ghostkeel Battlesuit",
@@ -16407,6 +16532,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Firesight Team",
@@ -17366,6 +17496,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Pathfinder Team",
@@ -17622,6 +17757,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Pathfinder Team",
@@ -17893,6 +18033,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Pathfinder Team",
@@ -18098,6 +18243,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Pathfinder Team",
@@ -18612,6 +18762,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Pathfinder Shas'ui",
@@ -19533,6 +19688,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Piranha",
@@ -19983,6 +20143,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Vespid Stingwings",
@@ -21433,6 +21598,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot Hounds",
@@ -22263,6 +22433,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Broadside Shas’ui",
@@ -22469,6 +22644,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Broadside Shas’vre",
@@ -23114,6 +23294,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Riptide Battlesuit",
@@ -24167,6 +24352,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Hammerhead Gunship",
@@ -25254,6 +25444,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sky Ray Gunship",
@@ -26069,6 +26264,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Devilfish",
@@ -26767,6 +26967,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Razorshark Strike Fighter",
@@ -27525,6 +27730,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sun Shark Bomber",
@@ -28433,6 +28643,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "modifiers": [
@@ -28639,6 +28854,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Tidewall Droneport",
@@ -28984,6 +29204,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Tidewall Gunrig",
@@ -29205,6 +29430,11 @@
                 "$text": "6",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Stormsurge",
@@ -30655,6 +30885,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Tactical Drones",
@@ -31156,6 +31391,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Farstalkers & Kill-broker",
@@ -31195,6 +31435,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot Hounds",
@@ -32973,6 +33218,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "R'varna Battlesuit",
@@ -33702,6 +33952,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Y'vahra Battlesuit",
@@ -34910,6 +35165,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Tetra",
@@ -35629,6 +35889,11 @@
                     "$text": "0",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Remora Stealth Drone",
@@ -36020,6 +36285,11 @@
                 "$text": "10",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ta'unar Supremacy Armour",
@@ -37284,6 +37554,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Barracuda",
@@ -38385,6 +38660,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Tiger Shark",
@@ -39659,6 +39939,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Tiger Shark",
@@ -40497,6 +40782,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Manta",
@@ -41428,6 +41718,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Orca Dropship",
@@ -42312,6 +42607,11 @@
                         "$text": "0",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Heavy Gun Drone",
@@ -42464,6 +42764,11 @@
                         "$text": "0",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Heavy Gun Drone",
@@ -42952,6 +43257,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Great Knarloc [Legends]",
@@ -43759,6 +44069,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "TX42 Piranha",
@@ -44875,6 +45190,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Knarloc Riders [Legends]",
@@ -45367,6 +45687,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Shas'o R'alai",
@@ -46283,6 +46608,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "XV9 Hazard Battlesuits",
@@ -46779,6 +47109,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Remote Sensor Tower [Legends]",
@@ -46942,6 +47277,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Drone Sentry Turret [Legends]",
@@ -47484,6 +47824,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Crisis Sunforge Shas’ui",
@@ -47757,6 +48102,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Crisis Sunforge Shas’vre",
@@ -48515,6 +48865,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Crisis Fireknife Shas’ui",
@@ -48847,6 +49202,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Crisis Fireknife Shas’vre",
@@ -49541,6 +49901,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Crisis Starscythe Shas’ui",
@@ -49837,6 +50202,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Crisis Starscythe Shas’vre",
@@ -50319,6 +50689,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot Trail Shaper",
@@ -50973,6 +51348,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot War Shaper",
@@ -51685,6 +52065,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot Flesh Shaper",
@@ -52347,6 +52732,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kroot Lone-spear",
@@ -53126,6 +53516,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Krootox Rampagers",
@@ -56374,6 +56769,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Shas'nel",
@@ -58270,6 +58670,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Battlesuit Veteran",
@@ -58909,6 +59314,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kinband Champion",
@@ -59633,6 +60043,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "The Twin Lance",
@@ -59920,6 +60335,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "The Twin Lance",

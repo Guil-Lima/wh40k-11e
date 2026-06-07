@@ -838,6 +838,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "e21e-8589-b121-374f",
@@ -1631,6 +1636,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "c06a-9ba8-68a2-17d0",
@@ -2166,6 +2176,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "73bd-e73f-e2d8-d1a3",
@@ -2782,6 +2797,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "633f-ce2f-8a7-488a",
@@ -3695,6 +3715,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Tyranid Prime",
@@ -4063,6 +4088,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Tyranid Warrior",
@@ -4988,6 +5018,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Tyranid Prime",
@@ -5159,6 +5194,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Tyranid Warrior",
@@ -7585,6 +7625,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Hormagaunts",
@@ -7808,6 +7853,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "6a1d-69fc-336d-702a",
@@ -8746,6 +8796,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Tyrant Guard",
@@ -9086,6 +9141,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "1da2-fe24-4dd4-62f1",
@@ -9669,6 +9729,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Maleceptor",
@@ -10672,6 +10737,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Pyrovores",
@@ -11006,6 +11076,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Haruspex",
@@ -12019,6 +12094,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Venomthropes",
@@ -12597,6 +12677,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Neurogaunt Nodebeast",
@@ -12715,6 +12800,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Neurogaunt",
@@ -13312,6 +13402,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Neurothrope",
@@ -13464,6 +13559,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Zoanthrope",
@@ -13913,6 +14013,11 @@
                 "$text": "4",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Exocrine",
@@ -14597,6 +14702,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Biovore",
@@ -15151,6 +15261,11 @@
                     "$text": "3",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Carnifex",
@@ -16495,6 +16610,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Screamer-killer",
@@ -17216,6 +17336,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Hive Guard",
@@ -17408,6 +17533,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Hive Guard",
@@ -17911,6 +18041,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Tyrannofex",
@@ -18558,6 +18693,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Hive Crone",
@@ -19406,6 +19546,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Harpy",
@@ -20095,6 +20240,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sporocyst",
@@ -20670,6 +20820,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Psychophage",
@@ -21312,6 +21467,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Barbgaunt",
@@ -21987,6 +22147,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Barbed Hierodule",
@@ -22572,6 +22737,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Scythed Hierodule",
@@ -23197,6 +23367,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Harridan",
@@ -23866,6 +24041,11 @@
                 "$text": "12",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Hierophant",
@@ -24641,6 +24821,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Genestealers",
@@ -25281,6 +25466,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Dimachaeron",
@@ -25821,6 +26011,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sky-slasher Swarms",
@@ -26263,6 +26458,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Malanthrope",
@@ -26916,6 +27116,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Norn Assimilator",
@@ -27514,6 +27719,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Norn Emissary",
@@ -29810,6 +30020,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Hive Tyrant",
@@ -30128,6 +30343,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "b416-a798-6999-26f4",
@@ -31266,6 +31486,11 @@
             "$text": "2",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "id": "6cdf-a79d-f979-75f5",
@@ -31305,6 +31530,11 @@
             "$text": "2",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "id": "2461-bee9-2afc-8776",
@@ -31358,6 +31588,11 @@
             "$text": "0",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Mucolid Spore",
@@ -31411,6 +31646,11 @@
             "$text": "0",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Spore Mine",

@@ -245,6 +245,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Grimaldus",
@@ -284,6 +289,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Cenobyte Servitor",
@@ -934,6 +944,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "High Marshal Helbrecht",
@@ -1531,6 +1546,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Sword Brother",
@@ -1675,6 +1695,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Initiate",
@@ -1817,6 +1842,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Initiate",
@@ -1993,6 +2023,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Initiate",
@@ -2169,6 +2204,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Initiate",
@@ -2364,6 +2404,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Neophyte",
@@ -2478,6 +2523,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Neophyte",
@@ -3607,6 +3657,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Primaris Sword Brethren",
@@ -3701,6 +3756,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Primaris Sword Brethren",
@@ -4236,6 +4296,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "The Emperor's Champion",
@@ -5144,6 +5209,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Neophytes",
@@ -5313,6 +5383,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Neophytes",
@@ -5425,6 +5500,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Neophytes",
@@ -5575,6 +5655,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Initiate",
@@ -5687,6 +5772,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Initiate",
@@ -5872,6 +5962,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Initiate",
@@ -6017,6 +6112,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Initiate",
@@ -6668,6 +6768,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Sword Brother",
@@ -7126,6 +7231,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Black Templars Gladiator Lancer",
@@ -8059,6 +8169,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Black Templars Gladiator Reaper",
@@ -8759,6 +8874,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Black Templars Gladiator Valiant",
@@ -9482,6 +9602,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Black Templars Impulsor",
@@ -10340,6 +10465,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Repulsor",
@@ -11229,6 +11359,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Black Templars Repulsor Executioner",
@@ -12469,6 +12604,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Castellan",
@@ -12803,6 +12943,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "ac2d-3f07-3f38-5d51",
@@ -13633,6 +13778,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Execrator",
@@ -14575,6 +14725,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Crusade Ancient",
@@ -15045,6 +15200,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Land Raider Crusader",
@@ -15729,6 +15889,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Sternguard Veteran Squad",
@@ -16229,6 +16394,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Sternguard Veteran Sergeant",
@@ -16384,6 +16554,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Sternguard Veteran Squad",
@@ -16504,6 +16679,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Sternguard Veteran Squad",
@@ -17192,6 +17372,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Terminator Sergeant",
@@ -17304,6 +17489,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Terminator Squad",
@@ -17416,6 +17606,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Terminator Squad",
@@ -17687,6 +17882,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Terminator Squad",
@@ -18029,6 +18229,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "The Emperor's Champion",

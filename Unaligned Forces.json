@@ -130,6 +130,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ambull",
@@ -686,6 +691,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Aegis Defence Line with Weapon Emplacement",
@@ -945,6 +955,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Bastion",
@@ -1282,6 +1297,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Firestorm Redoubt",
@@ -1426,6 +1446,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Fortress of Redemption",
@@ -1895,6 +1920,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Guardian Drone",
@@ -2640,6 +2670,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Macro-cannon Aquila Strongpoint",
@@ -2953,6 +2988,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Plasma Obliterator",
@@ -3240,6 +3280,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Primaris Redoubt",
@@ -4002,6 +4047,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Skyshield Landing Pad",
@@ -4422,6 +4472,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Spindle Drone",
@@ -4778,6 +4833,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "The Archivist",
@@ -5114,6 +5174,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Vengeance Weapon Battery",
@@ -5408,6 +5473,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Void Shield Generator",
@@ -5552,6 +5622,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Vortex Missile Strongpoint",
@@ -5916,6 +5991,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Wall of Martyrs Bunker",
@@ -6194,6 +6274,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Wall of Martyrs Defence Emplacement",
@@ -6320,6 +6405,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Wall of Martyrs Defence Line",
@@ -7122,6 +7212,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Imperial Fortress Walls",
@@ -7524,6 +7619,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Castellum Stronghold",
@@ -8445,6 +8545,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sentry Gun",
@@ -8797,6 +8902,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Breaching Robot",

@@ -130,6 +130,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Iron Father Ferrios",
@@ -230,7 +235,7 @@
               }
             ],
             "import": true,
-            "name": "Bolt Pistol",
+            "name": "Bolt pistol",
             "hidden": false,
             "type": "selectionEntry",
             "id": "38d-d1b8-f3c6-2c2f",
@@ -596,6 +601,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Caanok Var",
@@ -714,7 +724,7 @@
               }
             ],
             "import": true,
-            "name": "Storm Bolter",
+            "name": "Storm bolter",
             "hidden": false,
             "id": "d2e0-6dfe-2052-c78f",
             "type": "selectionEntry",

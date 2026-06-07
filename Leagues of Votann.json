@@ -674,6 +674,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "62d7-f00c-5f67-b8cc",
@@ -1100,6 +1105,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "15e9-df12-30b7-42cb",
@@ -4476,6 +4486,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "2e4d-3b38-ed87-7de2",
@@ -5539,6 +5554,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "d084-0450-7a53-d656",
@@ -6534,6 +6554,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "modifierGroups": [
@@ -7053,6 +7078,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "id": "42ca-a380-cd4f-b99b",
@@ -7789,6 +7819,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "E-COG",
@@ -8302,6 +8337,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Ironkyn Assistant",
@@ -8741,6 +8781,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "modifierGroups": [
@@ -9388,6 +9433,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "id": "f5bd-9f1a-ac90-9232",
@@ -10399,6 +10449,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "id": "6d55-c9c5-a65e-62ed",
@@ -11518,6 +11573,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "id": "7b48-5717-37e7-66ae",
@@ -11941,6 +12001,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Beserk",
@@ -12053,6 +12118,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Beserk",
@@ -12764,6 +12834,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "eed4-0f4c-f180-db12",
@@ -14639,6 +14714,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "fde8-be9f-0fa6-4591",
@@ -15535,6 +15615,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "2c5b-6e8a-304c-6c85",
@@ -16492,6 +16577,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "id": "3d20-658f-d5de-a094",
@@ -17864,6 +17954,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Hernkyn Yaegirs",
@@ -19268,6 +19363,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Buri Aegnirssen",
@@ -19704,6 +19804,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Memnyr Strategist",
@@ -20357,6 +20462,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Arkanyst Evaluator",
@@ -21163,6 +21273,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Kapricus Defender",
@@ -22007,6 +22122,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kapricus Carrier",
@@ -22967,6 +23087,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
@@ -23860,6 +23985,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ironkin Steeljacks with Melee Weapons",
@@ -24413,6 +24543,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Cthonian Earthshaker",
@@ -25391,6 +25526,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Living Ancestor",
@@ -25923,6 +26063,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kinhost Commander",
@@ -26462,6 +26607,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Steeljack Elder",
@@ -26988,6 +27138,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Berehk Stornbröw",

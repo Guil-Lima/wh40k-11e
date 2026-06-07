@@ -144,6 +144,21 @@
           {
             "id": "bef7-942a-1a23-59f8",
             "name": "OC"
+          },
+          {
+            "name": "InSv",
+            "id": "55a7-5b54-c60d-11dc",
+            "formatRules": [
+              {
+                "name": "New Format Rule",
+                "id": "11c5-ee61-344f-d1a1",
+                "hidden": false,
+                "type": "regex",
+                "match": "^$",
+                "replace": "-",
+                "comment": "Empty → -"
+              }
+            ]
           }
         ],
         "id": "c547-1836-d8a-ff4f",
@@ -4239,6 +4254,11 @@
                 "$text": "5",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Greater Daemon",
@@ -4540,6 +4560,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Lesser Daemons",
@@ -4766,6 +4791,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Abomination",
@@ -4976,6 +5006,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Daemonic Beasts",

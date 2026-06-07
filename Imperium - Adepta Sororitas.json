@@ -281,6 +281,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Aestred Thurga",
@@ -484,6 +489,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Agathae Dolan",
@@ -1147,6 +1157,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Arco-Flagellants",
@@ -4562,6 +4577,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Canoness",
@@ -5169,6 +5189,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Castigator",
@@ -6888,6 +6913,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "id": "c7b8-cb9-a245-d58d",
@@ -7078,6 +7108,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "id": "ed26-da29-c42-4d9",
@@ -7451,6 +7486,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Dialogus",
@@ -8035,6 +8075,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Dogmata",
@@ -9831,6 +9876,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Exorcist",
@@ -10671,6 +10721,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Hospitaller",
@@ -11310,6 +11365,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Imagifier",
@@ -11996,6 +12056,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Immolator",
@@ -12878,6 +12943,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Junith Eruita",
@@ -13263,6 +13333,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "modifierGroups": [
@@ -14685,6 +14760,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Morvenn Vahl",
@@ -15635,6 +15715,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Palatine",
@@ -16065,6 +16150,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Paragon Warsuit",
@@ -16734,6 +16824,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Paragon Superior",
@@ -17785,6 +17880,11 @@
                         "$text": "2",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Penitent Engine",
@@ -19237,6 +19337,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ministorum Priest",
@@ -20474,6 +20579,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Retributor Superior",
@@ -20627,6 +20737,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Retributor",
@@ -21202,6 +21317,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Saint Celestine",
@@ -21665,6 +21785,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Seraphim",
@@ -22546,6 +22671,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Seraphim",
@@ -22696,6 +22826,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Seraphim",
@@ -24420,6 +24555,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sororitas Rhino",
@@ -25080,6 +25220,11 @@
                 "$text": "6",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Triumph of Saint Katherine",
@@ -25749,6 +25894,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Zephyrim Squad",
@@ -26102,6 +26252,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Geminae Superia",
@@ -26810,6 +26965,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Repressor",
@@ -28131,6 +28291,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Canoness with Jump Pack",
@@ -29152,6 +29317,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Crusader",
@@ -29580,6 +29750,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Battle Sanctum",
@@ -29788,6 +29963,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Celestian Sacresant Aveline",
@@ -30092,6 +30272,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sanctifiers",
@@ -32206,6 +32391,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Celestian Insidiants",
@@ -32501,6 +32691,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Celestian Insidiant Superior",
@@ -33618,6 +33813,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Militant Commander",
@@ -34192,6 +34392,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inspiring Devotee",
@@ -34780,6 +34985,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Reliquant Knight",
@@ -35753,6 +35963,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Intranzia Fraye",
@@ -35993,6 +36208,11 @@
             "$text": "2",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Battle Sister",
@@ -36046,6 +36266,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "id": "135c-b9f6-befe-a2cc",
@@ -36085,6 +36310,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "id": "59d5-3901-5bd9-2f61",
@@ -36125,6 +36355,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "id": "f0a4-39eb-71e1-8183",
@@ -36166,6 +36401,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Zephyrim Superior",
@@ -36205,6 +36445,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Zephyrim",
@@ -36244,6 +36489,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Dominion Superior",
@@ -36283,6 +36533,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Dominion",
@@ -36322,6 +36577,11 @@
             "$text": "2",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Sister Novitiate",
@@ -36361,6 +36621,11 @@
             "$text": "2",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Novitiate Superior",
@@ -36444,6 +36709,11 @@
             "$text": "1",
             "name": "OC",
             "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
           }
         ],
         "name": "Death Cult Assassin",

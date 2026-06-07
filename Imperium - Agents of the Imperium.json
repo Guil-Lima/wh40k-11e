@@ -85,6 +85,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Vindicare Assassin",
@@ -855,6 +860,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Culexus Assassin",
@@ -1401,6 +1411,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Eversor Assassin",
@@ -1970,6 +1985,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Callidus Assassin",
@@ -2515,6 +2535,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Rogue Trader",
@@ -2870,6 +2895,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Death Cult Assassin",
@@ -3249,6 +3279,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Lectro-maester",
@@ -3387,6 +3422,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Rejuvenant Adept",
@@ -3857,6 +3897,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Voidsmen-at-Arms",
@@ -5088,6 +5133,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Imperial Navy Breachers",
@@ -7021,6 +7071,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Subductor Squad",
@@ -8886,6 +8941,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Exaction Squad",
@@ -10316,6 +10376,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Vigilant Squad",
@@ -10695,6 +10760,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor Draxus",
@@ -11230,6 +11300,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor Coteaz",
@@ -11802,6 +11877,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor Greyfax",
@@ -12348,6 +12428,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor Karamazov",
@@ -12789,6 +12874,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor",
@@ -13992,6 +14082,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor Eisenhorn",
@@ -14677,6 +14772,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "UR-025",
@@ -15176,6 +15276,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Neyam Shai Murad",
@@ -15614,6 +15719,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Janus Draik",
@@ -15924,6 +16034,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Damned Legionnaires",
@@ -17520,6 +17635,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor in Terminator Armour",
@@ -19089,6 +19209,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Navigator",
@@ -20178,6 +20303,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Ministorum Priest",
@@ -20564,6 +20694,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitorial Agents",
@@ -22467,6 +22602,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "modifiers": [
@@ -23662,6 +23802,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitorial Chimera",
@@ -24911,6 +25056,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Imperial Rhino",
@@ -27077,6 +27227,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sisters of Battle Squad",
@@ -27826,6 +27981,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Immolator",
@@ -28962,6 +29122,11 @@
                     "$text": "0",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Daemonhost",
@@ -29431,6 +29596,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Jokaero Weaponsmith",
@@ -30236,6 +30406,11 @@
                 "$text": "0",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Corvus Blackstar",
@@ -31441,6 +31616,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Deathwatch Kill Team",
@@ -33569,6 +33749,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Deathwatch Terminator",
@@ -33657,6 +33842,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Deathwatch Terminator",
@@ -34043,6 +34233,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Deathwatch Terminator Sergeant",
@@ -34743,6 +34938,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Intercessor",
@@ -34982,6 +35182,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Intercessor",
@@ -35429,6 +35634,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Intercessor",
@@ -35724,6 +35934,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Intercessor",
@@ -35958,6 +36173,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Intercessor",
@@ -36144,6 +36364,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Outrider",
@@ -36458,6 +36683,11 @@
                                 "hidden": false,
                                 "id": "4787-eb6a-9c80-16ee",
                                 "typeId": "bef7-942a-1a23-59f8"
+                              },
+                              {
+                                "name": "InSv",
+                                "typeId": "55a7-5b54-c60d-11dc",
+                                "$text": ""
                               }
                             ],
                             "name": "Kill Team Intercessor",
@@ -36648,6 +36878,11 @@
                                 "hidden": false,
                                 "id": "dc3f-415c-6fc4-b82c",
                                 "typeId": "bef7-942a-1a23-59f8"
+                              },
+                              {
+                                "name": "InSv",
+                                "typeId": "55a7-5b54-c60d-11dc",
+                                "$text": ""
                               }
                             ],
                             "name": "Kill Team Intercessor",
@@ -37442,6 +37677,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor",
@@ -37684,6 +37924,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor w/ Heavy Bolter",
@@ -37812,6 +38057,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor",
@@ -38102,6 +38352,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor",
@@ -38468,6 +38723,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor",
@@ -38730,6 +38990,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor",
@@ -38908,6 +39173,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor w/ jump pack",
@@ -39163,6 +39433,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Heavy Intercessor w/ jump pack",
@@ -39912,6 +40187,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Chaplain Cassius",
@@ -40118,6 +40398,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Vael Donatus",
@@ -40317,6 +40602,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Zameon Gydrael",
@@ -40439,6 +40729,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Rodricus Grytt",
@@ -40710,6 +41005,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Antor Delassio",
@@ -40848,6 +41148,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Edryc Setorax",
@@ -41018,6 +41323,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Jensus Natorian",
@@ -41305,6 +41615,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Drenn Redblade",
@@ -41558,6 +41873,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Garran Branatar",
@@ -41642,6 +41962,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Ennox Sorrlock",
@@ -41890,6 +42215,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Jetek Suberei",
@@ -42201,6 +42531,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Biker",
@@ -42360,6 +42695,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Terminator",
@@ -42956,6 +43296,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Terminator",
@@ -44141,6 +44486,11 @@
                             "$text": "1",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Veteran w/ Jump Pack",
@@ -44284,6 +44634,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Veteran",
@@ -44734,6 +45089,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Veteran",
@@ -44921,6 +45281,11 @@
                             "$text": "2",
                             "name": "OC",
                             "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": ""
                           }
                         ],
                         "name": "Kill Team Veteran",
@@ -45846,6 +46211,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Kill Team Infiltrator",
@@ -46179,6 +46549,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Kill Team Infiltrator w/ Jump pack",
@@ -46414,6 +46789,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Kill Team Infiltrator",
@@ -46717,6 +47097,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Kill Team Infiltrator",
@@ -47178,6 +47563,11 @@
                         "$text": "1",
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
                       }
                     ],
                     "name": "Kill Team Infiltrator",
@@ -47941,6 +48331,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Veteran Biker Sergeant",
@@ -48276,6 +48671,11 @@
                     "$text": "2",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Veteran Biker",
@@ -48901,6 +49301,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Watch Captain Artemis",
@@ -49280,6 +49685,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Watch Master",
@@ -53226,6 +53636,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Sanctifiers",
@@ -54529,6 +54944,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Inquisitor Ostromandeus",
@@ -54894,6 +55314,11 @@
                     "$text": "1",
                     "name": "OC",
                     "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
                   }
                 ],
                 "name": "Stentor-I-52",
@@ -55354,6 +55779,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Deathwatch Veteran",
@@ -55711,6 +56141,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Deathwatch Veteran",
@@ -56043,6 +56478,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Deathwatch Veteran",
@@ -56719,6 +57159,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Gravis Veteran",
@@ -56854,6 +57299,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Kill Team Sergeant",
@@ -58019,6 +58469,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Martial Agent",
@@ -58597,6 +59052,11 @@
                 "$text": "1",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Deathwatch Agent",
@@ -59186,6 +59646,11 @@
                 "$text": "3",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Enthroned Agent",
@@ -60154,6 +60619,11 @@
                 "$text": "2",
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
               }
             ],
             "name": "Inquisitor Kroyle",
