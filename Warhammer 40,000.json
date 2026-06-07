@@ -691,6 +691,17 @@
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
+                      },
+                      {
+                        "type": "greaterThan",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "1cf9-0660-4ef2-4d18",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Bellatus"
                       }
                     ],
                     "type": "or"
@@ -775,6 +786,17 @@
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
+                      },
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "1cf9-0660-4ef2-4d18",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Bellatus"
                       }
                     ],
                     "type": "or"
@@ -859,6 +881,17 @@
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
+                      },
+                      {
+                        "type": "greaterThan",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "1cf9-0660-4ef2-4d18",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Bellatus"
                       }
                     ],
                     "type": "or"
@@ -1878,6 +1911,36 @@
         "name": "Supreme Commander",
         "id": "75fe-c657-43c6-7c09",
         "hidden": true
+      },
+      {
+        "name": "Bellatus",
+        "id": "1cf9-0660-4ef2-4d18",
+        "hidden": false
+      },
+      {
+        "name": "Unbound Adversaries",
+        "id": "9440-07f1-b09d-ce8b",
+        "hidden": false
+      },
+      {
+        "name": "Greater Daemon",
+        "id": "d445-8a18-5300-c3cc",
+        "hidden": false
+      },
+      {
+        "name": "Lesser Daemon",
+        "id": "f927-898a-ebe2-1aca",
+        "hidden": false
+      },
+      {
+        "name": "Abomination",
+        "id": "e17d-56fd-1957-071f",
+        "hidden": false
+      },
+      {
+        "name": "Daemonic Beasts",
+        "id": "a783-fe90-2280-47ec",
+        "hidden": false
       }
     ],
     "forceEntries": [
@@ -2042,8 +2105,7 @@
         "modifiers": [
           {
             "type": "set",
-            "field": "readme",
-            "value": "***If you are encountering issues where models are not seeing all options after given a Character upgrade or similar, please ensure you have upgraded NewRecruit to v34.53 or newer.***"
+            "field": "readme"
           }
         ],
         "id": "bb9d-299a-ed60-2d8a",
@@ -2474,7 +2536,7 @@
               }
             ],
             "type": "set",
-            "value": "***If you are encountering issues where models are not seeing all options after given a Character upgrade or similar, please ensure you have upgraded NewRecruit to v34.53 or newer.***\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "field": "readme"
           },
           {
@@ -2491,7 +2553,7 @@
               }
             ],
             "type": "set",
-            "value": "***If you are encountering issues where models are not seeing all options after given a Character upgrade or similar, please ensure you have upgraded NewRecruit to v34.53 or newer.***\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "field": "readme"
           }
         ],
@@ -2521,6 +2583,38 @@
         "collective": false,
         "import": true,
         "targetId": "564e-fbc6-5266-3ea4",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Greater Daemon (Unbound Adversaries)",
+        "hidden": false,
+        "id": "3de2-29bc-15da-d52d",
+        "targetId": "b216-722b-2361-a19f",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Lesser Daemons (Unbound Adversaries)",
+        "hidden": false,
+        "id": "8560-d945-b3e4-904a",
+        "targetId": "b257-5fca-9e35-6c64",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Abomination (Unbound Adversaries)",
+        "hidden": false,
+        "id": "4ed6-4bbd-0a99-4ba3",
+        "targetId": "4ad0-7f62-b1e4-c6bb",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Daemonic Beasts (Unbound Adversaries)",
+        "hidden": false,
+        "id": "48c5-2a0a-1c81-ebac",
+        "targetId": "8d9a-d925-56f3-1890",
         "type": "selectionEntry"
       }
     ],
@@ -4066,6 +4160,1012 @@
         "hidden": false,
         "id": "57cc-822a-1d43-be52",
         "defaultAmount": 1
+      },
+      {
+        "categoryLinks": [
+          {
+            "name": "Reference",
+            "hidden": false,
+            "id": "0666-6a9b-6202-1120",
+            "targetId": "eef1-be80-500a-edfc",
+            "primary": true
+          },
+          {
+            "name": "Monster",
+            "hidden": false,
+            "id": "5434-8667-9ef9-d240",
+            "targetId": "9693-cf84-fe69-37a9",
+            "primary": false
+          },
+          {
+            "name": "Character",
+            "hidden": false,
+            "id": "2107-8e8b-71d3-9287",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false
+          },
+          {
+            "name": "Chaos",
+            "hidden": false,
+            "id": "a695-eb39-ed90-8b3a",
+            "targetId": "4c00-2578-faf5-6918",
+            "primary": false
+          },
+          {
+            "name": "Daemon",
+            "hidden": false,
+            "id": "11a3-cbae-245d-b7b7",
+            "targetId": "9c0e-7e25-4580-e439",
+            "primary": false
+          },
+          {
+            "name": "Greater Daemon",
+            "hidden": false,
+            "id": "eec6-b9ae-212a-c5a8",
+            "targetId": "d445-8a18-5300-c3cc",
+            "primary": false
+          }
+        ],
+        "comment": "Armageddon Crusade content",
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "10",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "5+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "18",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "6+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "5",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              }
+            ],
+            "name": "Greater Daemon",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "28eb-0e07-bb68-1abb"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Invulnerable Save (4+)",
+            "id": "4235-ca5c-8ddb-a140",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5b77-29f8-7b77-75e3"
+          },
+          {
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "D6",
+                "field": "name"
+              }
+            ],
+            "name": "Deadly Demise",
+            "id": "9d9c-85a9-fcef-63a2",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "b68a-5ded-65ac-98c"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fd44-8916-88d5-5ed8",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8b6e-9629-761c-8ace",
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "Melee",
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132"
+                  },
+                  {
+                    "$text": "12",
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6"
+                  },
+                  {
+                    "$text": "7",
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba"
+                  },
+                  {
+                    "$text": "-1",
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2"
+                  },
+                  {
+                    "$text": "1",
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e"
+                  },
+                  {
+                    "$text": "-",
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e"
+                  }
+                ],
+                "name": "➤ Fell weapon - sweep",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "ff85-20f1-0ad9-e303"
+              },
+              {
+                "characteristics": [
+                  {
+                    "$text": "Melee",
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6"
+                  },
+                  {
+                    "$text": "10",
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba"
+                  },
+                  {
+                    "$text": "-2",
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2"
+                  },
+                  {
+                    "$text": "D6+1",
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e"
+                  },
+                  {
+                    "$text": "-",
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e"
+                  }
+                ],
+                "name": "➤ Fell weapon - strike",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "37ba-cd7f-a05f-be0c"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Fell weapon",
+            "hidden": false,
+            "id": "67d8-8ee4-6f6f-727a"
+          },
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f189-5332-f802-b60a",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "5e03-4b4b-a640-49c5",
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "12\"",
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "$text": "D6",
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "$text": "N/A",
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "$text": "5",
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "$text": "-1",
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "$text": "1",
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "$text": "Ignores Cover, Torrent",
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ],
+                "name": "Infernal scream",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "0b50-d04d-5a42-85c3"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Torrent",
+                "id": "013b-effd-5168-1b03",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "5edf-d619-23e0-9b56"
+              },
+              {
+                "name": "Ignores Cover",
+                "id": "a3fb-93b0-560e-b9ed",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4640-43e7-30b-215a"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Infernal scream",
+            "hidden": false,
+            "id": "2123-d523-b4e3-459b"
+          }
+        ],
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "fd80-17e3-3c1a-6570",
+                "shared": true,
+                "childName": "Armageddon",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Greater Daemon (Unbound Adversaries)",
+        "hidden": false,
+        "id": "b216-722b-2361-a19f"
+      },
+      {
+        "selectionEntries": [
+          {
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "6\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "4",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "1",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "1",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  }
+                ],
+                "name": "Lesser Daemons",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "2bad-97be-4440-f399"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Invulnerable Save (5+)",
+                "id": "e718-f923-4c07-ba85",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "3b8a-73e4-1389-b399"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e64d-6c5f-9fb6-07a3",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f5a9-50b3-a704-accb",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "-",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "name": "Daemonic weapon",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "457c-9f0b-d49c-5a01"
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Daemonic weapon",
+                "hidden": false,
+                "id": "c8d1-48e3-3264-8927"
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "fd80-17e3-3c1a-6570",
+                    "shared": true,
+                    "childName": "Armageddon",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "02be-5f7d-9894-c5d1",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f7e5-f34a-0949-1bbe",
+                "includeChildSelections": false
+              }
+            ],
+            "type": "model",
+            "import": true,
+            "name": "Lesser Daemons",
+            "hidden": false,
+            "id": "23b7-c2ad-8d26-c40f"
+          }
+        ],
+        "comment": "Armageddon Crusade content",
+        "categoryLinks": [
+          {
+            "name": "Reference",
+            "hidden": false,
+            "id": "536b-5510-699e-3c70",
+            "targetId": "eef1-be80-500a-edfc",
+            "primary": true
+          },
+          {
+            "name": "Unbound Adversaries",
+            "hidden": false,
+            "id": "bacf-1147-5f81-5c87",
+            "targetId": "9440-07f1-b09d-ce8b",
+            "primary": false
+          },
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "f7fe-66bc-36dd-81a7",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Chaos",
+            "hidden": false,
+            "id": "91ea-5507-f876-9594",
+            "targetId": "4c00-2578-faf5-6918",
+            "primary": false
+          },
+          {
+            "name": "Daemon",
+            "hidden": false,
+            "id": "5eb0-2ced-c599-c2e4",
+            "targetId": "9c0e-7e25-4580-e439",
+            "primary": false
+          },
+          {
+            "name": "Lesser Daemon",
+            "hidden": false,
+            "id": "3d6a-170f-73ef-a855",
+            "targetId": "f927-898a-ebe2-1aca",
+            "primary": false
+          }
+        ],
+        "type": "unit",
+        "import": true,
+        "name": "Lesser Daemons (Unbound Adversaries)",
+        "hidden": false,
+        "id": "b257-5fca-9e35-6c64"
+      },
+      {
+        "selectionEntries": [
+          {
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "10\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "5",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "4+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "4",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "1",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  }
+                ],
+                "name": "Abomination",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "ad6f-6c38-6998-5648"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b2eb-3fab-c10b-ae39",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8f6f-6571-44ff-d03d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "D6+2",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "-",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "name": "Hideous mutations",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "a8f3-eb0b-068b-8681"
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Hideous mutations",
+                "hidden": false,
+                "id": "db8e-4a59-5a9c-b987"
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "fd80-17e3-3c1a-6570",
+                    "shared": true,
+                    "childName": "Armageddon",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 2,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "98b0-0e92-a693-3392",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 4,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a3ec-bd40-d17f-1ebd",
+                "includeChildSelections": false
+              }
+            ],
+            "type": "model",
+            "import": true,
+            "name": "Abomination",
+            "hidden": false,
+            "id": "1def-7fc2-64ba-706b"
+          }
+        ],
+        "comment": "Armageddon Crusade content",
+        "categoryLinks": [
+          {
+            "name": "Reference",
+            "hidden": false,
+            "id": "ed60-52ac-15af-8016",
+            "targetId": "eef1-be80-500a-edfc",
+            "primary": true
+          },
+          {
+            "name": "Unbound Adversaries",
+            "hidden": false,
+            "id": "518f-6762-3633-07b7",
+            "targetId": "9440-07f1-b09d-ce8b",
+            "primary": false
+          },
+          {
+            "name": "Beast",
+            "hidden": false,
+            "id": "6061-32e4-5826-5e5f",
+            "targetId": "4c3e-9310-a516-3590",
+            "primary": false
+          },
+          {
+            "name": "Chaos",
+            "hidden": false,
+            "id": "9e84-3111-919f-43b0",
+            "targetId": "4c00-2578-faf5-6918",
+            "primary": false
+          },
+          {
+            "name": "Abomination",
+            "hidden": false,
+            "id": "e0e8-4123-33f7-0bb7",
+            "targetId": "e17d-56fd-1957-071f",
+            "primary": false
+          }
+        ],
+        "type": "unit",
+        "import": true,
+        "name": "Abomination (Unbound Adversaries)",
+        "hidden": false,
+        "id": "4ad0-7f62-b1e4-c6bb"
+      },
+      {
+        "selectionEntries": [
+          {
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "10\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "4",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  }
+                ],
+                "name": "Daemonic Beasts",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "df83-de4d-16bb-c352"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Invulnerable Save (5+)",
+                "id": "3b95-679f-fe9d-b275",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "3b8a-73e4-1389-b399"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e166-d534-3d8a-0c2a",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9c27-303c-c458-2ba1",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "-",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "name": "Horns and talons",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "87c5-899f-6200-49c2"
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Horns and talons",
+                "hidden": false,
+                "id": "91d6-dd7e-e0cd-b04f"
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "fd80-17e3-3c1a-6570",
+                    "shared": true,
+                    "childName": "Armageddon",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 3,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "aa6e-e362-4565-70cb",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 6,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6ff9-0c26-020f-2b32",
+                "includeChildSelections": false
+              }
+            ],
+            "type": "model",
+            "import": true,
+            "name": "Daemonic Beasts",
+            "hidden": false,
+            "id": "317e-1c59-edbb-f183"
+          }
+        ],
+        "comment": "Armageddon Crusade content",
+        "categoryLinks": [
+          {
+            "name": "Reference",
+            "hidden": false,
+            "id": "3c66-9631-712e-8f43",
+            "targetId": "eef1-be80-500a-edfc",
+            "primary": true
+          },
+          {
+            "name": "Unbound Adversaries",
+            "hidden": false,
+            "id": "0535-0745-9463-5abf",
+            "targetId": "9440-07f1-b09d-ce8b",
+            "primary": false
+          },
+          {
+            "name": "Chaos",
+            "hidden": false,
+            "id": "7fd2-fea7-e335-9daa",
+            "targetId": "4c00-2578-faf5-6918",
+            "primary": false
+          },
+          {
+            "name": "Daemon",
+            "hidden": false,
+            "id": "07ae-2cbd-ccc6-d9b9",
+            "targetId": "9c0e-7e25-4580-e439",
+            "primary": false
+          },
+          {
+            "name": "Beast",
+            "hidden": false,
+            "id": "1dfe-b7fb-a69e-30ee",
+            "targetId": "4c3e-9310-a516-3590",
+            "primary": false
+          },
+          {
+            "name": "Daemonic Beasts",
+            "hidden": false,
+            "id": "ac04-ac2c-81eb-94c6",
+            "targetId": "a783-fe90-2280-47ec",
+            "primary": false
+          }
+        ],
+        "type": "unit",
+        "import": true,
+        "name": "Daemonic Beasts (Unbound Adversaries)",
+        "hidden": false,
+        "id": "8d9a-d925-56f3-1890"
       }
     ],
     "sharedRules": [
@@ -21360,14 +22460,14 @@
                             "value": "Empyromancer's Focus",
                             "field": "annotation",
                             "join": ", ",
-                            "scope": "model-or-unit",
+                            "scope": "root-entry",
                             "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons"
                           },
                           {
                             "type": "append",
                             "value": "Sustained Hits 2",
                             "field": "7f1b-8591-2fcf-d01c",
-                            "scope": "model-or-unit",
+                            "scope": "root-entry",
                             "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
                             "join": ", "
                           },
@@ -21376,14 +22476,14 @@
                             "value": "Empyromancer's Focus",
                             "field": "annotation",
                             "join": ", ",
-                            "scope": "model-or-unit",
+                            "scope": "root-entry",
                             "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons"
                           },
                           {
                             "type": "append",
                             "value": "Sustained Hits 2",
                             "field": "7f1b-8591-2fcf-d01c",
-                            "scope": "model-or-unit",
+                            "scope": "root-entry",
                             "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons",
                             "join": ", "
                           }
@@ -30700,9 +31800,8 @@
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d6a9",
     "name": "Warhammer 40,000 11th Edition",
-    "revision": 1,
+    "revision": 118,
     "battleScribeVersion": 2.03,
-    "type": "gameSystem",
-    "publicationId": "8db3-575d-91b-47f8"
+    "type": "gameSystem"
   }
 }

@@ -22897,6 +22897,40 @@
                             "flatten": false
                           }
                         ],
+                        "modifiers": [
+                          {
+                            "conditionGroups": [
+                              {
+                                "conditions": [
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "c4e3-f6b0-f3aa-9d90",
+                                    "childId": "423a-4db1-981-163",
+                                    "shared": true,
+                                    "includeChildSelections": true,
+                                    "childName": "Warscythe"
+                                  },
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "c4e3-f6b0-f3aa-9d90",
+                                    "childId": "d28a-823-5ce2-8af4",
+                                    "shared": true,
+                                    "includeChildSelections": true,
+                                    "childName": "Hyperphase sword and dispersion shield"
+                                  }
+                                ],
+                                "type": "and"
+                              }
+                            ],
+                            "type": "add",
+                            "value": "All models must have the same weapons",
+                            "field": "error"
+                          }
+                        ],
                         "type": "upgrade",
                         "import": true,
                         "name": "Warscythe",
@@ -23042,6 +23076,40 @@
                             "name": "Dispersion shield",
                             "hidden": false,
                             "id": "bb77-7dec-79cf-2990"
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "conditionGroups": [
+                              {
+                                "conditions": [
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "c4e3-f6b0-f3aa-9d90",
+                                    "childId": "423a-4db1-981-163",
+                                    "shared": true,
+                                    "includeChildSelections": true,
+                                    "childName": "Warscythe"
+                                  },
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "c4e3-f6b0-f3aa-9d90",
+                                    "childId": "d28a-823-5ce2-8af4",
+                                    "shared": true,
+                                    "includeChildSelections": true,
+                                    "childName": "Hyperphase sword and dispersion shield"
+                                  }
+                                ],
+                                "type": "and"
+                              }
+                            ],
+                            "type": "add",
+                            "value": "All models must have the same weapons",
+                            "field": "error"
                           }
                         ],
                         "type": "upgrade",
@@ -35198,7 +35266,7 @@
                 "id": "368a-62a5-fa28-751b"
               }
             ],
-            "name": "3-6 Destroyers",
+            "name": "1-6 Destroyers",
             "hidden": false,
             "id": "e83a-dd5e-4847-53f5",
             "sortIndex": 2
@@ -54494,7 +54562,7 @@
     "name": "Xenos - Necrons",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 104,
+    "revision": 106,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

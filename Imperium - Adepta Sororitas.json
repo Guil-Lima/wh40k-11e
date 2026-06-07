@@ -49209,6 +49209,14 @@
             "id": "e5fe-483d-2acf-2a50",
             "type": "selectionEntryGroup",
             "targetId": "68a2-ada5-3cd4-c5a3"
+          },
+          {
+            "import": true,
+            "name": "Chivalric Quests",
+            "hidden": false,
+            "id": "fa30-18d6-368d-0abf",
+            "type": "selectionEntryGroup",
+            "targetId": "12f3-7f5b-747e-41ca"
           }
         ],
         "import": true,
@@ -49318,7 +49326,7 @@
     "name": "Imperium - Adepta Sororitas",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 110,
+    "revision": 111,
     "battleScribeVersion": 2.03,
     "authorName": "CrusherJoe",
     "type": "catalogue",

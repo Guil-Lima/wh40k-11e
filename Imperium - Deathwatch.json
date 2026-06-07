@@ -189,7 +189,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Power fist",
+                "name": "Power Fist",
                 "hidden": false,
                 "id": "2317-08cc-fb2b-ddf4",
                 "type": "selectionEntry",
@@ -262,7 +262,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Storm bolter",
+                "name": "Storm Bolter",
                 "hidden": false,
                 "id": "4cfd-703a-f1b9-2379",
                 "type": "selectionEntry",
@@ -290,7 +290,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Power fist",
+                "name": "Power Fist",
                 "hidden": false,
                 "id": "b94d-dbb4-b608-fbfc",
                 "type": "selectionEntry",
@@ -745,7 +745,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Power weapon",
+                "name": "Power Weapon",
                 "hidden": false,
                 "id": "d8fd-17f3-4011-7e36",
                 "type": "selectionEntry",
@@ -889,7 +889,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Storm bolter",
+                "name": "Storm Bolter",
                 "hidden": false,
                 "id": "fee3-4025-e025-596e",
                 "type": "selectionEntry",
@@ -990,7 +990,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Storm bolter",
+                "name": "Storm Bolter",
                 "hidden": false,
                 "id": "27ef-77d5-5493-c96c",
                 "type": "selectionEntry",
@@ -1018,7 +1018,7 @@
                   }
                 ],
                 "import": true,
-                "name": "Power weapon",
+                "name": "Power Weapon",
                 "hidden": false,
                 "id": "94ee-0b80-4a0d-3e5e",
                 "type": "selectionEntry",
@@ -8118,7 +8118,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "Twin lightning claws",
+                        "name": "Twin Lightning Claws",
                         "hidden": false,
                         "id": "eae3-9dfa-62c9-a320",
                         "type": "selectionEntry",
@@ -8931,7 +8931,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "Twin lightning claws",
+                        "name": "Twin Lightning Claws",
                         "hidden": false,
                         "id": "babe-d0fa-9769-a205",
                         "type": "selectionEntry",
@@ -9796,7 +9796,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "Vengor launcher",
+                        "name": "Vengor Launcher",
                         "hidden": false,
                         "id": "45c4-cf62-c6fb-0a20",
                         "type": "selectionEntry",
@@ -10976,7 +10976,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Power weapon",
+                    "name": "Power Weapon",
                     "hidden": false,
                     "id": "62dc-5b31-9423-2d59",
                     "type": "selectionEntry",
@@ -10994,7 +10994,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Hand flamer",
+                    "name": "Hand Flamer",
                     "hidden": false,
                     "id": "cf73-2b51-b346-a8ae",
                     "type": "selectionEntry",
@@ -11012,7 +11012,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Plasma pistol",
+                    "name": "Plasma Pistol",
                     "hidden": false,
                     "id": "da0d-ec35-24d6-8096",
                     "type": "selectionEntry",
@@ -11056,7 +11056,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Power weapon",
+                    "name": "Power Weapon",
                     "hidden": false,
                     "id": "d15a-fe2c-0919-d1e7",
                     "type": "selectionEntry",
@@ -11074,7 +11074,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Power fist",
+                    "name": "Power Fist",
                     "hidden": false,
                     "id": "2a09-1ff8-5023-6bed",
                     "type": "selectionEntry",
@@ -19017,7 +19017,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Hand flamer",
+                    "name": "Hand Flamer",
                     "hidden": false,
                     "id": "64c7-a841-3279-543b",
                     "type": "selectionEntry",
@@ -19079,7 +19079,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Power fist",
+                    "name": "Power Fist",
                     "hidden": false,
                     "id": "73ae-1a48-f599-b037",
                     "type": "selectionEntry",

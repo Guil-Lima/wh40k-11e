@@ -18518,6 +18518,108 @@
             "id": "1e73-a144-a83e-d5af",
             "defaultSelectionEntryId": "7ba2-d301-9387-5d09",
             "sortIndex": 2
+          },
+          {
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "bb9d-299a-ed60-2d8a",
+                    "shared": true,
+                    "includeChildSelections": false,
+                    "childName": "Army Roster"
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Wretched Might",
+                "hidden": false,
+                "id": "7091-61e1-cda9-6445"
+              }
+            ],
+            "entryLinks": [
+              {
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Codex Battle Traits",
+                    "hidden": false,
+                    "id": "d7e0-9fdc-0e6b-9502",
+                    "type": "selectionEntryGroup",
+                    "targetId": "ed2d-5940-a35b-656e"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "bb9d-299a-ed60-2d8a",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "Army Roster"
+                      }
+                    ],
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden"
+                  },
+                  {
+                    "repeats": [
+                      {
+                        "value": 1,
+                        "repeats": 1,
+                        "field": "selections",
+                        "scope": "7c30-1e92-2faa-eb03",
+                        "childId": "7091-61e1-cda9-6445",
+                        "shared": true,
+                        "roundUp": false,
+                        "includeChildSelections": true,
+                        "childName": "Wretched Might"
+                      }
+                    ],
+                    "type": "increment",
+                    "value": 1,
+                    "field": "a745-027e-939c-c2d8"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a745-027e-939c-c2d8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "import": true,
+                "name": "Battle Traits",
+                "hidden": false,
+                "id": "fc15-50ce-4644-dc5e",
+                "type": "selectionEntryGroup",
+                "targetId": "0511-d9ad-2978-2234"
+              }
+            ],
+            "name": "Crusade",
+            "id": "1eed-ad12-166f-5aca",
+            "hidden": false,
+            "sortIndex": 1
           }
         ],
         "modifiers": [
@@ -18680,44 +18782,6 @@
             "shared": true,
             "id": "e07c-d154-7b9d-ddfa",
             "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 1,
-            "field": "75bb-ded1-c86d-bdf0",
-            "scope": "self",
-            "shared": true,
-            "id": "a679-67bf-7f9b-e76f",
-            "includeChildSelections": false
-          },
-          {
-            "type": "max",
-            "value": 0,
-            "field": "716d-91b7-d55a-1022",
-            "scope": "self",
-            "shared": true,
-            "id": "8c00-ced7-ce79-e9d6",
-            "includeChildSelections": true
-          },
-          {
-            "type": "min",
-            "value": 0,
-            "field": "716d-91b7-d55a-1022",
-            "scope": "self",
-            "shared": true,
-            "id": "ed47-ba80-ddda-dcfd",
-            "includeChildSelections": true
-          }
-        ],
-        "entryLinks": [
-          {
-            "import": true,
-            "name": "Crusade",
-            "hidden": false,
-            "id": "7622-1f39-19f2-8d7b",
-            "type": "selectionEntryGroup",
-            "targetId": "919f-cbc6-374b-3d02",
-            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -62361,7 +62425,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "5108-f98-63c2-53cb",
     "name": "Chaos - Death Guard",
-    "revision": 113,
+    "revision": 114,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d6a9",

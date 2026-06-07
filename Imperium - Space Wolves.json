@@ -33595,6 +33595,15 @@
             "shared": true,
             "id": "4d2e-992a-12c5-5552",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "e8b4-ee3b-931b-1b2a",
+            "includeChildSelections": true
           }
         ],
         "categoryLinks": [
@@ -36597,7 +36606,7 @@
           {
             "characteristics": [
               {
-                "$text": "While this unit is within 6\" of one or more friendly Space Wolves Character models (excluding Wulfen\nmodels), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1",
+                "$text": "While this unit is within 6\" of one or more friendly ^^**Space Wolves Character**^^ models (excluding ^^**Wulfen**^^ models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -36611,7 +36620,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes an\nattack that targets an enemy unit, if there are no other units\nfrom your opponent’s army within 6\" of that target, add 1 to the\nWound roll.",
+                "$text": "Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -36628,109 +36637,6 @@
             "selectionEntries": [
               {
                 "selectionEntries": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "ab40-0a24-4b31-0e27",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "a423-1abf-9c07-e20c",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "8b08-3c3a-2b97-3a08",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "af95-a9ea-40a9-cd7a",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1106-f2da-307b-0fa7-min",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1106-f2da-307b-0fa7-max",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "import": true,
-                        "name": "Plasma pistol",
-                        "hidden": false,
-                        "id": "d75a-9591-c11a-c99f",
-                        "type": "selectionEntry",
-                        "targetId": "25c2-104f-fa0c-809e"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "f895-7a68-4614-fb89-min",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "f895-7a68-4614-fb89-max",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "import": true,
-                        "name": "Power weapon",
-                        "hidden": false,
-                        "id": "28b4-8f6a-73c7-0406",
-                        "type": "selectionEntry",
-                        "targetId": "c4b5-68e-2266-f459"
-                      }
-                    ],
-                    "type": "model",
-                    "import": true,
-                    "name": "Wolf Scout Pack Leader",
-                    "hidden": false,
-                    "id": "4174-3c06-0bf7-e559"
-                  },
                   {
                     "constraints": [
                       {
@@ -36872,597 +36778,284 @@
                     "import": true,
                     "name": "Hunting Wolf",
                     "hidden": false,
-                    "id": "a20d-2456-65bc-a70b"
+                    "id": "a20d-2456-65bc-a70b",
+                    "sortIndex": 7
                   },
                   {
-                    "selectionEntryGroups": [
+                    "entryLinks": [
                       {
-                        "selectionEntries": [
-                          {
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "e969-2f08-ee27-fe1c",
-                                "shared": true,
-                                "id": "12a2-90d9-b1ac-9a92",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "2342-54ac-f49c-f9d8-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "2342-54ac-f49c-f9d8-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Combat Blade",
-                                "hidden": false,
-                                "id": "b2fa-ca72-afb8-411f",
-                                "type": "selectionEntry",
-                                "targetId": "ec23-682e-c760-407e"
-                              }
-                            ],
-                            "selectionEntries": [
-                              {
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "24\"",
-                                        "name": "Range",
-                                        "typeId": "9896-9419-16a1-92fc"
-                                      },
-                                      {
-                                        "$text": "1",
-                                        "name": "A",
-                                        "typeId": "3bb-c35f-f54-fb08"
-                                      },
-                                      {
-                                        "$text": "3+",
-                                        "name": "BS",
-                                        "typeId": "94d-8a98-cf90-183e"
-                                      },
-                                      {
-                                        "$text": "4",
-                                        "name": "S",
-                                        "typeId": "2229-f494-25db-c5d3"
-                                      },
-                                      {
-                                        "$text": "-2",
-                                        "name": "AP",
-                                        "typeId": "9ead-8a10-520-de15"
-                                      },
-                                      {
-                                        "$text": "2",
-                                        "name": "D",
-                                        "typeId": "a354-c1c8-a745-f9e3"
-                                      },
-                                      {
-                                        "$text": "Precision",
-                                        "name": "Keywords",
-                                        "typeId": "7f1b-8591-2fcf-d01c"
-                                      }
-                                    ],
-                                    "name": "Instigator Bolt Carbine",
-                                    "typeId": "f77d-b953-8fa4-b762",
-                                    "typeName": "Ranged Weapons",
-                                    "hidden": false,
-                                    "id": "e4d1-2532-a550-6eb7"
-                                  }
-                                ],
-                                "infoLinks": [
-                                  {
-                                    "name": "Precision",
-                                    "id": "d94d-376c-aaaa-b9fb",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "9143-31ae-e0a6-6007"
-                                  }
-                                ],
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "265f-50e5-a4a1-f8ce-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "265f-50e5-a4a1-f8ce-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Instigator Bolt Carbine",
-                                "hidden": false,
-                                "id": "8ecd-6acc-0150-2f03"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Instigator Carbine and Combat Blade",
-                            "hidden": false,
-                            "id": "0c7c-310e-5187-67b7"
-                          },
-                          {
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "a37d-d622-4ad3-8956-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "a37d-d622-4ad3-8956-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Plasma pistol",
-                                "hidden": false,
-                                "id": "8d29-b4b4-67d0-072b",
-                                "type": "selectionEntry",
-                                "targetId": "25c2-104f-fa0c-809e"
-                              },
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "60a3-0ea0-4557-df3e-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "60a3-0ea0-4557-df3e-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Combat Blade",
-                                "hidden": false,
-                                "id": "6f7e-9a95-26a0-7a2d",
-                                "type": "selectionEntry",
-                                "targetId": "ec23-682e-c760-407e"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Plasma Pistol and Combat Blade",
-                            "hidden": false,
-                            "id": "f0cc-72ed-78f1-59b0"
-                          },
-                          {
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "e969-2f08-ee27-fe1c",
-                                "shared": true,
-                                "id": "7e34-8714-92dd-c54f",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "8198-a863-802b-5cab-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "8198-a863-802b-5cab-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Plasma pistol",
-                                "hidden": false,
-                                "id": "955e-c2af-a27e-385b",
-                                "type": "selectionEntry",
-                                "targetId": "25c2-104f-fa0c-809e"
-                              },
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "0d86-b710-9035-a056-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "0d86-b710-9035-a056-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Combat Blade",
-                                "hidden": false,
-                                "id": "5ced-ad28-c1e6-2f84",
-                                "type": "selectionEntry",
-                                "targetId": "ec23-682e-c760-407e"
-                              }
-                            ],
-                            "selectionEntries": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "8e65-dd98-3cf0-7ab5-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "8e65-dd98-3cf0-7ab5-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit.",
-                                        "name": "Description",
-                                        "typeId": "9b8f-694b-e5e-b573"
-                                      }
-                                    ],
-                                    "name": "Haywire Mine",
-                                    "typeId": "9cc3-6d83-4dd3-9b64",
-                                    "typeName": "Abilities",
-                                    "hidden": false,
-                                    "id": "9299-f7d5-e6d1-0589"
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Haywire Mine",
-                                "hidden": false,
-                                "id": "e04e-752f-a59d-04fe"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Plasma Pistol, Combat Blade and Haywire",
-                            "hidden": false,
-                            "id": "b9d5-ac72-dd21-dd7a"
-                          },
-                          {
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "e969-2f08-ee27-fe1c",
-                                "shared": true,
-                                "id": "86e4-dedd-8e2b-8e76",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "53ea-8415-3a52-4c78",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "28c1-4428-0869-aac4",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Bolt pistol",
-                                "hidden": false,
-                                "id": "98d7-ae32-e1c0-4f6d",
-                                "type": "selectionEntry",
-                                "targetId": "18b0-8c2-173f-5"
-                              }
-                            ],
-                            "selectionEntries": [
-                              {
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "12\"",
-                                        "name": "Range",
-                                        "typeId": "9896-9419-16a1-92fc"
-                                      },
-                                      {
-                                        "$text": "D3",
-                                        "name": "A",
-                                        "typeId": "3bb-c35f-f54-fb08"
-                                      },
-                                      {
-                                        "$text": "3+",
-                                        "name": "BS",
-                                        "typeId": "94d-8a98-cf90-183e"
-                                      },
-                                      {
-                                        "$text": "5",
-                                        "name": "S",
-                                        "typeId": "2229-f494-25db-c5d3"
-                                      },
-                                      {
-                                        "$text": "-1",
-                                        "name": "AP",
-                                        "typeId": "9ead-8a10-520-de15"
-                                      },
-                                      {
-                                        "$text": "2",
-                                        "name": "D",
-                                        "typeId": "a354-c1c8-a745-f9e3"
-                                      },
-                                      {
-                                        "$text": "Blast, Psychic",
-                                        "name": "Keywords",
-                                        "typeId": "7f1b-8591-2fcf-d01c"
-                                      }
-                                    ],
-                                    "name": "Thunderclap",
-                                    "typeId": "f77d-b953-8fa4-b762",
-                                    "typeName": "Ranged Weapons",
-                                    "hidden": false,
-                                    "id": "5d1a-bd9b-aace-833f"
-                                  }
-                                ],
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "5e4e-7f52-465b-b32d",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "8c8c-3798-f767-51bc",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "infoLinks": [
-                                  {
-                                    "name": "Blast",
-                                    "id": "552a-ba7c-3873-4638",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "6c1f-1cf7-ff25-c99e"
-                                  },
-                                  {
-                                    "name": "Psychic",
-                                    "id": "358d-bf23-969c-4003",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "e9c4-2bb8-12ee-cd1b"
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Thunderclap",
-                                "hidden": false,
-                                "id": "8740-315b-3546-6741"
-                              },
-                              {
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "Melee",
-                                        "name": "Range",
-                                        "typeId": "914c-b413-91e3-a132"
-                                      },
-                                      {
-                                        "$text": "3",
-                                        "name": "A",
-                                        "typeId": "2337-daa1-6682-b110"
-                                      },
-                                      {
-                                        "$text": "3+",
-                                        "name": "WS",
-                                        "typeId": "95d1-95f-45b4-11d6"
-                                      },
-                                      {
-                                        "$text": "6",
-                                        "name": "S",
-                                        "typeId": "ab33-d393-96ce-ccba"
-                                      },
-                                      {
-                                        "$text": "-1",
-                                        "name": "AP",
-                                        "typeId": "41a0-1301-112a-e2f2"
-                                      },
-                                      {
-                                        "$text": "D3",
-                                        "name": "D",
-                                        "typeId": "3254-9fe6-d824-513e"
-                                      },
-                                      {
-                                        "$text": "Psychic",
-                                        "name": "Keywords",
-                                        "typeId": "893f-9000-ccf7-648e"
-                                      }
-                                    ],
-                                    "name": "Runic Stave",
-                                    "typeId": "8a40-4aaa-c780-9046",
-                                    "typeName": "Melee Weapons",
-                                    "hidden": false,
-                                    "id": "a151-1648-f8ec-93cd"
-                                  }
-                                ],
-                                "infoLinks": [
-                                  {
-                                    "name": "Psychic",
-                                    "id": "dfe5-4d1b-fa07-163a",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "e9c4-2bb8-12ee-cd1b"
-                                  }
-                                ],
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "d5f0-f042-f315-d3e9",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "709f-6f81-1add-f21d",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Runic Stave",
-                                "hidden": false,
-                                "id": "d4e6-03ae-61c3-1c24"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Bolt Pistol, Thunderclap and Runic Stave",
-                            "hidden": false,
-                            "id": "5e73-cf39-dba7-8227"
-                          }
-                        ],
                         "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "ae74-e4d2-659d-977f",
-                            "includeChildSelections": false
-                          },
                           {
                             "type": "min",
                             "value": 1,
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "8db1-03ac-c1e3-a437",
+                            "id": "b41a-1830-28ad-b579",
+                            "includeChildSelections": false
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "7863-f908-7b92-1621",
                             "includeChildSelections": false
                           }
                         ],
-                        "entryLinks": [
+                        "import": true,
+                        "name": "Combat Blade",
+                        "hidden": false,
+                        "id": "336b-cff0-c609-905e",
+                        "type": "selectionEntry",
+                        "targetId": "ec23-682e-c760-407e",
+                        "sortIndex": 2
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a54e-4aca-74f7-f5cb",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "profiles": [
                           {
-                            "constraints": [
+                            "characteristics": [
                               {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "e969-2f08-ee27-fe1c",
-                                "shared": true,
-                                "id": "9e02-ab49-a1e4-97cb",
-                                "includeChildSelections": true
+                                "$text": "24\"",
+                                "name": "Range",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "A",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "BS",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "S",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "D",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "$text": "Precision",
+                                "name": "Keywords",
+                                "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "import": true,
-                            "name": "Plasma gun",
+                            "name": "Instigator Bolt Carbine",
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
                             "hidden": false,
-                            "id": "4594-05d3-f924-88f8",
-                            "type": "selectionEntry",
-                            "targetId": "4f0e-770d-bae4-bfc3"
+                            "id": "dab0-fde6-87df-421b"
                           }
                         ],
-                        "name": "Weapon Options",
-                        "id": "8038-55e4-1b58-0590",
+                        "infoLinks": [
+                          {
+                            "name": "Precision",
+                            "id": "2ece-860a-3706-bd56",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "9143-31ae-e0a6-6007"
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "d21a-620a-bc30-e6e4",
+                            "includeChildSelections": false
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "580c-c9de-e84b-c5d2",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Instigator Bolt Carbine",
                         "hidden": false,
-                        "defaultSelectionEntryId": "f0cc-72ed-78f1-59b0"
+                        "id": "a99b-36d5-123c-4dac",
+                        "sortIndex": 1
+                      }
+                    ],
+                    "type": "model",
+                    "import": true,
+                    "name": "Wolf Scout w/ instigator bolt carbine",
+                    "hidden": false,
+                    "id": "a7f4-14af-04d4-eced",
+                    "sortIndex": 6
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "targetId": "4174-3c06-0bf7-e559",
+                    "id": "c3a6-3151-fe5d-ef1f",
+                    "type": "selectionEntry",
+                    "name": "Wolf Scout Pack Leader",
+                    "hidden": false,
+                    "sortIndex": 1
+                  },
+                  {
+                    "import": true,
+                    "name": "Wolf Scout w/ plasma gun",
+                    "hidden": false,
+                    "id": "ecf6-3629-0895-9208",
+                    "targetId": "602e-f68d-8d32-93c1",
+                    "type": "selectionEntry",
+                    "sortIndex": 3
+                  },
+                  {
+                    "import": true,
+                    "name": "Wolf Scout w/ haywire mine",
+                    "hidden": false,
+                    "id": "1ee4-7ac7-12e1-2d8e",
+                    "targetId": "dd91-ea35-42d8-fcd8",
+                    "type": "selectionEntry",
+                    "sortIndex": 4
+                  },
+                  {
+                    "import": true,
+                    "name": "Wolf Scout w/ runic stave and Thunderclap",
+                    "hidden": false,
+                    "id": "be02-a6da-0789-313c",
+                    "targetId": "a8a3-25ba-af91-6a4d",
+                    "type": "selectionEntry",
+                    "sortIndex": 5
+                  },
+                  {
+                    "modifiers": [
+                      {
+                        "repeats": [
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "602e-f68d-8d32-93c1",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ plasma gun",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "dd91-ea35-42d8-fcd8",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ haywire mine",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "a8a3-25ba-af91-6a4d",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ runic stave and Thunderclap",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "a7f4-14af-04d4-eced",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ instigator bolt carbine",
+                            "includeChildSelections": true
+                          }
+                        ],
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "e596-b470-108b-b95f-min"
+                      },
+                      {
+                        "repeats": [
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "602e-f68d-8d32-93c1",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ plasma gun",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "dd91-ea35-42d8-fcd8",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ haywire mine",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "a8a3-25ba-af91-6a4d",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ runic stave and Thunderclap",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "a7f4-14af-04d4-eced",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ instigator bolt carbine",
+                            "includeChildSelections": true
+                          }
+                        ],
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "e596-b470-108b-b95f-max"
                       }
                     ],
                     "constraints": [
@@ -37472,8 +37065,9 @@
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "9490-e45b-cc39-628c-min",
-                        "includeChildSelections": false
+                        "id": "e596-b470-108b-b95f-min",
+                        "includeChildSelections": false,
+                        "automatic": true
                       },
                       {
                         "type": "max",
@@ -37481,15 +37075,18 @@
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "9490-e45b-cc39-628c-max",
-                        "includeChildSelections": false
+                        "id": "e596-b470-108b-b95f-max",
+                        "includeChildSelections": false,
+                        "automatic": true
                       }
                     ],
-                    "type": "model",
                     "import": true,
                     "name": "Wolf Scout",
                     "hidden": false,
-                    "id": "bf0b-5c7c-904e-e361"
+                    "id": "1ff3-11fc-d465-c0dc",
+                    "targetId": "c374-ad8b-3d27-eb75",
+                    "type": "selectionEntry",
+                    "sortIndex": 2
                   }
                 ],
                 "type": "upgrade",
@@ -37500,647 +37097,6 @@
               },
               {
                 "selectionEntries": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5f7a-3dc6-af12-564c",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "dcc2-1b98-29da-c425",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e451-7db1-de38-67d2",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "eb9b-1389-480e-a63f",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "8002-0504-a4f6-ee15-min",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "8002-0504-a4f6-ee15-max",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "import": true,
-                        "name": "Plasma pistol",
-                        "hidden": false,
-                        "id": "2720-c59f-7dc1-0cc7",
-                        "type": "selectionEntry",
-                        "targetId": "25c2-104f-fa0c-809e"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "0c92-5856-19df-0d97-min",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "0c92-5856-19df-0d97-max",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "import": true,
-                        "name": "Power weapon",
-                        "hidden": false,
-                        "id": "2d7b-09a4-5d9c-fd1f",
-                        "type": "selectionEntry",
-                        "targetId": "c4b5-68e-2266-f459"
-                      }
-                    ],
-                    "type": "model",
-                    "import": true,
-                    "name": "Wolf Scout Pack Leader",
-                    "hidden": false,
-                    "id": "b2da-9800-962e-0130"
-                  },
-                  {
-                    "selectionEntryGroups": [
-                      {
-                        "selectionEntries": [
-                          {
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "96dc-afb5-f901-87e2-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "96dc-afb5-f901-87e2-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Plasma pistol",
-                                "hidden": false,
-                                "id": "d1a1-4a3d-f2db-84db",
-                                "type": "selectionEntry",
-                                "targetId": "25c2-104f-fa0c-809e"
-                              },
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "08f1-e3a6-648b-28a9-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "08f1-e3a6-648b-28a9-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Combat Blade",
-                                "hidden": false,
-                                "id": "b8c3-21c5-37f4-07ed",
-                                "type": "selectionEntry",
-                                "targetId": "ec23-682e-c760-407e"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Plasma Pistol and Combat Blade",
-                            "hidden": false,
-                            "id": "ab2a-8138-7f6c-df72"
-                          },
-                          {
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "e969-2f08-ee27-fe1c",
-                                "shared": true,
-                                "id": "081a-7ce5-7695-00ae",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "30de-77d7-391d-afe6-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "30de-77d7-391d-afe6-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Plasma pistol",
-                                "hidden": false,
-                                "id": "c662-4417-7558-fc02",
-                                "type": "selectionEntry",
-                                "targetId": "25c2-104f-fa0c-809e"
-                              },
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "e155-f451-8cb5-0a4e-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "e155-f451-8cb5-0a4e-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Combat Blade",
-                                "hidden": false,
-                                "id": "7b68-268b-4741-ae0e",
-                                "type": "selectionEntry",
-                                "targetId": "ec23-682e-c760-407e"
-                              }
-                            ],
-                            "selectionEntries": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "b470-b00d-b942-b506-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "b470-b00d-b942-b506-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit.",
-                                        "name": "Description",
-                                        "typeId": "9b8f-694b-e5e-b573"
-                                      }
-                                    ],
-                                    "name": "Haywire Mine",
-                                    "typeId": "9cc3-6d83-4dd3-9b64",
-                                    "typeName": "Abilities",
-                                    "hidden": false,
-                                    "id": "aeaa-b780-44f8-193f"
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Haywire Mine",
-                                "hidden": false,
-                                "id": "df91-171d-9cc9-3cf1"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Plasma Pistol, Combat Blade and Haywire",
-                            "hidden": false,
-                            "id": "8ed1-6b24-04f5-f5d7"
-                          },
-                          {
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "e969-2f08-ee27-fe1c",
-                                "shared": true,
-                                "id": "340e-c659-aedf-ee8c",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "a884-645b-19ac-0024-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "a884-645b-19ac-0024-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Bolt pistol",
-                                "hidden": false,
-                                "id": "1e16-b1d9-f75e-59c9",
-                                "type": "selectionEntry",
-                                "targetId": "18b0-8c2-173f-5"
-                              }
-                            ],
-                            "selectionEntries": [
-                              {
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "12\"",
-                                        "name": "Range",
-                                        "typeId": "9896-9419-16a1-92fc"
-                                      },
-                                      {
-                                        "$text": "D3",
-                                        "name": "A",
-                                        "typeId": "3bb-c35f-f54-fb08"
-                                      },
-                                      {
-                                        "$text": "3+",
-                                        "name": "BS",
-                                        "typeId": "94d-8a98-cf90-183e"
-                                      },
-                                      {
-                                        "$text": "5",
-                                        "name": "S",
-                                        "typeId": "2229-f494-25db-c5d3"
-                                      },
-                                      {
-                                        "$text": "-1",
-                                        "name": "AP",
-                                        "typeId": "9ead-8a10-520-de15"
-                                      },
-                                      {
-                                        "$text": "2",
-                                        "name": "D",
-                                        "typeId": "a354-c1c8-a745-f9e3"
-                                      },
-                                      {
-                                        "$text": "Blast, Psychic",
-                                        "name": "Keywords",
-                                        "typeId": "7f1b-8591-2fcf-d01c"
-                                      }
-                                    ],
-                                    "name": "Thunderclap",
-                                    "typeId": "f77d-b953-8fa4-b762",
-                                    "typeName": "Ranged Weapons",
-                                    "hidden": false,
-                                    "id": "5393-e129-2c49-b14d"
-                                  }
-                                ],
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "eb24-3896-6c4f-f055-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "eb24-3896-6c4f-f055-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "infoLinks": [
-                                  {
-                                    "name": "Blast",
-                                    "id": "c1e1-faa7-6b3a-973b",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "6c1f-1cf7-ff25-c99e"
-                                  },
-                                  {
-                                    "name": "Psychic",
-                                    "id": "6119-f680-c83c-b875",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "e9c4-2bb8-12ee-cd1b"
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Thunderclap",
-                                "hidden": false,
-                                "id": "a72c-3143-4f1a-b4e4"
-                              },
-                              {
-                                "profiles": [
-                                  {
-                                    "characteristics": [
-                                      {
-                                        "$text": "Melee",
-                                        "name": "Range",
-                                        "typeId": "914c-b413-91e3-a132"
-                                      },
-                                      {
-                                        "$text": "3",
-                                        "name": "A",
-                                        "typeId": "2337-daa1-6682-b110"
-                                      },
-                                      {
-                                        "$text": "3+",
-                                        "name": "WS",
-                                        "typeId": "95d1-95f-45b4-11d6"
-                                      },
-                                      {
-                                        "$text": "6",
-                                        "name": "S",
-                                        "typeId": "ab33-d393-96ce-ccba"
-                                      },
-                                      {
-                                        "$text": "-1",
-                                        "name": "AP",
-                                        "typeId": "41a0-1301-112a-e2f2"
-                                      },
-                                      {
-                                        "$text": "D3",
-                                        "name": "D",
-                                        "typeId": "3254-9fe6-d824-513e"
-                                      },
-                                      {
-                                        "$text": "Psychic",
-                                        "name": "Keywords",
-                                        "typeId": "893f-9000-ccf7-648e"
-                                      }
-                                    ],
-                                    "name": "Runic Stave",
-                                    "typeId": "8a40-4aaa-c780-9046",
-                                    "typeName": "Melee Weapons",
-                                    "hidden": false,
-                                    "id": "14c0-dd00-2d31-a98c"
-                                  }
-                                ],
-                                "infoLinks": [
-                                  {
-                                    "name": "Psychic",
-                                    "id": "1780-5022-f786-fb4d",
-                                    "hidden": false,
-                                    "type": "rule",
-                                    "targetId": "e9c4-2bb8-12ee-cd1b"
-                                  }
-                                ],
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "05b9-3257-8f74-6550-min",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "05b9-3257-8f74-6550-max",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "type": "upgrade",
-                                "import": true,
-                                "name": "Runic Stave",
-                                "hidden": false,
-                                "id": "6b82-f3e8-e707-739c"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Bolt Pistol, Thunderclap and Runic Stave",
-                            "hidden": false,
-                            "id": "9a8c-792f-2f52-c937"
-                          },
-                          {
-                            "entryLinks": [
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "e969-2f08-ee27-fe1c",
-                                    "shared": true,
-                                    "id": "be00-4878-1d26-2000",
-                                    "includeChildSelections": true
-                                  },
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "02e7-a02a-d07d-14ae",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "acd5-27e1-4b48-9f1c",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Plasma gun",
-                                "hidden": false,
-                                "id": "bf16-5b64-9f9d-7d2c",
-                                "type": "selectionEntry",
-                                "targetId": "4f0e-770d-bae4-bfc3"
-                              },
-                              {
-                                "constraints": [
-                                  {
-                                    "type": "min",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "7c34-0d87-a505-84d6",
-                                    "includeChildSelections": false
-                                  },
-                                  {
-                                    "type": "max",
-                                    "value": 1,
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "id": "22b4-dc46-359e-adfb",
-                                    "includeChildSelections": false
-                                  }
-                                ],
-                                "import": true,
-                                "name": "Combat Blade",
-                                "hidden": false,
-                                "id": "a5af-5d89-f66d-ab26",
-                                "type": "selectionEntry",
-                                "targetId": "ec23-682e-c760-407e"
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Plasma Gun and Combat Blade",
-                            "hidden": false,
-                            "id": "3cfa-3f8f-703f-9732"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "51d3-724f-0a64-2657",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "40c0-ec36-daf1-8efa",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "name": "Weapon Options",
-                        "id": "f824-d235-9dcb-46d9",
-                        "hidden": false,
-                        "defaultSelectionEntryId": "ab2a-8138-7f6c-df72"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 4,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "8c56-682b-cdc5-da36-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 4,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "8c56-682b-cdc5-da36-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "type": "model",
-                    "import": true,
-                    "name": "Wolf Scout",
-                    "hidden": false,
-                    "id": "c374-ad8b-3d27-eb75"
-                  },
                   {
                     "constraints": [
                       {
@@ -38282,7 +37238,155 @@
                     "import": true,
                     "name": "Hunting Wolf",
                     "hidden": false,
-                    "id": "aadf-bce7-7d3b-fce5"
+                    "id": "aadf-bce7-7d3b-fce5",
+                    "sortIndex": 6
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "targetId": "dd91-ea35-42d8-fcd8",
+                    "id": "5265-aebf-0654-d0cb",
+                    "type": "selectionEntry",
+                    "name": "Wolf Scout w/ haywire mine",
+                    "hidden": false,
+                    "sortIndex": 4
+                  },
+                  {
+                    "modifiers": [
+                      {
+                        "repeats": [
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "602e-f68d-8d32-93c1",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ plasma gun",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "dd91-ea35-42d8-fcd8",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ haywire mine",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "a8a3-25ba-af91-6a4d",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ runic stave and Thunderclap",
+                            "includeChildSelections": true
+                          }
+                        ],
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "6863-8854-ffc0-f067-min"
+                      },
+                      {
+                        "repeats": [
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "602e-f68d-8d32-93c1",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ plasma gun",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "dd91-ea35-42d8-fcd8",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ haywire mine",
+                            "includeChildSelections": true
+                          },
+                          {
+                            "value": 1,
+                            "repeats": 1,
+                            "field": "selections",
+                            "scope": "ee6b-3815-3a1a-6458",
+                            "childId": "a8a3-25ba-af91-6a4d",
+                            "shared": true,
+                            "roundUp": false,
+                            "childName": "Wolf Scout w/ runic stave and Thunderclap",
+                            "includeChildSelections": true
+                          }
+                        ],
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "6863-8854-ffc0-f067-max"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "6863-8854-ffc0-f067-min",
+                        "includeChildSelections": false,
+                        "automatic": true
+                      },
+                      {
+                        "type": "max",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "6863-8854-ffc0-f067-max",
+                        "includeChildSelections": false,
+                        "automatic": true
+                      }
+                    ],
+                    "targetId": "c374-ad8b-3d27-eb75",
+                    "id": "aed8-30c1-7637-6bab",
+                    "type": "selectionEntry",
+                    "name": "Wolf Scout",
+                    "hidden": false,
+                    "sortIndex": 2
+                  },
+                  {
+                    "targetId": "602e-f68d-8d32-93c1",
+                    "id": "35f0-330a-45a2-aed5",
+                    "type": "selectionEntry",
+                    "name": "Wolf Scout w/ plasma gun",
+                    "hidden": false,
+                    "sortIndex": 3
+                  },
+                  {
+                    "targetId": "a8a3-25ba-af91-6a4d",
+                    "id": "52ca-b98d-55d8-e045",
+                    "type": "selectionEntry",
+                    "name": "Wolf Scout w/ runic stave and Thunderclap",
+                    "hidden": false,
+                    "sortIndex": 5
+                  },
+                  {
+                    "import": true,
+                    "name": "Wolf Scout Pack Leader",
+                    "hidden": false,
+                    "id": "d010-5c82-701f-cd7f",
+                    "targetId": "4174-3c06-0bf7-e559",
+                    "type": "selectionEntry",
+                    "sortIndex": 1
                   }
                 ],
                 "type": "upgrade",
@@ -38442,6 +37546,612 @@
         "name": "Combat Blade",
         "hidden": false,
         "id": "ec23-682e-c760-407e"
+      },
+      {
+        "entryLinks": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bddd-d56d-e6a5-3bb7",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0937-76f3-4650-83c4",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Plasma pistol",
+            "hidden": false,
+            "id": "0d9a-5bee-8037-6348",
+            "type": "selectionEntry",
+            "targetId": "25c2-104f-fa0c-809e",
+            "sortIndex": 1
+          },
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "dcd6-a8ab-30bd-da79",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0e65-a0ef-0be1-662b",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Combat Blade",
+            "hidden": false,
+            "id": "330e-15eb-782b-6502",
+            "type": "selectionEntry",
+            "targetId": "ec23-682e-c760-407e",
+            "sortIndex": 2
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "4282-c80d-02b8-e880",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "d894-2e6e-5332-8f49",
+            "includeChildSelections": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bb1e-cce4-0b25-1514",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "dc86-b5c8-e652-1705",
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a ^^**Vehicle**^^ unit.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "name": "Haywire Mine",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "4a1f-d0be-62cd-278f"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Haywire Mine",
+            "hidden": false,
+            "id": "0d64-c3ca-9c8e-0638",
+            "sortIndex": 3
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Wolf Scout w/ haywire mine",
+        "hidden": false,
+        "id": "dd91-ea35-42d8-fcd8"
+      },
+      {
+        "entryLinks": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "58cd-eef6-ecc8-5741",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a5de-ce5f-0d6d-134c",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Combat Blade",
+            "hidden": false,
+            "id": "d4f4-5426-75b0-a681",
+            "type": "selectionEntry",
+            "targetId": "ec23-682e-c760-407e",
+            "sortIndex": 2
+          },
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9663-3653-2d61-71b0",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3f92-807b-59ba-477d",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Plasma gun",
+            "hidden": false,
+            "id": "09bb-dbca-c1ec-4140",
+            "type": "selectionEntry",
+            "targetId": "4f0e-770d-bae4-bfc3",
+            "sortIndex": 1
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "8fc8-f048-6b0e-fa1a",
+            "includeChildSelections": false
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Wolf Scout w/ plasma gun",
+        "hidden": false,
+        "id": "602e-f68d-8d32-93c1"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "cbdf-ebc2-c123-8d10",
+            "includeChildSelections": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "38e3-5461-0cbc-a16c",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d293-c3ef-12e9-ba07",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Bolt pistol",
+            "hidden": false,
+            "id": "b6d0-4b75-458e-007b",
+            "type": "selectionEntry",
+            "targetId": "18b0-8c2-173f-5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "Melee",
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132"
+                  },
+                  {
+                    "$text": "3",
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110"
+                  },
+                  {
+                    "$text": "3+",
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba"
+                  },
+                  {
+                    "$text": "-1",
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2"
+                  },
+                  {
+                    "$text": "D3",
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e"
+                  },
+                  {
+                    "$text": "Psychic",
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e"
+                  }
+                ],
+                "name": "Runic Stave",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "c7e0-d5ef-e242-48b9"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Psychic",
+                "id": "637c-37f5-4fc2-fc34",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1c08-c033-59f8-414b",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8a9d-f9a5-6fe5-b9f7",
+                "includeChildSelections": false
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Runic Stave",
+            "hidden": false,
+            "id": "8994-2499-a86a-be02"
+          },
+          {
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "12\"",
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "$text": "D3",
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "$text": "3+",
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "$text": "5",
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "$text": "-1",
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "$text": "Blast, Psychic",
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ],
+                "name": "Thunderclap",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "7fe8-1181-fd8c-2d82"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "995a-e789-482a-bb4b",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ab32-a312-0402-619c",
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Blast",
+                "id": "a41c-2975-5c7a-4fc2",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "6c1f-1cf7-ff25-c99e"
+              },
+              {
+                "name": "Psychic",
+                "id": "1257-dc02-4caa-58b8",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Thunderclap",
+            "hidden": false,
+            "id": "6573-f32e-7637-822b"
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Wolf Scout w/ runic stave and Thunderclap",
+        "hidden": false,
+        "id": "a8a3-25ba-af91-6a4d"
+      },
+      {
+        "entryLinks": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "96dc-afb5-f901-87e2-min",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "96dc-afb5-f901-87e2-max",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Plasma pistol",
+            "hidden": false,
+            "id": "d1a1-4a3d-f2db-84db",
+            "type": "selectionEntry",
+            "targetId": "25c2-104f-fa0c-809e",
+            "sortIndex": 1
+          },
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "08f1-e3a6-648b-28a9-min",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "08f1-e3a6-648b-28a9-max",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Combat Blade",
+            "hidden": false,
+            "id": "b8c3-21c5-37f4-07ed",
+            "type": "selectionEntry",
+            "targetId": "ec23-682e-c760-407e",
+            "sortIndex": 2
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Wolf Scout",
+        "hidden": false,
+        "id": "c374-ad8b-3d27-eb75",
+        "sortIndex": 2
+      },
+      {
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ab40-0a24-4b31-0e27",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a423-1abf-9c07-e20c",
+            "includeChildSelections": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8b08-3c3a-2b97-3a08",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "af95-a9ea-40a9-cd7a",
+                "includeChildSelections": false
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1106-f2da-307b-0fa7-min",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1106-f2da-307b-0fa7-max",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Plasma pistol",
+            "hidden": false,
+            "id": "d75a-9591-c11a-c99f",
+            "type": "selectionEntry",
+            "targetId": "25c2-104f-fa0c-809e",
+            "sortIndex": 1
+          },
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f895-7a68-4614-fb89-min",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f895-7a68-4614-fb89-max",
+                "includeChildSelections": false
+              }
+            ],
+            "import": true,
+            "name": "Power weapon",
+            "hidden": false,
+            "id": "28b4-8f6a-73c7-0406",
+            "type": "selectionEntry",
+            "targetId": "c4b5-68e-2266-f459",
+            "sortIndex": 2
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Wolf Scout Pack Leader",
+        "hidden": false,
+        "id": "4174-3c06-0bf7-e559",
+        "sortIndex": 1
       }
     ],
     "categoryEntries": [
@@ -39405,7 +39115,7 @@
     "name": "Imperium - Adeptus Astartes - Space Wolves",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 74,
+    "revision": 76,
     "battleScribeVersion": 2.03,
     "type": "catalogue",
     "authorName": "Acebaur/Mad Spy"

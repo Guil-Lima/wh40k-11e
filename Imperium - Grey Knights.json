@@ -6183,15 +6183,6 @@
                 "id": "ca48-7264-b8b4-4d77"
               }
             ],
-            "categoryLinks": [
-              {
-                "name": "Psychic Weapon",
-                "hidden": false,
-                "id": "a796-f12b-29b8-f5ba",
-                "targetId": "4546-4a0c-b3be-e84c",
-                "primary": false
-              }
-            ],
             "type": "upgrade",
             "import": true,
             "name": "Purifying Flame",
@@ -25504,6 +25495,13 @@
                         "id": "84b7-aa73-6148-ce73",
                         "targetId": "4546-4a0c-b3be-e84c",
                         "primary": false
+                      },
+                      {
+                        "name": "Ranged Weapon",
+                        "hidden": false,
+                        "id": "19c7-14b5-0d99-eea6",
+                        "targetId": "eeda-8544-a2f3-3fab",
+                        "primary": false
                       }
                     ],
                     "infoLinks": [
@@ -26385,6 +26383,13 @@
             "id": "51f2-d31d-7118-5795",
             "targetId": "4546-4a0c-b3be-e84c",
             "primary": false
+          },
+          {
+            "name": "Ranged Weapon",
+            "hidden": false,
+            "id": "dd38-7b00-3360-6d1b",
+            "targetId": "eeda-8544-a2f3-3fab",
+            "primary": false
           }
         ],
         "type": "upgrade",
@@ -26456,6 +26461,13 @@
             "hidden": false,
             "id": "f497-46c0-3c1d-f3f5",
             "targetId": "4546-4a0c-b3be-e84c",
+            "primary": false
+          },
+          {
+            "name": "Ranged Weapon",
+            "hidden": false,
+            "id": "eff8-cc46-707a-27ec",
+            "targetId": "eeda-8544-a2f3-3fab",
             "primary": false
           }
         ],
@@ -27359,6 +27371,13 @@
             "id": "092f-ecc4-7a56-8a7a",
             "targetId": "4546-4a0c-b3be-e84c",
             "primary": false
+          },
+          {
+            "name": "Melee Weapon",
+            "hidden": false,
+            "id": "7609-cc2d-2d81-a527",
+            "targetId": "ccdd-3987-11ed-90cd",
+            "primary": false
           }
         ],
         "type": "upgrade",
@@ -27462,6 +27481,13 @@
             "hidden": false,
             "id": "c125-b7b4-bb12-31ef",
             "targetId": "4546-4a0c-b3be-e84c",
+            "primary": false
+          },
+          {
+            "name": "Melee Weapon",
+            "hidden": false,
+            "id": "2bc4-1991-d8d1-b2ce",
+            "targetId": "ccdd-3987-11ed-90cd",
             "primary": false
           }
         ],
@@ -27716,6 +27742,13 @@
             "hidden": false,
             "id": "6ceb-ba14-356e-66d8",
             "targetId": "4546-4a0c-b3be-e84c",
+            "primary": false
+          },
+          {
+            "name": "Melee Weapon",
+            "hidden": false,
+            "id": "80af-ebd7-be2f-37f0",
+            "targetId": "ccdd-3987-11ed-90cd",
             "primary": false
           }
         ],
@@ -27982,6 +28015,13 @@
             "hidden": false,
             "id": "5d21-8918-8090-ecbf",
             "targetId": "4546-4a0c-b3be-e84c",
+            "primary": false
+          },
+          {
+            "name": "Ranged Weapon",
+            "hidden": false,
+            "id": "c762-24fc-78fd-32d9",
+            "targetId": "eeda-8544-a2f3-3fab",
             "primary": false
           }
         ],
@@ -43441,8 +43481,17 @@
             "id": "256c-7d28-eb78-6f69",
             "type": "selectionEntryGroup",
             "targetId": "660e-a0ca-be70-a78b",
-            "sortIndex": 98,
+            "sortIndex": 97,
             "collapsible": true
+          },
+          {
+            "import": true,
+            "name": "Chivalric Quests",
+            "hidden": false,
+            "id": "3337-6778-a9e3-dcc2",
+            "type": "selectionEntryGroup",
+            "targetId": "12f3-7f5b-747e-41ca",
+            "sortIndex": 98
           }
         ],
         "import": true,
@@ -43762,7 +43811,7 @@
     "name": "Imperium - Grey Knights",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 105,
+    "revision": 106,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

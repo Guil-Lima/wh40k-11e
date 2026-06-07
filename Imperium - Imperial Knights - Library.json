@@ -124,11 +124,6 @@
         "hidden": false
       },
       {
-        "name": "Bellatus",
-        "id": "1cf9-0660-4ef2-4d18",
-        "hidden": false
-      },
-      {
         "name": "Knight Destrier",
         "id": "364b-0033-9ed5-0b47",
         "hidden": false
@@ -15876,7 +15871,7 @@
                 "typeId": "750a-a2ec-90d3-21fe"
               },
               {
-                "$text": "+6",
+                "$text": "6+",
                 "name": "LD",
                 "typeId": "58d2-b879-49c7-43bc"
               },
@@ -28711,10 +28706,11 @@
                 "value": 1,
                 "field": "selections",
                 "scope": "roster",
-                "childId": "ad65-d3cb-c677-7cb3",
+                "childId": "b5e4-3253-c157-54fd",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": true
+                "includeChildForces": true,
+                "childName": "Faction: Imperial Knights"
               }
             ],
             "type": "set",
@@ -30050,7 +30046,7 @@
     "name": "Imperium - Imperial Knights - Library",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 82,
+    "revision": 85,
     "battleScribeVersion": 2.03,
     "authorName": "BSData Developers",
     "type": "catalogue",

@@ -217,6 +217,14 @@
             "id": "da50-f908-c5f6-3d9c",
             "type": "selectionEntryGroup",
             "targetId": "68a2-ada5-3cd4-c5a3"
+          },
+          {
+            "import": true,
+            "name": "Chivalric Quests",
+            "hidden": false,
+            "id": "f539-8620-d638-68e6",
+            "type": "selectionEntryGroup",
+            "targetId": "12f3-7f5b-747e-41ca"
           }
         ],
         "import": true,
@@ -233,7 +241,7 @@
     "name": "Imperium - Adeptus Titanicus",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 5,
+    "revision": 6,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

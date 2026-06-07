@@ -17297,13 +17297,6 @@
                         "type": "rule"
                       },
                       {
-                        "name": "Indirect Fire",
-                        "id": "427d-7015-3191-78f3",
-                        "hidden": false,
-                        "targetId": "4ddd-4e29-acdd-5e6d",
-                        "type": "rule"
-                      },
-                      {
                         "name": "One Shot",
                         "id": "a874-afea-db7d-e396",
                         "hidden": false,
@@ -20408,13 +20401,6 @@
             "hidden": false,
             "type": "rule",
             "targetId": "351a-a702-9080-7f08"
-          },
-          {
-            "name": "Leader",
-            "id": "a4e9-58a5-d680-6f9d",
-            "hidden": false,
-            "type": "rule",
-            "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
             "modifiers": [
@@ -43715,7 +43701,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "f616-3f08-ee8e-3349",
     "name": "Xenos - Leagues of Votann",
-    "revision": 82,
+    "revision": 84,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d6a9",

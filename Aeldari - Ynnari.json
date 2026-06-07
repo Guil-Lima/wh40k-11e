@@ -66,7 +66,7 @@
       },
       {
         "id": "9b09-b4e6-3b59-e27d",
-        "name": "Autarch Skyrunner [Legends]",
+        "name": "Autarch Skyrunner",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -84,7 +84,7 @@
       },
       {
         "id": "3363-42d1-cbb5-7be8",
-        "name": "Beastmaster [Legends]",
+        "name": "Beastmaster",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -93,7 +93,7 @@
       },
       {
         "id": "9057-1e76-bac3-fad5",
-        "name": "Court of the Archon [Legends]",
+        "name": "Court of the Archon",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -228,7 +228,7 @@
       },
       {
         "id": "e3ec-fad4-f37e-39d2",
-        "name": "Illic Nightspear [Legends]",
+        "name": "Illic Nightspear",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -246,7 +246,7 @@
       },
       {
         "id": "4598-9d12-f1-4be8",
-        "name": "Prince Yriel [Legends]",
+        "name": "Prince Yriel",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -327,7 +327,7 @@
       },
       {
         "id": "2b38-909f-4d37-1f11",
-        "name": "D-Cannon Platform",
+        "name": "Support Weapons",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -441,7 +441,7 @@
       },
       {
         "id": "8a49-cf7a-31f7-a413",
-        "name": "Warlock Skyrunners",
+        "name": "Warlock Skyrunner",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -468,7 +468,7 @@
       },
       {
         "id": "ceea-af62-bb8-20cd",
-        "name": "Webway Gate [Legends]",
+        "name": "Webway Gate",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -603,7 +603,7 @@
       },
       {
         "id": "34f5-43e3-bc71-c1b3",
-        "name": "Scourges with Heavy Weapons",
+        "name": "Scourges",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -648,7 +648,7 @@
       },
       {
         "import": true,
-        "name": "Cobra [Legends]",
+        "name": "Cobra",
         "hidden": false,
         "type": "selectionEntry",
         "id": "3238-9812-567a-534b",
@@ -656,7 +656,7 @@
       },
       {
         "import": true,
-        "name": "Hornet [Legends]",
+        "name": "Hornet",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1062-da20-4d8e-f728",
@@ -664,7 +664,7 @@
       },
       {
         "import": true,
-        "name": "Lynx [Legends]",
+        "name": "Lynx",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b829-b985-245-b5d7",
@@ -672,7 +672,7 @@
       },
       {
         "import": true,
-        "name": "Nightwing [Legends]",
+        "name": "Nightwing",
         "hidden": false,
         "type": "selectionEntry",
         "id": "3911-cdba-dcdf-85d5",
@@ -680,7 +680,7 @@
       },
       {
         "import": true,
-        "name": "Tantalus [Legends]",
+        "name": "Tantalus",
         "hidden": false,
         "type": "selectionEntry",
         "id": "5085-1b1f-bae4-839",
@@ -688,7 +688,7 @@
       },
       {
         "import": true,
-        "name": "Scorpion [Legends]",
+        "name": "Scorpion",
         "hidden": false,
         "type": "selectionEntry",
         "id": "877e-9cd7-2f12-933c",
@@ -696,7 +696,7 @@
       },
       {
         "import": true,
-        "name": "Skathach Wraithknight [Legends]",
+        "name": "Skathach Wraithknight",
         "hidden": false,
         "type": "selectionEntry",
         "id": "3a9c-39ca-4f28-3cf0",
@@ -704,7 +704,7 @@
       },
       {
         "import": true,
-        "name": "Shadow Spectres [Legends]",
+        "name": "Shadow Spectres",
         "hidden": false,
         "type": "selectionEntry",
         "id": "4f81-5885-1809-5ac0",
@@ -728,7 +728,7 @@
       },
       {
         "import": true,
-        "name": "Warp Hunter [Legends]",
+        "name": "Warp Hunter",
         "hidden": false,
         "type": "selectionEntry",
         "id": "8799-8be5-ee5f-a61",
@@ -736,7 +736,7 @@
       },
       {
         "import": true,
-        "name": "Wraithseer [Legends]",
+        "name": "Wraithseer",
         "hidden": false,
         "type": "selectionEntry",
         "id": "25c2-2d02-7949-a275",

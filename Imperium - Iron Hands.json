@@ -230,7 +230,7 @@
               }
             ],
             "import": true,
-            "name": "Bolt pistol",
+            "name": "Bolt Pistol",
             "hidden": false,
             "type": "selectionEntry",
             "id": "38d-d1b8-f3c6-2c2f",
@@ -714,7 +714,7 @@
               }
             ],
             "import": true,
-            "name": "Storm bolter",
+            "name": "Storm Bolter",
             "hidden": false,
             "id": "d2e0-6dfe-2052-c78f",
             "type": "selectionEntry",

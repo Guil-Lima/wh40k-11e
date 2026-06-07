@@ -52544,7 +52544,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model makes an attack thattar gets an enemy unit that is Battle-shocked, add 1 to the Wound roll.",
+                "$text": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -53423,7 +53423,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "Furies [Legends]",
+        "name": "Furies1 [Legends]",
         "hidden": false,
         "id": "1b9e-e164-7a5a-c8b7"
       },
@@ -55834,6 +55834,37 @@
                   }
                 ],
                 "type": "and"
+              },
+              {
+                "modifiers": [
+                  {
+                    "type": "increment",
+                    "value": 1,
+                    "field": "2229-f494-25db-c5d3",
+                    "scope": "model-or-unit",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons"
+                  },
+                  {
+                    "type": "increment",
+                    "value": 3,
+                    "field": "9896-9419-16a1-92fc",
+                    "scope": "model-or-unit",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "childId": "514c-bed8-b9d3-7e0f",
+                    "shared": true,
+                    "childName": "Lord of Change",
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "and"
               }
             ],
             "id": "a80f-8b38-42e7-5ab6",
@@ -55954,6 +55985,13 @@
             ],
             "infoLinks": [
               {
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "5+",
+                    "field": "name"
+                  }
+                ],
                 "id": "b61b-c6e1-7a46-25df",
                 "name": "Feel No Pain",
                 "hidden": false,
@@ -65970,7 +66008,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "b45c-af22-788a-dfd6",
     "name": "Chaos - Daemons Library",
-    "revision": 95,
+    "revision": 97,
     "battleScribeVersion": 2.03,
     "library": true,
     "gameSystemId": "sys-352e-adc2-7639-d6a9",

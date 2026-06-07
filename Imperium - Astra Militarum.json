@@ -2813,6 +2813,14 @@
             "id": "406a-d472-ffad-66e1",
             "type": "selectionEntryGroup",
             "targetId": "68a2-ada5-3cd4-c5a3"
+          },
+          {
+            "import": true,
+            "name": "Chivalric Quests",
+            "hidden": false,
+            "id": "f6d2-44a6-7edf-6494",
+            "type": "selectionEntryGroup",
+            "targetId": "12f3-7f5b-747e-41ca"
           }
         ],
         "import": true,
@@ -2936,7 +2944,7 @@
     "name": "Imperium - Astra Militarum",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 23,
+    "revision": 24,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

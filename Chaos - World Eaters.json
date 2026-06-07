@@ -8450,7 +8450,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following unit: ^^**Khorne Berserkers^^**",
+                "$text": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8751,7 +8751,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berserkers^^**",
+                "$text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10958,7 +10958,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berserkers^^**",
+                "$text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11699,7 +11699,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following unit: ^^**Khorne Berserkers^^**",
+                "$text": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13341,7 +13341,7 @@
             "value": 0
           }
         ],
-        "comment": "Berserkers",
+        "comment": "Berzerkers",
         "id": "44b0-1947-ea4a-3005",
         "name": "Chainblade",
         "hidden": false,
@@ -33384,16 +33384,6 @@
             "sortIndex": 2
           },
           {
-            "entryLinks": [
-              {
-                "import": true,
-                "name": "Bloodsoaked Ascension",
-                "hidden": false,
-                "id": "5ca7-ca0a-fc89-2dc1",
-                "type": "selectionEntry",
-                "targetId": "6cab-9a1e-23ed-5934"
-              }
-            ],
             "import": true,
             "name": "Crusade",
             "hidden": false,
@@ -37648,7 +37638,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following unit: ^^**Khorne Berserkers**^^",
+                "$text": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -38213,7 +38203,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following unit: ^^**Khorne Berserkers**^^",
+                "$text": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -49905,7 +49895,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "df9a-59b2-f464-59ad",
     "name": "Chaos - World Eaters",
-    "revision": 104,
+    "revision": 105,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d6a9",

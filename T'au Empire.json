@@ -14217,6 +14217,14 @@
                     "type": "selectionEntry",
                     "targetId": "1790-25b7-8264-f6ba",
                     "collective": true
+                  },
+                  {
+                    "import": true,
+                    "name": "Homing beacon",
+                    "hidden": false,
+                    "id": "b63d-8730-94c2-1d0d",
+                    "targetId": "733a-d8f9-87a0-4200",
+                    "type": "selectionEntry"
                   }
                 ],
                 "profiles": [
@@ -14408,6 +14416,14 @@
                     "type": "selectionEntry",
                     "id": "d9a1-c3a3-67a4-e650",
                     "targetId": "f836-d31-4688-d623"
+                  },
+                  {
+                    "import": true,
+                    "name": "Homing beacon",
+                    "hidden": false,
+                    "id": "31d5-a576-0462-f9ee",
+                    "targetId": "733a-d8f9-87a0-4200",
+                    "type": "selectionEntry"
                   }
                 ],
                 "profiles": [
@@ -14676,84 +14692,6 @@
                         "id": "64ed-7a58-bc2f-e280",
                         "hidden": false,
                         "defaultSelectionEntryId": "d9b7-3749-909f-a357"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 0,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "d8a7-6375-1eb8-7b9b",
-                            "automatic": true
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "5fa7-8938-9a77-3a87"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 9\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ],
-                            "name": "Homing Beacon",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "1333-60c8-37d2-1a4d"
-                          }
-                        ],
-                        "modifiers": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "instanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "force",
-                                "childId": "1d6e-2579-8e7f-1ed4",
-                                "shared": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "set",
-                            "value": true,
-                            "field": "hidden"
-                          },
-                          {
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "force",
-                                "childId": "1d6e-2579-8e7f-1ed4",
-                                "shared": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "set",
-                            "value": 1,
-                            "field": "d8a7-6375-1eb8-7b9b"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Homing beacon",
-                        "hidden": false,
-                        "id": "733a-d8f9-87a0-4200"
                       }
                     ],
                     "entryLinks": [
@@ -60650,6 +60588,58 @@
         "name": "MV15 Gun Drone",
         "hidden": false,
         "id": "44fd-0d69-f966-20c5"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "unit",
+            "shared": true,
+            "id": "5fa7-8938-9a77-3a87",
+            "includeChildSelections": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 9\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "name": "Homing Beacon",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "1333-60c8-37d2-1a4d"
+          }
+        ],
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Homing beacon",
+        "hidden": false,
+        "id": "733a-d8f9-87a0-4200"
       }
     ],
     "entryLinks": [
@@ -80291,7 +80281,7 @@
     "name": "Xenos - T'au Empire",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 159,
+    "revision": 160,
     "battleScribeVersion": 2.03,
     "authorContact": "Dunamis55 & AbonShell",
     "authorName": "BSData Developers",

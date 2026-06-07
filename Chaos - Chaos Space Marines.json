@@ -3433,6 +3433,13 @@
             "hidden": false,
             "targetId": "4c00-2578-faf5-6918",
             "primary": false
+          },
+          {
+            "name": "Heretic Astartes Vehicle",
+            "hidden": false,
+            "id": "1a2a-9875-b1e5-96cb",
+            "targetId": "71d8-c345-059b-e793",
+            "primary": false
           }
         ],
         "entryLinks": [
@@ -58940,7 +58947,7 @@
               }
             ],
             "id": "c370-6146-5fc4-6e8e",
-            "name": "9 - 19 Khorne Berserkers",
+            "name": "9 - 19 Khorne Berzerkers",
             "hidden": false,
             "collective": false,
             "import": true,
@@ -64498,8 +64505,70 @@
                 ],
                 "selectionEntries": [
                   {
-                    "entryLinks": [
+                    "selectionEntries": [
                       {
+                        "profiles": [
+                          {
+                            "characteristics": [
+                              {
+                                "$text": "48\"",
+                                "name": "Range",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "A",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "BS",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "$text": "9",
+                                "name": "S",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "$text": "-3",
+                                "name": "AP",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "$text": "3",
+                                "name": "D",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "$text": "Twin-linked",
+                                "name": "Keywords",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
+                            ],
+                            "name": "Twin autocannon",
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "hidden": false,
+                            "id": "9b36-c753-d67f-7dd9"
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Twin-linked",
+                            "id": "7da1-138b-60ed-6201",
+                            "hidden": false,
+                            "targetId": "cf93-ad4d-2f08-a79d",
+                            "type": "rule"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 0
+                          }
+                        ],
                         "constraints": [
                           {
                             "type": "min",
@@ -64507,7 +64576,8 @@
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "1a25-06c6-b35c-9d0a"
+                            "id": "9074-0776-e4a9-9843-min",
+                            "includeChildSelections": false
                           },
                           {
                             "type": "max",
@@ -64515,25 +64585,16 @@
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "3157-1d8e-5d67-c0d1"
+                            "id": "9074-0776-e4a9-9843-max",
+                            "includeChildSelections": false
                           }
                         ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "e6fa-595e-34c2-181b",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
+                        "type": "upgrade",
                         "import": true,
                         "name": "Twin autocannon",
                         "hidden": false,
-                        "id": "6d40-ce31-7076-8bd9",
-                        "type": "selectionEntry",
-                        "targetId": "9f56-5d6e-54a6-9b94"
+                        "id": "e8de-5134-7f55-cf05",
+                        "collective": false
                       }
                     ],
                     "type": "upgrade",
@@ -70060,7 +70121,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERSERKERS",
+                "$text": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERZERKERS",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -119170,7 +119231,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "c8da-e875-58f7-f6d6",
     "name": "Chaos - Chaos Space Marines",
-    "revision": 185,
+    "revision": 187,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d6a9",

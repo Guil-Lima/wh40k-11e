@@ -63895,6 +63895,14 @@
             "id": "799f-0299-f473-611e",
             "type": "selectionEntryGroup",
             "targetId": "68a2-ada5-3cd4-c5a3"
+          },
+          {
+            "import": true,
+            "name": "Chivalric Quests",
+            "hidden": false,
+            "id": "e13d-01d8-c0a4-0898",
+            "type": "selectionEntryGroup",
+            "targetId": "12f3-7f5b-747e-41ca"
           }
         ],
         "modifiers": [
@@ -77327,7 +77335,7 @@
     "name": "Imperium - Agents of the Imperium",
     "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
-    "revision": 136,
+    "revision": 137,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }
