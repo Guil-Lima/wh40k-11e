@@ -1966,6 +1966,11 @@
         "name": "Mobile",
         "id": "355c-0ee6-3cde-6c71",
         "hidden": false
+      },
+      {
+        "name": "Frame",
+        "id": "b927-8eeb-7cc3-8dec",
+        "hidden": false
       }
     ],
     "forceEntries": [
