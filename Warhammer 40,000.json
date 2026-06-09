@@ -116,6 +116,11 @@
         "id": "ac6b-ced3-9b5e-9a6e",
         "defaultCostLimit": -1,
         "hidden": true
+      },
+      {
+        "name": "Detachment Points",
+        "id": "82ae-1066-5107-6ae0",
+        "defaultCostLimit": -1
       }
     ],
     "profileTypes": [
@@ -2143,11 +2148,73 @@
           {
             "type": "set",
             "field": "readme"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "95c5-effd-74f1-c8f4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 3,
+            "field": "95c5-effd-74f1-c8f4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "baf8-997f-e323-a090",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "2. Strike Force (2000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "95c5-effd-74f1-c8f4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "4204-82d0-908c-a62a",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "3. Onslaught (3000 Point limit)"
+              }
+            ]
           }
         ],
         "id": "bb9d-299a-ed60-2d8a",
         "name": "Army Roster",
-        "hidden": false
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 0,
+            "field": "82ae-1066-5107-6ae0",
+            "scope": "parent",
+            "shared": true,
+            "id": "95c5-effd-74f1-c8f4",
+            "includeChildSelections": true
+          }
+        ]
       },
       {
         "categoryLinks": [
