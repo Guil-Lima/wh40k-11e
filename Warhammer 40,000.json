@@ -5602,6 +5602,11 @@
         "id": "5238-5ad4-52f7-6eb4",
         "hidden": false,
         "description": "Units containing one or more models with a **[CLOSE-QUARTERS]** weapon can shoot using **close-quarters shooting** (10.06). When using another **shooting type**, for each model in that unit (excluding **MONSTER/VEHICLE** models), you can only select one of the following to make attacks with: \n- One or more of its **[CLOSE-QUARTERS]** weapons. \n- One or more of its other ranged weapons."
+      },
+      {
+        "name": "Support",
+        "id": "3342-2180-9c5d-925f",
+        "hidden": false
       }
     ],
     "sharedProfiles": [
