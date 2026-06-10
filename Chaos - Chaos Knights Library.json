@@ -912,39 +912,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "b861-c239-8fa2-afa5",
@@ -963,20 +963,6 @@
             ],
             "id": "7e36-46d2-4914-c4af",
             "name": "Executioner",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "1d7c-736f-d076-8966",
-            "name": "Invulnerable Save",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
@@ -1017,6 +1003,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "7686-5fc0-fc07-1f3e",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -2334,39 +2327,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "ce7f-d704-a682-dcd6",
@@ -2385,20 +2378,6 @@
             ],
             "id": "56bf-6bad-83b7-3a78",
             "name": "Stalker",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "84cb-de00-c868-b4e9",
-            "name": "Invulnerable Save",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
@@ -2453,6 +2432,13 @@
             "hidden": false,
             "type": "rule",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "f404-dd31-3f91-de8f",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -3119,39 +3105,39 @@
           {
             "characteristics": [
               {
-                "$text": "14\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "a907-b7f9-b9cf-a620",
@@ -3170,20 +3156,6 @@
             ],
             "id": "dec4-f0af-5aee-9e79",
             "name": "Karnivore",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "7616-9c14-acc8-dd08",
-            "name": "Invulnerable Save",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
@@ -3224,6 +3196,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "fbd6-48b3-54d3-bc65",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -3938,39 +3917,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "2a67-fd95-e3f9-420e",
@@ -3989,20 +3968,6 @@
             ],
             "id": "34ad-4a93-4309-03bd",
             "name": "Brigand",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "3b7b-2e72-7d21-e0d2",
-            "name": "Invulnerable Save",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
@@ -4043,6 +4008,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "1a80-0a6f-6441-c484",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -4670,39 +4642,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "540b-339c-30a4-fb9d",
@@ -4721,20 +4693,6 @@
             ],
             "id": "6e59-6cc9-5270-3482",
             "name": "Huntsman",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "ab12-2587-aec2-3a51",
-            "name": "Invulnerable Save",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
@@ -4775,6 +4733,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "4f42-08ac-d533-3ba4",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -5383,39 +5348,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "0487-2918-c4e9-735f",
@@ -5423,20 +5388,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "a0e0-55f7-a696-ae65",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -5516,6 +5467,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "0b67-c7a8-b249-135d",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -7791,7 +7749,7 @@
         "infoLinks": [
           {
             "id": "1d36-4ddf-948e-b5ba",
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "targetId": "4111-82e3-9444-e942",
             "type": "rule"
@@ -7872,39 +7830,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "160e-7198-c314-f89c",
@@ -7912,20 +7870,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "1167-4392-80a2-401e",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -8005,6 +7949,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "d0be-44df-8f46-ae6a",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -8785,39 +8736,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "bade-b185-e569-edc1",
@@ -8825,20 +8776,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "c2f6-d175-4cc9-dc7f",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -8925,6 +8862,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "316f-d8c8-ab3c-8135",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -9752,39 +9696,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "b5fe-c12f-7cfd-152d",
@@ -9792,20 +9736,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "4e9b-b002-b008-6077",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -9843,6 +9773,13 @@
             "hidden": false,
             "targetId": "5e13-1624-d280-418d",
             "type": "rule"
+          },
+          {
+            "targetId": "4e9b-b002-b008-6077",
+            "id": "c4a8-84fa-a02e-2f16",
+            "type": "profile",
+            "name": "*Invulnerable Save",
+            "hidden": false
           },
           {
             "modifiers": [
@@ -10767,39 +10704,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "28",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "28"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "868c-dc0a-4bc2-55ad",
@@ -10832,20 +10769,6 @@
             ],
             "id": "fc0a-7d42-111d-44a3",
             "name": "Bastion of Corruption",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "f7fe-ed4a-bdc7-3f9",
-            "name": "Invulnerable Save",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
@@ -10900,6 +10823,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "3c96-c167-5c0d-9c7f",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -12509,7 +12439,7 @@
         "infoLinks": [
           {
             "id": "134c-456f-4b4c-938f",
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "targetId": "4111-82e3-9444-e942",
             "type": "rule"
@@ -12963,53 +12893,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "6a7a-a366-3b41-378c",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "13",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "13"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "30",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "30"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "6b1e-130c-63fa-2e7d",
@@ -13082,6 +12998,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "9374-8790-4eec-aeac",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -13387,7 +13310,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "2e8c-c8cb-7c15-b760",
                     "hidden": false,
                     "targetId": "4111-82e3-9444-e942",
@@ -13918,53 +13841,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "eb6a-d569-aa17-af1d",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "13",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "13"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "30",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "30"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "310d-1486-55e8-2d6c",
@@ -14037,6 +13946,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "0a1f-d9c6-a40c-4564",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -14396,7 +14312,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "dc4c-1ca6-dd61-8b7",
                         "hidden": false,
                         "targetId": "4111-82e3-9444-e942",
@@ -14972,39 +14888,39 @@
           {
             "characteristics": [
               {
-                "$text": "14\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "28",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "28"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "2916-a86d-a98f-b9fb",
@@ -15012,20 +14928,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "7a6d-3d1c-ae76-3455",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -15763,39 +15665,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "28",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "28"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "c85c-2c10-9dab-f10f",
@@ -15803,20 +15705,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "84bf-4183-5e68-5768",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -15896,6 +15784,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "cbd2-ab4a-9416-1ffb",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -16620,39 +16515,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "28",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "28"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "5403-3f13-3ca6-22b6",
@@ -16660,20 +16555,6 @@
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "c10-a72e-ec49-7995",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
           },
           {
             "characteristics": [
@@ -16753,6 +16634,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "174a-6809-5222-9f1b",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -17609,53 +17497,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "f71c-3753-d130-cfe2",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "28",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "28"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "76f5-bb5c-ae0e-950e",
@@ -18666,53 +18540,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "ca52-f026-f24-eed8",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "a69c-d32c-a409-86bd",
@@ -19206,7 +19066,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Anti-",
+                            "name": "Anti",
                             "id": "47fd-c119-2856-bae8",
                             "hidden": false,
                             "targetId": "4111-82e3-9444-e942",
@@ -19850,20 +19710,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "6a34-1ef2-5069-91c7",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "In your Shooting phase, after this model has shot, if an enemy ^^**Infantry^^** unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -19878,39 +19724,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Chaos Questoris Knight Styrix",
@@ -20133,7 +19979,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "5732-d6dc-cdb9-b727",
                     "hidden": false,
                     "targetId": "4111-82e3-9444-e942",
@@ -20411,7 +20257,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Anti-",
+                            "name": "Anti",
                             "id": "0c23-2a6c-a1d7-8732",
                             "hidden": false,
                             "targetId": "4111-82e3-9444-e942",
@@ -21055,53 +20901,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "id": "9155-86e3-7298-9c35",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "id": "edf-bf86-2acc-2b21",
@@ -21160,6 +20992,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "2e30-ae47-1bdc-3516",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -21513,7 +21352,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "d5e-f903-2a29-b1cf",
                         "hidden": false,
                         "targetId": "4111-82e3-9444-e942",
@@ -21745,7 +21584,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Anti-",
+                            "name": "Anti",
                             "id": "579f-c23e-ddbd-bf65",
                             "hidden": false,
                             "targetId": "4111-82e3-9444-e942",
@@ -22379,39 +22218,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "26",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "26"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "name": "Knight Ruinator",
@@ -22419,20 +22258,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "3bc9-aaff-0392-6cb1"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save against ranged attacks.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "06aa-8ba9-4637-a2fe"
           },
           {
             "characteristics": [
@@ -22512,6 +22337,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "0b98-37c4-6be9-f608"
+          },
+          {
+            "name": "*Invulnerable Save",
+            "id": "ee52-ddc0-e0f5-2b88",
+            "hidden": false,
+            "targetId": "4e9b-b002-b008-6077",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -23499,7 +23331,7 @@
                   }
                 ],
                 "id": "be11-dfc5-c59f-16d1",
-                "name": "Veil of Medrengard",
+                "name": "**Veil of Medrengard",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities"
@@ -23579,6 +23411,13 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": "4+**",
+                "field": "55a7-5b54-c60d-11dc",
+                "scope": "parent",
+                "affects": "profiles.Unit"
               }
             ],
             "comment": "Traitoris Lance",
@@ -26912,7 +26751,17 @@
             "import": true,
             "name": "Brute Tactics",
             "hidden": false,
-            "id": "a002-ca00-684c-c3a7"
+            "id": "a002-ca00-684c-c3a7",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "5+(M)",
+                "field": "55a7-5b54-c60d-11dc",
+                "scope": "parent",
+                "affects": "profiles.Unit",
+                "join": ", "
+              }
+            ]
           },
           {
             "costs": [
@@ -30082,7 +29931,17 @@
                 "import": true,
                 "name": "Ensorcelled Shield",
                 "hidden": false,
-                "id": "2b0e-b74a-d962-1ae0"
+                "id": "2b0e-b74a-d962-1ae0",
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "4+(R)",
+                    "field": "55a7-5b54-c60d-11dc",
+                    "scope": "parent",
+                    "affects": "profiles.Unit",
+                    "join": ", "
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -31007,6 +30866,20 @@
         "typeName": "Abilities",
         "hidden": false,
         "id": "0b98-37c4-6be9-f608"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "This model has a 5+ invulnerable save against ranged attacks.",
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ],
+        "id": "4e9b-b002-b008-6077",
+        "name": "*Invulnerable Save",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities"
       }
     ],
     "entryLinks": [
