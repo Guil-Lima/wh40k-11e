@@ -177,7 +177,7 @@
           },
           {
             "id": "450-a17e-9d5e-29da",
-            "name": "SV"
+            "name": "Sv"
           },
           {
             "id": "750a-a2ec-90d3-21fe",
@@ -4380,7 +4380,7 @@
                 "$text": "10"
               },
               {
-                "name": "SV",
+                "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
                 "$text": "5+"
               },
@@ -4679,7 +4679,7 @@
                     "$text": "4"
                   },
                   {
-                    "name": "SV",
+                    "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da",
                     "$text": "7+"
                   },
@@ -4922,7 +4922,7 @@
                   },
                   {
                     "$text": "4+",
-                    "name": "SV",
+                    "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da"
                   },
                   {
@@ -5156,7 +5156,7 @@
                     "$text": "6"
                   },
                   {
-                    "name": "SV",
+                    "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da",
                     "$text": "7+"
                   },
