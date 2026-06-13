@@ -162,6 +162,12 @@
           }
         ],
         "hidden": true
+      },
+      {
+        "name": "Enhancements",
+        "id": "f759-1bc4-cb3a-f0d2",
+        "defaultCostLimit": "",
+        "hidden": true
       }
     ],
     "profileTypes": [
@@ -2243,6 +2249,74 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "3. Onslaught (3000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "value": "You cannot have more than 3 Enhancements in your army.",
+            "field": "error",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "d62d-db22-4893-4bc0",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "1. Incursion (1000 Point limit)"
+                  },
+                  {
+                    "type": "greaterThan",
+                    "value": 3,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "scope": "roster",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childId": "any",
+                    "childName": "any"
+                  }
+                ]
+              }
+            ],
+            "scope": "force",
+            "affects": "self.entries.recursive"
+          },
+          {
+            "type": "add",
+            "value": "You cannot have more than 4 Enhancements in your army.",
+            "field": "error",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "baf8-997f-e323-a090",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "2. Strike Force (2000 Point limit)"
+                  },
+                  {
+                    "type": "greaterThan",
+                    "value": 4,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "scope": "roster",
+                    "childId": "any",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "any"
+                  }
+                ]
               }
             ]
           }
