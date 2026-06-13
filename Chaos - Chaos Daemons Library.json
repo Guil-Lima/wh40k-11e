@@ -44950,7 +44950,7 @@
             "collective": false,
             "import": true,
             "type": "model",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "costs": [
@@ -45023,6 +45023,15 @@
             "type": "selectionEntryGroup",
             "targetId": "82a2-545c-7f11-ed88",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "e0f4-9444-b8bd-d851",
+            "type": "selectionEntryGroup",
+            "targetId": "621d-b661-7461-4620",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -56551,29 +56560,45 @@
               {
                 "conditionGroups": [
                   {
-                    "conditions": [
+                    "type": "or",
+                    "conditionGroups": [
                       {
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "type": "notInstanceOf"
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "includeChildSelections": true
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ],
-                    "type": "and"
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true,
+                        "childName": "Character"
+                      }
+                    ]
                   }
                 ],
                 "type": "set",
@@ -56657,6 +56682,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 20
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "comment": "Daemonic Incursion",
@@ -56776,38 +56836,6 @@
                   {
                     "conditions": [
                       {
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "childId": "b188-114f-6ba5-79a1",
-                        "type": "notInstanceOf"
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "field": "hidden",
-                "value": true
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
                         "type": "lessThan",
                         "value": 1,
                         "field": "forces",
@@ -56835,6 +56863,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Tzeentch Character"
               }
             ],
             "constraints": [
@@ -56880,6 +56977,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "comment": "Daemonic Incursion",
@@ -56960,38 +57092,6 @@
                   {
                     "conditions": [
                       {
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "type": "notInstanceOf"
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "field": "hidden",
-                "value": true
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
                         "type": "lessThan",
                         "value": 1,
                         "field": "forces",
@@ -57019,6 +57119,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Nurgle Character"
               }
             ],
             "constraints": [
@@ -57105,6 +57274,16 @@
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
                 "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "comment": "Daemonic Incursion",
@@ -57121,49 +57300,70 @@
           {
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "value": 1,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "childId": "b2a9-ede5-7a83-4da8",
-                    "type": "notInstanceOf"
-                  }
-                ],
                 "conditionGroups": [
                   {
-                    "conditions": [
+                    "type": "or",
+                    "conditionGroups": [
                       {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "includeChildSelections": true
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
                       },
                       {
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "type": "notInstanceOf"
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
                       }
-                    ],
-                    "type": "and"
+                    ]
                   }
                 ],
                 "type": "set",
                 "field": "hidden",
-                "value": true
+                "value": true,
+                "comment": "Slaanesh Character"
               },
               {
                 "conditionGroups": [
@@ -57196,7 +57396,8 @@
                 ],
                 "type": "set",
                 "value": true,
-                "field": "hidden"
+                "field": "hidden",
+                "comment": "Crusade"
               }
             ],
             "constraints": [
@@ -57242,6 +57443,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 15
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "comment": "Daemonic Incursion",
@@ -57281,6 +57517,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -57321,51 +57572,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b2a9-ede5-7a83-4da8",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -57397,6 +57603,72 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Slaanesh Character"
               }
             ],
             "comment": "Legion of Excess",
@@ -57433,6 +57705,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -57473,51 +57760,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b2a9-ede5-7a83-4da8",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -57549,6 +57791,72 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Slaanesh Character"
               }
             ],
             "comment": "Legion of Excess",
@@ -57590,6 +57898,16 @@
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
                 "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -57629,51 +57947,6 @@
               }
             ],
             "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b188-114f-6ba5-79a1",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
               {
                 "conditionGroups": [
                   {
@@ -57722,6 +57995,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Tzeentch Character"
               }
             ],
             "comment": "Scintillating Legion",
@@ -57758,6 +58100,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -57798,51 +58155,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b2a9-ede5-7a83-4da8",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -57890,6 +58202,72 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Slaanesh Character"
               }
             ],
             "comment": "Legion of Excess",
@@ -57926,6 +58304,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -57966,51 +58359,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b2a9-ede5-7a83-4da8",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b2a9-ede5-7a83-4da8",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -58058,6 +58406,72 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b2a9-ede5-7a83-4da8",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Slaanesh Character"
               }
             ],
             "comment": "Legion of Excess",
@@ -58094,6 +58508,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -58134,44 +58563,64 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4bd-5ee0-f179-2fc5",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
                 "conditionGroups": [
                   {
-                    "conditions": [
+                    "type": "or",
+                    "conditionGroups": [
                       {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "includeChildSelections": true
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
                       },
                       {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
                       }
-                    ],
-                    "type": "and"
+                    ]
                   }
                 ],
                 "type": "set",
@@ -58262,6 +58711,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -58302,51 +58766,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b188-114f-6ba5-79a1",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -58378,6 +58797,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Tzeentch Character"
               }
             ],
             "comment": "Scintillating Legion",
@@ -58414,6 +58902,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -58454,51 +58957,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b188-114f-6ba5-79a1",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -58530,6 +58988,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Tzeentch Character"
               }
             ],
             "comment": "Scintillating Legion",
@@ -58566,6 +59093,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -58605,51 +59147,6 @@
               }
             ],
             "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "b188-114f-6ba5-79a1",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b188-114f-6ba5-79a1",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
               {
                 "conditionGroups": [
                   {
@@ -58698,6 +59195,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tzeentch"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b188-114f-6ba5-79a1",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Tzeentch"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Tzeentch Character"
               }
             ],
             "comment": "Scintillating Legion",
@@ -58810,6 +59376,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -58850,51 +59431,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4bd-5ee0-f179-2fc5",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -58926,6 +59462,71 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
+                      },
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "comment": "Blood Legion",
@@ -58962,6 +59563,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -59002,44 +59618,64 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4bd-5ee0-f179-2fc5",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
                 "conditionGroups": [
                   {
-                    "conditions": [
+                    "type": "or",
+                    "conditionGroups": [
                       {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "includeChildSelections": true
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
                       },
                       {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
                       }
-                    ],
-                    "type": "and"
+                    ]
                   }
                 ],
                 "type": "set",
@@ -59114,6 +59750,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -59153,51 +59804,6 @@
               }
             ],
             "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4bd-5ee0-f179-2fc5",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4bd-5ee0-f179-2fc5",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
               {
                 "conditionGroups": [
                   {
@@ -59246,6 +59852,71 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ]
+                      },
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4bd-5ee0-f179-2fc5",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "comment": "Blood Legion",
@@ -59282,6 +59953,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -59322,51 +60008,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "ed0d-8e2a-225c-2340",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -59398,6 +60039,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Nurgle Character"
               }
             ],
             "comment": "Plague Legion",
@@ -59434,6 +60144,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -59474,51 +60199,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "ed0d-8e2a-225c-2340",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -59566,6 +60246,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Nurgle Character"
               }
             ],
             "comment": "Plague Legion",
@@ -59602,6 +60351,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -59642,51 +60406,6 @@
             ],
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "ed0d-8e2a-225c-2340",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
                 "conditionGroups": [
                   {
                     "conditions": [
@@ -59718,6 +60437,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Nurgle Character"
               }
             ],
             "comment": "Plague Legion",
@@ -59754,6 +60542,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -59793,51 +60596,6 @@
               }
             ],
             "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "ed0d-8e2a-225c-2340",
-                    "shared": true,
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "ed0d-8e2a-225c-2340",
-                        "shared": true,
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
               {
                 "conditionGroups": [
                   {
@@ -59886,6 +60644,75 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Character"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Nurgle"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ed0d-8e2a-225c-2340",
+                            "shared": true,
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false,
+                            "childName": "Nurgle"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Nurgle Character"
               }
             ],
             "comment": "Plague Legion",
@@ -59955,40 +60782,73 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "modifiers": [
               {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5063-25bd-d22e-665b",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
                 "type": "set",
                 "value": true,
-                "field": "hidden"
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "Character"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5063-25bd-d22e-665b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Character"
               }
             ],
             "constraints": [
@@ -60013,36 +60873,54 @@
             "comment": "Shadow Legion",
             "modifiers": [
               {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5063-25bd-d22e-665b",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
                 "type": "set",
                 "value": true,
-                "field": "hidden"
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "Character"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5063-25bd-d22e-665b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Character"
               }
             ],
             "profiles": [
@@ -60086,6 +60964,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -60112,34 +61005,52 @@
               {
                 "conditionGroups": [
                   {
+                    "type": "or",
                     "conditions": [
                       {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
-                        "scope": "roster",
-                        "childId": "5063-25bd-d22e-665b",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
+                        "includeChildSelections": false,
+                        "childName": "Character"
                       }
                     ],
-                    "type": "and"
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5063-25bd-d22e-665b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "type": "set",
                 "value": true,
-                "field": "hidden"
+                "field": "hidden",
+                "comment": "Character"
               }
             ],
             "profiles": [
@@ -60183,6 +61094,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -60246,40 +61172,73 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "modifiers": [
               {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5063-25bd-d22e-665b",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
                 "type": "set",
                 "value": true,
-                "field": "hidden"
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "Character"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5063-25bd-d22e-665b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Character"
               }
             ],
             "constraints": [
@@ -60392,6 +61351,91 @@
                   }
                 ]
               }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "divide",
+                    "value": 2,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "3a4c-dc85-8115-abba",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Soul-shattering Charge",
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divide",
+                    "value": 3,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "3a4c-dc85-8115-abba",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Soul-shattering Charge",
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -60500,6 +61544,91 @@
                   }
                 ]
               }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "divide",
+                    "value": 2,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "eb8c-5d0f-d302-9d60",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Swollen with Power",
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divide",
+                    "value": 3,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "eb8c-5d0f-d302-9d60",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Swollen with Power",
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -60598,6 +61727,91 @@
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
                     "$text": "This unit has +1\" M."
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "divide",
+                    "value": 2,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "c1ad-05cf-f50b-ee91",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Apocalyptic Steeds",
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divide",
+                    "value": 3,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "c1ad-05cf-f50b-ee91",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Apocalyptic Steeds",
+                        "includeChildForces": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -66893,6 +68107,91 @@
                 "scope": "parent",
                 "affects": "self.entries.recursive.profiles.Melee Weapons"
               }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "divide",
+                    "value": 2,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "65ae-c95a-cd9e-f0b0",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Bane-forged weapons",
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divide",
+                    "value": 3,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "65ae-c95a-cd9e-f0b0",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Bane-forged weapons",
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -66924,6 +68223,91 @@
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
                     "$text": "When you target this unit with the Heroic Intervention/Fire Overwatch stratagem, that use is -1 CP."
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "divide",
+                    "value": 2,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "92b0-64dd-9d71-181a",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Soul-hungry Slaughterers",
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divide",
+                    "value": 3,
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "92b0-64dd-9d71-181a",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Soul-hungry Slaughterers",
+                        "includeChildForces": true
+                      }
+                    ]
                   }
                 ]
               }
