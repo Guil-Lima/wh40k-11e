@@ -52088,6 +52088,24 @@
                         "field": "450-a17e-9d5e-29da",
                         "scope": "model-or-unit",
                         "affects": "self.entries.recursive.profiles.Unit"
+                      },
+                      {
+                        "type": "set",
+                        "value": "4+",
+                        "field": "55a7-5b54-c60d-11dc",
+                        "conditions": [
+                          {
+                            "type": "atLeast",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "model-or-unit",
+                            "childId": "db75-8537-c264-abf5",
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ],
+                        "scope": "model-or-unit",
+                        "affects": "self.entries.recursive.profiles.Unit"
                       }
                     ],
                     "type": "and"
@@ -56291,23 +56309,16 @@
                 "value": "740a-892c-8958-defa",
                 "field": "category",
                 "scope": "parent"
+              },
+              {
+                "type": "set",
+                "value": "4+",
+                "field": "55a7-5b54-c60d-11dc",
+                "scope": "parent",
+                "affects": "profiles.Unit"
               }
             ],
             "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model has a 4+ invulnerable save.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Invulnerable Save (4+)",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "9856-8363-507a-6e2a"
-              },
               {
                 "characteristics": [
                   {

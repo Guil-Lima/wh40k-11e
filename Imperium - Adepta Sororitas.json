@@ -25289,53 +25289,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has an invulnerable save of 6+",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "8f6c-1048-7b9b-e67e"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Sororitas Rhino",
@@ -30736,39 +30722,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Celestian Sacresant Aveline",
@@ -30776,20 +30762,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "9e25-e3a6-da51-2d2e"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "2735-639c-b63b-bb44"
           },
           {
             "characteristics": [
@@ -44550,6 +44522,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "set",
+                    "value": "4+",
+                    "field": "55a7-5b54-c60d-11dc",
+                    "scope": "parent",
+                    "affects": "self.entries.recursive.profiles.Unit"
                   }
                 ],
                 "costs": [
@@ -48160,7 +48139,16 @@
             "import": true,
             "name": "Shield of the Righteous",
             "hidden": false,
-            "id": "eae4-7e3a-969e-4d89"
+            "id": "eae4-7e3a-969e-4d89",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "4+",
+                "field": "55a7-5b54-c60d-11dc",
+                "scope": "parent",
+                "affects": "self.entries.profiles.Unit"
+              }
+            ]
           },
           {
             "costs": [
