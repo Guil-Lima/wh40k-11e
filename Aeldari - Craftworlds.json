@@ -237,14 +237,6 @@
       },
       {
         "import": true,
-        "name": "Prince Yriel [Legends]",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "8a45-fd64-33fe-58b1",
-        "targetId": "1fbf-55d9-5ca8-4e9e"
-      },
-      {
-        "import": true,
         "name": "Rangers",
         "hidden": false,
         "type": "selectionEntry",
