@@ -10254,6 +10254,13 @@
             "id": "428c-4f17-6b6c-fe6e",
             "primary": false,
             "name": "Acastus"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "70ff-8d4c-3be5-5d37",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -11113,6 +11120,13 @@
             "id": "2da2-bcec-ad18-d60c",
             "primary": false,
             "name": "Knight Porphyrion"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "470b-818a-d49d-7c4c",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -18079,9 +18093,9 @@
           {
             "characteristics": [
               {
-                "$text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
               }
             ],
             "name": "Protection Protocols",
@@ -19475,14 +19489,14 @@
               {
                 "characteristics": [
                   {
-                    "$text": "This deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).",
                     "name": "Description",
-                    "typeId": "90fb-29ef-31df-1720"
+                    "typeId": "90fb-29ef-31df-1720",
+                    "$text": "This deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round)."
                   },
                   {
-                    "$text": "5 or 6",
                     "name": "D6",
-                    "typeId": "2b47-80ec-51a5-3002"
+                    "typeId": "2b47-80ec-51a5-3002",
+                    "$text": "5 or 6"
                   }
                 ],
                 "name": "We pledge to reap a great tally...",
@@ -25224,7 +25238,7 @@
           {
             "rules": [
               {
-                "description": "Each time an **^^Imperial Knights^^** unit from your army Advances, until the end of the turn, ranged weapons equipped by **^^Imperial Knights^^** models from your army have the **[ASSAULT]** ability.",
+                "description": "Each time an **IMPERIAL KNIGHTS** unit from your army Advances, until the end of the turn, ranged weapons equipped by **IMPERIAL KNIGHTS** models from your army have the **[ASSAULT]** ability.",
                 "name": "Bold Gallantry",
                 "id": "92f9-bfbb-ce23-f12a",
                 "hidden": false
@@ -30027,9 +30041,9 @@
       {
         "characteristics": [
           {
-            "$text": "While this model has 1-9 wounds remaining, subtract 5 from this models Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
             "name": "Description",
-            "typeId": "9b8f-694b-e5e-b573"
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
           }
         ],
         "name": "Damaged: 1-9 Wounds Remaining",
