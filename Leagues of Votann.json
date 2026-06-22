@@ -5589,9 +5589,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1a-5398-1a27-0053",
+            "id": "pa86-beb4-8605-0053",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -6683,9 +6683,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paee-57f4-eec8-0054",
+            "id": "pa6e-ef4b-6e7a-0054",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -7298,9 +7298,9 @@
                 "import": true,
                 "name": "Upgrades",
                 "hidden": false,
-                "id": "pad4-9b14-d48c-0055",
+                "id": "pa2b-8ca0-2beb-0055",
                 "type": "selectionEntryGroup",
-                "targetId": "pa8e-eb91-8e20-0050",
+                "targetId": "pa4e-f5dd-4e00-0050",
                 "sortIndex": 4
               }
             ],
@@ -9546,9 +9546,9 @@
                 "import": true,
                 "name": "Upgrades",
                 "hidden": false,
-                "id": "pa50-fafa-504c-0056",
+                "id": "pa6a-d3ef-6aeb-0056",
                 "type": "selectionEntryGroup",
-                "targetId": "pa8e-eb91-8e20-0050",
+                "targetId": "pa4e-f5dd-4e00-0050",
                 "sortIndex": 4
               }
             ],
@@ -14866,9 +14866,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabd-dddf-bdb5-005a",
+            "id": "pad8-36c9-d8f5-005a",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -16234,9 +16234,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6d-9b79-6d95-0059",
+            "id": "pa67-1457-6745-0059",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -19145,9 +19145,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2d-9d03-2dcb-005b",
+            "id": "pa0c-9ba6-0cb4-005b",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -21019,9 +21019,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6f-36ce-6f8e-0057",
+            "id": "pa64-ec13-6405-0057",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -21698,9 +21698,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad4-5cbb-d452-0058",
+            "id": "pa7c-8955-7c2a-0058",
             "type": "selectionEntryGroup",
-            "targetId": "pa8e-eb91-8e20-0050",
+            "targetId": "pa4e-f5dd-4e00-0050",
             "sortIndex": 4
           }
         ],
@@ -31427,7 +31427,7 @@
         "selectionEntryGroups": [
           {
             "name": "Hearthguard Covenant Enhancements",
-            "id": "pae0-ac4d-e0db-0022",
+            "id": "pab9-6bbd-b931-0022",
             "hidden": false,
             "selectionEntries": [
               {
@@ -31435,14 +31435,14 @@
                 "import": true,
                 "name": "High Kâhl",
                 "hidden": false,
-                "id": "pac2-8c50-c200-0018",
+                "id": "pa2b-f03d-2b0b-0018",
                 "profiles": [
                   {
                     "name": "High Kâhl",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paa7-0a29-a774-0019",
+                    "id": "pa52-5601-52cf-0019",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31459,7 +31459,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pafb-7267-fba9-001a"
+                    "id": "pab8-2ffb-b8ca-001a"
                   },
                   {
                     "type": "max",
@@ -31467,7 +31467,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pae2-87e6-e275-001b",
+                    "id": "pa5b-86ab-5bd5-001b",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31484,7 +31484,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa88-98c9-886a-001c",
+                    "id": "pa39-0f25-39d0-001c",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31510,14 +31510,14 @@
                 "import": true,
                 "name": "Ironskein",
                 "hidden": false,
-                "id": "pa3b-157c-3bd4-001d",
+                "id": "pa29-5854-2919-001d",
                 "profiles": [
                   {
                     "name": "Ironskein",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paff-e914-ff8b-001e",
+                    "id": "pab1-b99e-b137-001e",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31534,7 +31534,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa59-cceb-596c-001f"
+                    "id": "pa0f-97d7-0fc6-001f"
                   },
                   {
                     "type": "max",
@@ -31542,7 +31542,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa85-dd3d-85b3-0020",
+                    "id": "pa6b-edd9-6b7d-0020",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31559,7 +31559,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pab1-3976-b1a2-0021",
+                    "id": "pa24-ef5f-246d-0021",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31622,13 +31622,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa2e-ea92-2e33-0023"
+                "id": "pa55-ffa5-552d-0023"
               }
             ]
           },
           {
             "name": "Hearthband Enhancements",
-            "id": "pa5f-b987-5fe8-0038",
+            "id": "paea-b105-ea83-0038",
             "hidden": false,
             "selectionEntries": [
               {
@@ -31636,14 +31636,14 @@
                 "import": true,
                 "name": "Bastion Shield",
                 "hidden": false,
-                "id": "pacb-2a6b-cb2e-0024",
+                "id": "paff-6a86-ffc7-0024",
                 "profiles": [
                   {
                     "name": "Bastion Shield",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paa3-15ac-a3dd-0025",
+                    "id": "pa37-d7e7-3761-0025",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31660,7 +31660,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa3a-25f6-3a3d-0026"
+                    "id": "pa39-1b6a-395e-0026"
                   },
                   {
                     "type": "max",
@@ -31668,7 +31668,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa12-83ea-1243-0027",
+                    "id": "pa5a-cfc0-5aa8-0027",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31685,7 +31685,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa00-929f-00df-0028",
+                    "id": "pa76-f66c-762c-0028",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31711,14 +31711,14 @@
                 "import": true,
                 "name": "Quake Multigenerator",
                 "hidden": false,
-                "id": "pa19-e16c-19b1-0029",
+                "id": "pac0-602b-c0cf-0029",
                 "profiles": [
                   {
                     "name": "Quake Multigenerator",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa58-ca27-5879-002a",
+                    "id": "pab4-6434-b422-002a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31735,7 +31735,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa6b-6133-6bdd-002b"
+                    "id": "pad8-991a-d8f5-002b"
                   },
                   {
                     "type": "max",
@@ -31743,7 +31743,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa48-1634-482d-002c",
+                    "id": "pa8e-ef44-8eee-002c",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31760,7 +31760,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa85-9185-8565-002d",
+                    "id": "pa26-197a-2666-002d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31786,14 +31786,14 @@
                 "import": true,
                 "name": "Ironskein",
                 "hidden": false,
-                "id": "pac0-0962-c0cc-002e",
+                "id": "pa97-8b9e-97cc-002e",
                 "profiles": [
                   {
                     "name": "Ironskein",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa35-d11f-3532-002f",
+                    "id": "pa75-5f2e-754c-002f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31810,7 +31810,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa09-bebe-09c8-0030"
+                    "id": "pa29-ca57-2977-0030"
                   },
                   {
                     "type": "max",
@@ -31818,7 +31818,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paa7-1799-a737-0031",
+                    "id": "pa02-0b54-0216-0031",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31835,7 +31835,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paac-2e77-acf3-0032",
+                    "id": "pabe-6c50-be80-0032",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31861,14 +31861,14 @@
                 "import": true,
                 "name": "High Kâhl",
                 "hidden": false,
-                "id": "pa24-f8c8-2492-0033",
+                "id": "pa7a-3b1f-7aac-0033",
                 "profiles": [
                   {
                     "name": "High Kâhl",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa6a-8d7e-6ac1-0034",
+                    "id": "pa15-2532-1566-0034",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31885,7 +31885,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa7b-1aa6-7b58-0035"
+                    "id": "pa6a-b660-6ae0-0035"
                   },
                   {
                     "type": "max",
@@ -31893,7 +31893,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa5d-063d-5d3a-0036",
+                    "id": "pa46-b8b0-468e-0036",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31910,7 +31910,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paab-916d-ab90-0037",
+                    "id": "pae2-47a5-e27d-0037",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31973,13 +31973,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pace-d962-cedc-0039"
+                "id": "pa6b-e975-6bb0-0039"
               }
             ]
           },
           {
             "name": "Mercenary Oathband Enhancements",
-            "id": "pa98-b4d8-9880-004e",
+            "id": "pa68-fef5-68ba-004e",
             "hidden": false,
             "selectionEntries": [
               {
@@ -31987,14 +31987,14 @@
                 "import": true,
                 "name": "Mercenary Prospector",
                 "hidden": false,
-                "id": "pa84-6118-8469-003a",
+                "id": "pa9d-7695-9d5d-003a",
                 "profiles": [
                   {
                     "name": "Mercenary Prospector",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa7f-c87a-7fbe-003b",
+                    "id": "pa28-454a-282d-003b",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -32011,7 +32011,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa67-a9bb-67a3-003c"
+                    "id": "pa67-39fb-6752-003c"
                   },
                   {
                     "type": "max",
@@ -32019,7 +32019,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa50-2dc0-505f-003d",
+                    "id": "pa59-60d2-5975-003d",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -32036,7 +32036,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa05-a4f7-0537-003e",
+                    "id": "pad8-bfab-d802-003e",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -32062,14 +32062,14 @@
                 "import": true,
                 "name": "Metaphysical Brokerage",
                 "hidden": false,
-                "id": "pa95-9062-95e0-003f",
+                "id": "pac8-62a2-c8a4-003f",
                 "profiles": [
                   {
                     "name": "Metaphysical Brokerage",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa32-541c-322d-0040",
+                    "id": "pa29-fa79-298b-0040",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -32086,7 +32086,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paac-0c9d-acaf-0041"
+                    "id": "pa0f-bf4f-0f65-0041"
                   },
                   {
                     "type": "max",
@@ -32094,7 +32094,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pacf-4c14-cfdb-0042",
+                    "id": "pa63-9d8a-6367-0042",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -32111,7 +32111,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa67-e6ad-674b-0043",
+                    "id": "pa34-232e-34a2-0043",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -32137,14 +32137,14 @@
                 "import": true,
                 "name": "Etacarn SB9 Targeting Implant",
                 "hidden": false,
-                "id": "pae1-bed2-e121-0044",
+                "id": "pa19-53fe-1936-0044",
                 "profiles": [
                   {
                     "name": "Etacarn SB9 Targeting Implant",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa32-02ae-32c3-0045",
+                    "id": "pa69-21b9-6998-0045",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -32161,7 +32161,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa10-bbcf-10f5-0046"
+                    "id": "pa11-281b-11eb-0046"
                   },
                   {
                     "type": "max",
@@ -32169,7 +32169,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa0e-d25f-0e95-0047",
+                    "id": "pa23-3a3d-2397-0047",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -32186,7 +32186,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf4-70f3-f43a-0048",
+                    "id": "paa4-0ab7-a43f-0048",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -32212,14 +32212,14 @@
                 "import": true,
                 "name": "Asset Manipulator",
                 "hidden": false,
-                "id": "pa53-04dc-5388-0049",
+                "id": "paa7-91b7-a763-0049",
                 "profiles": [
                   {
                     "name": "Asset Manipulator",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa07-80a4-0712-004a",
+                    "id": "paf5-5531-f570-004a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -32236,7 +32236,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa1f-5a09-1fe8-004b"
+                    "id": "pa6d-0914-6dfa-004b"
                   },
                   {
                     "type": "max",
@@ -32244,7 +32244,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pad0-1b13-d066-004c",
+                    "id": "paea-8334-eaaa-004c",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -32261,7 +32261,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf4-dff6-f452-004d",
+                    "id": "pad4-aa30-d454-004d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -32324,7 +32324,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa0b-74c9-0bfc-004f"
+                "id": "pae0-0a14-e0ee-004f"
               }
             ]
           }
@@ -45231,13 +45231,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa8e-eb91-8e20-0050",
+        "id": "pa4e-f5dd-4e00-0050",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Armoured Trailblazers Upgrades",
-            "id": "pade-5797-dec8-000a",
+            "id": "pae1-b24a-e1b4-000a",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45245,14 +45245,14 @@
                 "import": true,
                 "name": "Saturation Rounds",
                 "hidden": false,
-                "id": "pafc-8a74-fc47-0000",
+                "id": "pa5f-514b-5fa5-0000",
                 "profiles": [
                   {
                     "name": "Saturation Rounds",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab9-6112-b9b6-0001",
+                    "id": "paeb-6e39-ebd8-0001",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -45269,7 +45269,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pad2-23e2-d234-0002"
+                    "id": "pa01-843b-01de-0002"
                   },
                   {
                     "type": "max",
@@ -45277,7 +45277,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa1b-a8e3-1b1c-0003",
+                    "id": "pa5a-7fa7-5a20-0003",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -45286,7 +45286,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 10
                   }
                 ],
                 "modifiers": [
@@ -45294,7 +45294,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa22-e675-229d-0004",
+                    "id": "paf3-9ce8-f313-0004",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -45320,14 +45320,14 @@
                 "import": true,
                 "name": "Optimised Attack Lines",
                 "hidden": false,
-                "id": "pa42-9f71-4235-0005",
+                "id": "pa56-b642-5684-0005",
                 "profiles": [
                   {
                     "name": "Optimised Attack Lines",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa6f-38f9-6f4d-0006",
+                    "id": "pa63-793b-6328-0006",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -45344,7 +45344,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa98-28ea-9873-0007"
+                    "id": "pa5c-43d8-5cec-0007"
                   },
                   {
                     "type": "max",
@@ -45352,7 +45352,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pac4-eb62-c459-0008",
+                    "id": "pa79-ee92-79d1-0008",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -45361,7 +45361,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -45369,7 +45369,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa7b-bdbc-7b0f-0009",
+                    "id": "pa77-6f22-77bc-0009",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -45432,13 +45432,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa99-ce94-9951-000b"
+                "id": "pa1e-9ea4-1eba-000b"
               }
             ]
           },
           {
             "name": "Farseekers Upgrades",
-            "id": "paf4-40d9-f4bf-0016",
+            "id": "pa14-2498-14c0-0016",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45446,14 +45446,14 @@
                 "import": true,
                 "name": "Pan-Spectral Lockons",
                 "hidden": false,
-                "id": "pa73-7f76-7313-000c",
+                "id": "pa2c-5434-2c41-000c",
                 "profiles": [
                   {
                     "name": "Pan-Spectral Lockons",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pacc-2522-cc37-000d",
+                    "id": "pa46-70a3-46ee-000d",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -45470,7 +45470,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa42-e164-42dd-000e"
+                    "id": "pa2d-0988-2d93-000e"
                   },
                   {
                     "type": "max",
@@ -45478,7 +45478,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa53-9830-53db-000f",
+                    "id": "pa31-08a0-3136-000f",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -45487,7 +45487,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 10
                   }
                 ],
                 "modifiers": [
@@ -45495,7 +45495,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pacd-2302-cd1f-0010",
+                    "id": "pa53-c3b4-5388-0010",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -45521,14 +45521,14 @@
                 "import": true,
                 "name": "Shroudwërke Talismans",
                 "hidden": false,
-                "id": "pa22-4fed-221d-0011",
+                "id": "pa8e-41c9-8e67-0011",
                 "profiles": [
                   {
                     "name": "Shroudwërke Talismans",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa64-5719-6424-0012",
+                    "id": "paee-0a24-ee80-0012",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -45545,7 +45545,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pab2-723c-b267-0013"
+                    "id": "pa79-8c0c-79be-0013"
                   },
                   {
                     "type": "max",
@@ -45553,7 +45553,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa3f-56f2-3faa-0014",
+                    "id": "pa0a-a364-0a7d-0014",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -45562,7 +45562,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -45570,7 +45570,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa0c-b552-0c7c-0015",
+                    "id": "pa3f-0663-3fe0-0015",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -45633,7 +45633,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa43-0ada-4382-0017"
+                "id": "pa79-6f96-79e6-0017"
               }
             ]
           }
@@ -45645,7 +45645,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pad6-15b7-d66d-0051",
+            "id": "paab-06b9-ab9d-0051",
             "includeChildSelections": true
           },
           {
@@ -45654,7 +45654,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa18-d121-181d-0052",
+            "id": "pab8-09e5-b85f-0052",
             "includeChildSelections": true
           }
         ]

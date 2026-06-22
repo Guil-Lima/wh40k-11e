@@ -1643,9 +1643,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1b-7319-1b80-0011",
+            "id": "pa89-7a32-89a1-0011",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -2711,9 +2711,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pacb-0b39-cb7f-0012",
+            "id": "pa98-cdc5-983f-0012",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -3695,9 +3695,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad2-0cbe-d2d4-0013",
+            "id": "pad7-0e39-d782-0013",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -4682,9 +4682,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa94-8f27-94be-0014",
+            "id": "pa84-24cb-8466-0014",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -5313,9 +5313,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2b-4186-2b1b-0015",
+            "id": "pae4-c453-e401-0015",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -15047,9 +15047,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa42-6cd5-4263-001b",
+            "id": "pa47-7b65-4708-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -16133,9 +16133,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paaa-7274-aac7-001c",
+            "id": "pab6-578d-b604-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -16724,9 +16724,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2a-279e-2a12-0016",
+            "id": "pa52-1752-52a9-0016",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -18964,9 +18964,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae9-a991-e97a-001d",
+            "id": "pae1-3f67-e16c-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -51235,9 +51235,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paee-46ac-eed6-0017",
+            "id": "pa9d-d923-9d84-0017",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -51896,9 +51896,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa2-b5ad-a275-0018",
+            "id": "paaa-f6c6-aaa7-0018",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -52643,9 +52643,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa8c-0304-8c17-0019",
+            "id": "pab1-7dc6-b1e0-0019",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -53698,9 +53698,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf4-6402-f468-001a",
+            "id": "pa21-df39-219e-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pa13-4f14-130a-000e",
+            "targetId": "pa36-1a3d-36a4-000e",
             "sortIndex": 4
           }
         ],
@@ -61463,239 +61463,6 @@
         "name": "Homing beacon",
         "hidden": false,
         "id": "733a-d8f9-87a0-4200"
-      },
-      {
-        "type": "model",
-        "import": true,
-        "name": "Aun'Shi",
-        "hidden": false,
-        "id": "pa31-c87c-31f1-0034",
-        "profiles": [
-          {
-            "name": "Aun'Shi",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "pa61-92bf-617c-0035",
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "3"
-              },
-              {
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "6+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "3"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              }
-            ]
-          },
-          {
-            "name": "CORE",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pa8b-1393-8b80-0036",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader"
-              }
-            ]
-          },
-          {
-            "name": "Inspirational Defiance",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pa2a-4d86-2a3c-0037",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
-              }
-            ]
-          },
-          {
-            "name": "Martial Warrior",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pa3c-8ee9-3c18-0038",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:\n- Direct Grace: Fidelity has the [PRECISION] ability.\n- Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability.\n- Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1]."
-              }
-            ]
-          }
-        ],
-        "categoryLinks": [
-          {
-            "targetId": "cf47-a0d7-7207-29dc",
-            "id": "pafd-ce10-fdda-0039",
-            "primary": true,
-            "name": "Infantry"
-          },
-          {
-            "targetId": "9cfd-1c32-585f-7d5c",
-            "id": "pa7c-00c3-7c0d-003a",
-            "primary": false,
-            "name": "Character"
-          },
-          {
-            "targetId": "4f3a-f0f7-6647-348d",
-            "id": "pac6-5572-c648-003b",
-            "primary": false,
-            "name": "Epic Hero"
-          },
-          {
-            "targetId": "e6e-aad6-ee91-7c3c",
-            "id": "paf1-6e6e-f1e1-003c",
-            "primary": false,
-            "name": "Ethereal"
-          },
-          {
-            "targetId": "4ad0-2296-e36d-9032",
-            "id": "pa48-5e60-4890-003d",
-            "primary": false,
-            "name": "Aun'Shi"
-          },
-          {
-            "targetId": "3d58-2655-391e-ecc",
-            "id": "paca-7034-ca8f-003e",
-            "primary": false,
-            "name": "T'au Empire"
-          },
-          {
-            "targetId": "3d58-2655-391e-ecc",
-            "id": "pa8f-0c7b-8f5b-003f",
-            "primary": false,
-            "name": "Faction: T'au Empire"
-          }
-        ],
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 0
-          }
-        ],
-        "selectionEntries": [
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Fidelity",
-            "hidden": false,
-            "id": "pa72-dbff-7292-0040",
-            "profiles": [
-              {
-                "name": "Fidelity",
-                "typeId": "8a40-4aaa-c780-9046",
-                "typeName": "Melee Weapons",
-                "hidden": false,
-                "id": "pa8f-1fe7-8f54-0041",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "914c-b413-91e3-a132",
-                    "$text": "Melee"
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "2337-daa1-6682-b110",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2",
-                    "$text": "-1"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "3254-9fe6-d824-513e",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e",
-                    "$text": "SUSTAINED HITS 1"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pab7-ef34-b7c5-0042"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa57-3d93-576e-0043"
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "set",
-            "value": true,
-            "field": "hidden",
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          }
-        ]
       }
     ],
     "entryLinks": [
@@ -62288,14 +62055,6 @@
         "id": "08d6-68c2-1e1d-0c12",
         "targetId": "6623-c2cb-6705-580b",
         "type": "selectionEntry"
-      },
-      {
-        "import": true,
-        "name": "Aun'Shi",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "pa84-f742-84f8-0044",
-        "targetId": "pa31-c87c-31f1-0034"
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -66814,11 +66573,11 @@
             "import": true,
             "name": "Advanced Acquisition Cadre",
             "hidden": false,
-            "id": "pa9a-51d7-9aea-0000",
+            "id": "paef-7a19-ef37-0000",
             "rules": [
               {
                 "name": "Expert Fieldcraft",
-                "id": "pa3b-f2f8-3b32-0001",
+                "id": "pa1d-ef7a-1d86-0001",
                 "hidden": false,
                 "description": "Extensive additional training - including tuition by Trail Shapers - enables these warriors to fire and relocate seamlessly while remaining concealed.\n\nIn your Shooting phase, when a friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit is selected to shoot, those ranged attacks do not prevent your unit from being hidden."
               }
@@ -80602,13 +80361,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa13-4f14-130a-000e",
+        "id": "pa36-1a3d-36a4-000e",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Advanced Acquisition Cadre Upgrades",
-            "id": "pa27-d8a4-2783-000c",
+            "id": "pa31-21a3-313f-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -80616,14 +80375,14 @@
                 "import": true,
                 "name": "Negation Emitters",
                 "hidden": false,
-                "id": "pa26-786e-26b8-0002",
+                "id": "paa6-60a0-a678-0002",
                 "profiles": [
                   {
                     "name": "Negation Emitters",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pad3-0bca-d3ea-0003",
+                    "id": "pa22-07f0-227d-0003",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -80640,7 +80399,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa72-e709-7224-0004"
+                    "id": "pa57-07f4-5712-0004"
                   },
                   {
                     "type": "max",
@@ -80648,7 +80407,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa62-39d6-621a-0005",
+                    "id": "pa3e-99b1-3ef4-0005",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -80657,7 +80416,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -80665,7 +80424,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa90-f2da-9094-0006",
+                    "id": "pa0d-b1b2-0d10-0006",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -80691,14 +80450,14 @@
                 "import": true,
                 "name": "Unmasking Suite",
                 "hidden": false,
-                "id": "paa7-b433-a7b1-0007",
+                "id": "pa9b-8a09-9b72-0007",
                 "profiles": [
                   {
                     "name": "Unmasking Suite",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa1f-3fd1-1f79-0008",
+                    "id": "pa3a-f5cd-3ab5-0008",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -80715,7 +80474,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa96-5aec-9631-0009"
+                    "id": "pa77-814a-773e-0009"
                   },
                   {
                     "type": "max",
@@ -80723,7 +80482,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa48-f18c-48a8-000a",
+                    "id": "pa52-0763-5230-000a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -80732,7 +80491,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -80740,7 +80499,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad8-0545-d870-000b",
+                    "id": "pae0-b032-e0e3-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -80821,7 +80580,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa9a-51d7-9aea-0000",
+                        "childId": "paef-7a19-ef37-0000",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -80838,7 +80597,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa21-690a-2189-000d"
+                "id": "padf-f33e-dfab-000d"
               }
             ]
           }
@@ -80850,7 +80609,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa60-d6ab-6098-000f",
+            "id": "pa63-2a1f-6353-000f",
             "includeChildSelections": true
           },
           {
@@ -80859,7 +80618,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "paf3-d5c6-f3a3-0010",
+            "id": "pa4a-4c82-4a48-0010",
             "includeChildSelections": true
           }
         ]

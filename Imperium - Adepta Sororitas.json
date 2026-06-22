@@ -266,16 +266,6 @@
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "selectionEntries": [
@@ -751,9 +741,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa1-a563-a1a4-0047",
+            "id": "pac5-f5d6-c58b-0047",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -1686,41 +1676,6 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 50
-          },
-          {
-            "name": "Crusade Points",
-            "typeId": "b03b-c239-15a5-da55",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Battle Honours",
-            "typeId": "75bb-ded1-c86d-bdf0",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Experience",
-            "typeId": "a623-fe74-1d33-cddf",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Weapon Modifications",
-            "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "modifiers": [
@@ -2051,21 +2006,6 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -5293,9 +5233,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paac-e3dd-acd7-003d",
+            "id": "pa26-98d0-26d5-003d",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -5767,21 +5707,6 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -6552,8 +6477,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -6805,6 +6731,23 @@
             ]
           },
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "f1af-4984-1a52-c5",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207",
@@ -6826,8 +6769,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -6841,23 +6785,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "f1af-4984-1a52-c5",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -7234,21 +7161,6 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "constraints": [
@@ -7303,9 +7215,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2d-70ff-2d3f-0046",
+            "id": "pa2e-2bd6-2ee4-0046",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -8116,9 +8028,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa02-8f4b-02e6-0048",
+            "id": "pa0a-2915-0ac5-0048",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -8257,9 +8169,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa83-cd47-83f1-003e",
+            "id": "pa3a-576a-3a3f-003e",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -8888,9 +8800,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paba-5282-ba33-003f",
+            "id": "pa81-b041-817e-003f",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -9464,16 +9376,6 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -10171,49 +10073,7 @@
                         "import": true,
                         "name": "Meltagun",
                         "hidden": false,
-                        "id": "fc05-599e-2f63-d4e4",
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          },
-                          {
-                            "name": "Blackstone Fragments",
-                            "typeId": "ac6b-ced3-9b5e-9a6e",
-                            "value": 0
-                          },
-                          {
-                            "name": "Detachment Points",
-                            "typeId": "82ae-1066-5107-6ae0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Enhancements",
-                            "typeId": "f759-1bc4-cb3a-f0d2",
-                            "value": 0
-                          }
-                        ]
+                        "id": "fc05-599e-2f63-d4e4"
                       },
                       {
                         "profiles": [
@@ -10683,8 +10543,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -10728,21 +10589,6 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -10896,9 +10742,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad5-6523-d569-0045",
+            "id": "pab3-32b3-b3d6-0045",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -11579,8 +11425,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -11629,16 +11476,6 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -11713,9 +11550,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa91-c100-913a-0040",
+            "id": "pa09-617f-09eb-0040",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -12279,8 +12116,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -12400,9 +12238,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3e-124f-3eae-0041",
+            "id": "pafd-1e00-fdde-0041",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -13007,21 +12845,6 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -13629,49 +13452,7 @@
                     "import": true,
                     "name": "Twin Multi-melta",
                     "hidden": false,
-                    "id": "fe9c-67db-68e4-45af",
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 15
-                      },
-                      {
-                        "name": "Crusade Points",
-                        "typeId": "b03b-c239-15a5-da55",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Battle Honours",
-                        "typeId": "75bb-ded1-c86d-bdf0",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Experience",
-                        "typeId": "a623-fe74-1d33-cddf",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Weapon Modifications",
-                        "typeId": "716d-91b7-d55a-1022",
-                        "value": 0
-                      },
-                      {
-                        "name": "Blackstone Fragments",
-                        "typeId": "ac6b-ced3-9b5e-9a6e",
-                        "value": 0
-                      },
-                      {
-                        "name": "Detachment Points",
-                        "typeId": "82ae-1066-5107-6ae0",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancements",
-                        "typeId": "f759-1bc4-cb3a-f0d2",
-                        "value": 0
-                      }
-                    ]
+                    "id": "fe9c-67db-68e4-45af"
                   }
                 ],
                 "name": "Immolator Weapons",
@@ -13965,8 +13746,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -14010,21 +13792,6 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -14221,9 +13988,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabb-0d76-bb6f-0049",
+            "id": "pa7e-8b09-7e39-0049",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -15534,21 +15301,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "3c3f-f02d-c05c-492a",
-                "childId": "model",
-                "shared": true
-              }
-            ],
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "c352-d62f-1288-3f06",
@@ -15562,6 +15314,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "3c3f-f02d-c05c-492a",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -16053,9 +15822,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paea-a9c2-ea8d-004a",
+            "id": "pad4-a009-d4b2-004a",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -16916,9 +16685,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa37-2c80-3761-0042",
+            "id": "pacf-67af-cf5a-0042",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -17280,21 +17049,6 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -17947,49 +17701,7 @@
                     "import": true,
                     "name": "Multi-melta",
                     "hidden": false,
-                    "id": "e50-ed9a-722a-e69",
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 5
-                      },
-                      {
-                        "name": "Crusade Points",
-                        "typeId": "b03b-c239-15a5-da55",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Battle Honours",
-                        "typeId": "75bb-ded1-c86d-bdf0",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Experience",
-                        "typeId": "a623-fe74-1d33-cddf",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Weapon Modifications",
-                        "typeId": "716d-91b7-d55a-1022",
-                        "value": 0
-                      },
-                      {
-                        "name": "Blackstone Fragments",
-                        "typeId": "ac6b-ced3-9b5e-9a6e",
-                        "value": 0
-                      },
-                      {
-                        "name": "Detachment Points",
-                        "typeId": "82ae-1066-5107-6ae0",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancements",
-                        "typeId": "f759-1bc4-cb3a-f0d2",
-                        "value": 0
-                      }
-                    ]
+                    "id": "e50-ed9a-722a-e69"
                   }
                 ],
                 "constraints": [
@@ -18717,49 +18429,7 @@
                         "import": true,
                         "name": "Multi-melta",
                         "hidden": false,
-                        "id": "9403-6ce4-fcc2-e5e8",
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          },
-                          {
-                            "name": "Blackstone Fragments",
-                            "typeId": "ac6b-ced3-9b5e-9a6e",
-                            "value": 0
-                          },
-                          {
-                            "name": "Detachment Points",
-                            "typeId": "82ae-1066-5107-6ae0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Enhancements",
-                            "typeId": "f759-1bc4-cb3a-f0d2",
-                            "value": 0
-                          }
-                        ]
+                        "id": "9403-6ce4-fcc2-e5e8"
                       }
                     ],
                     "constraints": [
@@ -19111,8 +18781,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -19212,41 +18883,6 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 70
-          },
-          {
-            "name": "Crusade Points",
-            "typeId": "b03b-c239-15a5-da55",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Battle Honours",
-            "typeId": "75bb-ded1-c86d-bdf0",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Experience",
-            "typeId": "a623-fe74-1d33-cddf",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Weapon Modifications",
-            "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "selectionEntryGroups": [
@@ -19882,21 +19518,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "327d-a6df-26b-bb9b",
-                "childId": "model",
-                "shared": true
-              }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "9e1c-551e-84e0-d4a9",
@@ -19910,6 +19531,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "327d-a6df-26b-bb9b",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -20859,9 +20497,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paba-bb89-ba42-0043",
+            "id": "paa9-1a6b-a9d8-0043",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -21806,16 +21444,6 @@
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "categoryLinks": [
@@ -22084,14 +21712,7 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "c67d-428c-b52e-2ac8",
-                        "targetId": "1eae-cf99-54ba-2e0a",
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          }
-                        ]
+                        "targetId": "1eae-cf99-54ba-2e0a"
                       },
                       {
                         "constraints": [
@@ -22613,8 +22234,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -24028,21 +23650,6 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "modifiers": [
@@ -24060,6 +23667,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "bee9-172b-7db7-f748",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           },
@@ -24085,8 +23709,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -24100,23 +23725,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "bee9-172b-7db7-f748",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -26377,21 +25985,6 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
           }
         ],
         "categoryLinks": [
@@ -26835,9 +26428,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9a-d845-9ab1-004b",
+            "id": "pa03-04fc-034e-004b",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -29814,9 +29407,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa0-61fe-a0c2-0044",
+            "id": "paee-f719-ee8f-0044",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -31535,9 +31128,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa93-5c33-932b-004c",
+            "id": "paff-2f24-ff46-004c",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -31668,49 +31261,7 @@
         "import": true,
         "name": "Celestian Sacresant Aveline [Legends]",
         "hidden": false,
-        "id": "6227-8c95-0e8a-81de",
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 45
-          },
-          {
-            "name": "Crusade Points",
-            "typeId": "b03b-c239-15a5-da55",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Battle Honours",
-            "typeId": "75bb-ded1-c86d-bdf0",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Experience",
-            "typeId": "a623-fe74-1d33-cddf",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Weapon Modifications",
-            "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
-          }
-        ]
+        "id": "6227-8c95-0e8a-81de"
       },
       {
         "costs": [
@@ -35222,9 +34773,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa39-7915-39bd-004d",
+            "id": "pa33-2532-3339-004d",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -35827,9 +35378,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa80-2d95-800b-004e",
+            "id": "pabc-086e-bcbe-004e",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -36425,9 +35976,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa6-e888-a6ce-004f",
+            "id": "pa08-5672-081d-004f",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -37487,9 +37038,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa40-0ff2-4047-0050",
+            "id": "pad8-f784-d828-0050",
             "type": "selectionEntryGroup",
-            "targetId": "pabd-3241-bdf0-003a",
+            "targetId": "pab4-cd13-b490-003a",
             "sortIndex": 4
           }
         ],
@@ -41568,7 +41119,7 @@
         "selectionEntryGroups": [
           {
             "name": "Chorus of Condemnation Enhancements",
-            "id": "pa58-d805-58a9-0005",
+            "id": "pa54-93bb-54d8-0005",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41576,14 +41127,14 @@
                 "import": true,
                 "name": "Clarion of Urgency",
                 "hidden": false,
-                "id": "pa59-238d-59bc-0000",
+                "id": "paab-2431-ab5c-0000",
                 "profiles": [
                   {
                     "name": "Clarion of Urgency",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa92-75b0-9233-0001",
+                    "id": "paab-11d9-ab29-0001",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -41600,7 +41151,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa98-2abf-982b-0002"
+                    "id": "pada-314c-da88-0002"
                   },
                   {
                     "type": "max",
@@ -41608,7 +41159,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pad1-5141-d195-0003",
+                    "id": "pa92-0fee-92ac-0003",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41625,7 +41176,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paae-a292-ae85-0004",
+                    "id": "pa5d-e2f8-5d0b-0004",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41688,13 +41239,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pae5-9f0c-e5d5-0006"
+                "id": "pa19-2d65-197b-0006"
               }
             ]
           },
           {
             "name": "Sacred Champions Enhancements",
-            "id": "paca-1dfd-caf5-0013",
+            "id": "pa2c-acf3-2c98-0013",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41702,14 +41253,14 @@
                 "import": true,
                 "name": "Perfervid Haste",
                 "hidden": false,
-                "id": "pac3-eb8e-c3b9-000e",
+                "id": "pacc-4e99-ccde-000e",
                 "profiles": [
                   {
                     "name": "Perfervid Haste",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa46-eda5-46d4-000f",
+                    "id": "pa08-07a3-089e-000f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -41726,7 +41277,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa48-ca2a-48a5-0010"
+                    "id": "pa64-e49a-64b0-0010"
                   },
                   {
                     "type": "max",
@@ -41734,7 +41285,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa8c-9497-8c18-0011",
+                    "id": "paa1-9868-a1c7-0011",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41751,7 +41302,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa81-6f8f-81be-0012",
+                    "id": "pa5e-80dc-5e9b-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41814,13 +41365,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa95-45b6-9536-0014"
+                "id": "pa42-e4d1-423e-0014"
               }
             ]
           },
           {
             "name": "Champions of Faith Enhancements",
-            "id": "paef-6b7a-ef22-0038",
+            "id": "paa4-9519-a41b-0038",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41828,14 +41379,14 @@
                 "import": true,
                 "name": "Triptych of Judgement",
                 "hidden": false,
-                "id": "pa6a-510c-6a13-0024",
+                "id": "paf3-4c5c-f334-0024",
                 "profiles": [
                   {
                     "name": "Triptych of Judgement",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa41-d0a4-411a-0025",
+                    "id": "paff-c13b-ff12-0025",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -41852,7 +41403,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pad2-7881-d2bf-0026"
+                    "id": "pa59-1fdf-5986-0026"
                   },
                   {
                     "type": "max",
@@ -41860,7 +41411,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pab2-9dc0-b22b-0027",
+                    "id": "pa1b-208f-1b75-0027",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41877,7 +41428,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa31-dcc1-3166-0028",
+                    "id": "pae3-799c-e336-0028",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41903,14 +41454,14 @@
                 "import": true,
                 "name": "Mark of Devotion",
                 "hidden": false,
-                "id": "pa0c-a856-0ccf-0029",
+                "id": "paa6-de8c-a623-0029",
                 "profiles": [
                   {
                     "name": "Mark of Devotion",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa14-35ae-1485-002a",
+                    "id": "pa96-825a-960b-002a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -41927,7 +41478,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pac2-4a99-c282-002b"
+                    "id": "pa04-560d-046d-002b"
                   },
                   {
                     "type": "max",
@@ -41935,7 +41486,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa66-8ee8-66f9-002c",
+                    "id": "pab0-62d5-b0ef-002c",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41952,7 +41503,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa82-0934-82e9-002d",
+                    "id": "pa24-60f0-2424-002d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41978,14 +41529,14 @@
                 "import": true,
                 "name": "Eyes of the Oracle",
                 "hidden": false,
-                "id": "pa69-95d7-69c0-002e",
+                "id": "pae0-9d81-e057-002e",
                 "profiles": [
                   {
                     "name": "Eyes of the Oracle",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa70-1d64-7031-002f",
+                    "id": "pa22-952e-22d6-002f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -42002,7 +41553,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paff-624e-ff84-0030"
+                    "id": "pa12-c4ab-1281-0030"
                   },
                   {
                     "type": "max",
@@ -42010,7 +41561,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa29-ba10-29d6-0031",
+                    "id": "pa3b-d120-3b69-0031",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -42027,7 +41578,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pac1-3e63-c18a-0032",
+                    "id": "pae6-1b50-e6ab-0032",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -42053,14 +41604,14 @@
                 "import": true,
                 "name": "Sanctified Amulet",
                 "hidden": false,
-                "id": "paa2-4735-a205-0033",
+                "id": "pac6-dd98-c64d-0033",
                 "profiles": [
                   {
                     "name": "Sanctified Amulet",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paeb-9f1c-eb39-0034",
+                    "id": "pa52-92e8-52be-0034",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -42077,7 +41628,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa20-6bea-2002-0035"
+                    "id": "pabf-5d06-bff5-0035"
                   },
                   {
                     "type": "max",
@@ -42085,7 +41636,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa4e-52b8-4e96-0036",
+                    "id": "pa9d-c57b-9dc1-0036",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -42102,7 +41653,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa7f-dc9d-7f3b-0037",
+                    "id": "pa1f-258b-1f4b-0037",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -42165,7 +41716,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pab0-9774-b08e-0039"
+                "id": "pa07-629d-07dd-0039"
               }
             ]
           }
@@ -51824,13 +51375,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pabd-3241-bdf0-003a",
+        "id": "pab4-cd13-b490-003a",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Chorus of Condemnation Upgrades",
-            "id": "pa49-1897-49b2-000c",
+            "id": "pac6-b943-c662-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -51838,14 +51389,14 @@
                 "import": true,
                 "name": "Symphonic Payload",
                 "hidden": false,
-                "id": "pa96-4d3f-96f8-0007",
+                "id": "pae9-24ea-e948-0007",
                 "profiles": [
                   {
                     "name": "Symphonic Payload",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab8-b634-b873-0008",
+                    "id": "pa1a-69a4-1aee-0008",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -51862,7 +51413,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pabe-acd5-be4b-0009"
+                    "id": "pa73-17bd-7392-0009"
                   },
                   {
                     "type": "max",
@@ -51870,7 +51421,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa3e-8522-3edd-000a",
+                    "id": "pad2-6e01-d21c-000a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -51879,7 +51430,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 10
                   }
                 ],
                 "modifiers": [
@@ -51887,7 +51438,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa19-11a5-1909-000b",
+                    "id": "pacf-3bbe-cf2f-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -51950,13 +51501,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paeb-b164-ebd5-000d"
+                "id": "pa84-6ff1-84e6-000d"
               }
             ]
           },
           {
             "name": "Sacred Champions Upgrades",
-            "id": "pa7c-93fd-7c10-001a",
+            "id": "pa6b-de4a-6bb9-001a",
             "hidden": false,
             "selectionEntries": [
               {
@@ -51964,14 +51515,14 @@
                 "import": true,
                 "name": "Writ of Compunction",
                 "hidden": false,
-                "id": "pac0-7bd7-c01d-0015",
+                "id": "pa37-0317-370a-0015",
                 "profiles": [
                   {
                     "name": "Writ of Compunction",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab6-25ae-b68f-0016",
+                    "id": "pa8a-6bb5-8a7b-0016",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -51988,7 +51539,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pafe-fc7b-fe58-0017"
+                    "id": "pa55-dc51-5579-0017"
                   },
                   {
                     "type": "max",
@@ -51996,7 +51547,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa35-48b8-35ae-0018",
+                    "id": "pa45-fb66-451a-0018",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -52005,7 +51556,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 20
                   }
                 ],
                 "modifiers": [
@@ -52013,7 +51564,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa4b-7ffb-4b4c-0019",
+                    "id": "pa20-f486-2013-0019",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -52076,13 +51627,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa63-ff9a-6303-001b"
+                "id": "pa59-f4a7-59ea-001b"
               }
             ]
           },
           {
             "name": "Sanctified Orators Upgrades",
-            "id": "pa99-9446-998b-0022",
+            "id": "pa6c-9cf6-6c0d-0022",
             "hidden": false,
             "selectionEntries": [
               {
@@ -52090,14 +51641,14 @@
                 "import": true,
                 "name": "Hagiomnifex",
                 "hidden": false,
-                "id": "pafc-2f61-fc29-001c",
+                "id": "pa11-f832-11fa-001c",
                 "profiles": [
                   {
                     "name": "Hagiomnifex",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paf4-a98f-f4d1-001d",
+                    "id": "pa4a-2397-4a95-001d",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -52114,7 +51665,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa3d-adc2-3d86-001e"
+                    "id": "paac-4447-ac3b-001e"
                   },
                   {
                     "type": "max",
@@ -52122,7 +51673,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa01-6fc6-0199-001f",
+                    "id": "pa0e-566a-0efa-001f",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -52131,7 +51682,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 25
                   }
                 ],
                 "modifiers": [
@@ -52139,7 +51690,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paa0-b8af-a00d-0020",
+                    "id": "pab7-278b-b7c8-0020",
                     "conditionGroups": [
                       {
                         "type": "or",
@@ -52172,7 +51723,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa58-b1fa-5844-0021",
+                    "id": "pa33-9f43-3358-0021",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -52230,7 +51781,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa13-c527-1301-0023"
+                "id": "pa1d-1491-1d04-0023"
               }
             ]
           }
@@ -52242,7 +51793,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "paf9-48d0-f9fb-003b",
+            "id": "pa78-2cf6-78b0-003b",
             "includeChildSelections": true
           },
           {
@@ -52251,7 +51802,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa33-8978-334f-003c",
+            "id": "pa98-0257-984f-003c",
             "includeChildSelections": true
           }
         ]
@@ -52573,6 +52124,13 @@
         "targetId": "e15e-17fa-23ca-693e"
       },
       {
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 45
+          }
+        ],
         "constraints": [
           {
             "type": "max",

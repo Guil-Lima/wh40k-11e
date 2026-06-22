@@ -784,16 +784,8 @@
         "name": "X-101",
         "hidden": false,
         "type": "selectionEntry",
-        "id": "pa9b-fb16-9b18-0061",
-        "targetId": "pac0-cd6e-c0bc-004c"
-      },
-      {
-        "import": true,
-        "name": "Terrax-pattern Termite",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "pac5-e1b9-c513-0083",
-        "targetId": "pa3e-a610-3e83-0062"
+        "id": "pa11-652b-11e8-005d",
+        "targetId": "pa6d-30d8-6d80-0048"
       }
     ],
     "sharedSelectionEntries": [
@@ -12693,9 +12685,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7b-8ca0-7b6a-004b",
+            "id": "pae1-bfd8-e177-0047",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -16650,9 +16642,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1b-4df1-1b78-0044",
+            "id": "pafb-fcf3-fb1e-0040",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -23460,9 +23452,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3d-92dc-3d26-0045",
+            "id": "pa27-7f93-27dd-0041",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -23990,9 +23982,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa29-4be8-2973-0046",
+            "id": "paac-b6ac-acc7-0042",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -25152,9 +25144,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf6-ef56-f6df-0047",
+            "id": "pac9-e40d-c93d-0043",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -25668,9 +25660,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0b-ab52-0b4c-0048",
+            "id": "pa68-1867-6899-0044",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -26328,9 +26320,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa5f-3a1f-5fd4-0049",
+            "id": "pa39-f2b7-3900-0045",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -33060,9 +33052,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa83-ce7b-8300-004a",
+            "id": "padd-6af8-dd19-0046",
             "type": "selectionEntryGroup",
-            "targetId": "pafa-9de4-fa7d-0041",
+            "targetId": "pad3-4cfa-d3c4-003d",
             "sortIndex": 4
           }
         ],
@@ -41602,14 +41594,14 @@
         "import": true,
         "name": "X-101",
         "hidden": false,
-        "id": "pac0-cd6e-c0bc-004c",
+        "id": "pa6d-30d8-6d80-0048",
         "profiles": [
           {
             "name": "X-101",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
-            "id": "pa2a-0a74-2ad2-004d",
+            "id": "pade-47f4-de5b-0049",
             "characteristics": [
               {
                 "name": "M",
@@ -41648,7 +41640,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa16-35c0-16ab-004e",
+            "id": "paf5-c71c-f55a-004a",
             "characteristics": [
               {
                 "name": "Description",
@@ -41662,7 +41654,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa51-9d55-511c-004f",
+            "id": "pa0e-32c9-0e6b-004b",
             "characteristics": [
               {
                 "name": "Description",
@@ -41676,7 +41668,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pafb-a596-fb11-0050",
+            "id": "pa08-35ea-08e3-004c",
             "characteristics": [
               {
                 "name": "Description",
@@ -41689,49 +41681,49 @@
         "categoryLinks": [
           {
             "targetId": "cf47-a0d7-7207-29dc",
-            "id": "pa7f-290f-7f49-0051",
+            "id": "pa49-6a5c-4995-004d",
             "primary": true,
             "name": "Infantry"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
-            "id": "pace-58d3-ceef-0052",
+            "id": "pa59-1ac1-5964-004e",
             "primary": false,
             "name": "Imperium"
           },
           {
             "targetId": "9cfd-1c32-585f-7d5c",
-            "id": "pa65-42ff-653a-0053",
+            "id": "paff-9b7a-ffbf-004f",
             "primary": false,
             "name": "Character"
           },
           {
             "targetId": "4f3a-f0f7-6647-348d",
-            "id": "pa2e-45e0-2e00-0054",
+            "id": "pa03-2215-03f8-0050",
             "primary": false,
             "name": "Epic Hero"
           },
           {
             "targetId": "6d46-7883-e5d1-45ee",
-            "id": "pa70-726e-70d3-0055",
+            "id": "paf2-32ed-f275-0051",
             "primary": false,
             "name": "Cult Mechanicus"
           },
           {
             "targetId": "2565-ab00-5e76-8873",
-            "id": "pab5-d58b-b563-0056",
+            "id": "pa18-c304-18f2-0052",
             "primary": false,
             "name": "X-101"
           },
           {
             "targetId": "5418-f86b-6e76-c5a",
-            "id": "paf9-b3bb-f91b-0057",
+            "id": "pa35-f17d-35e9-0053",
             "primary": false,
             "name": "Adeptus Mechanicus"
           },
           {
             "targetId": "5418-f86b-6e76-c5a",
-            "id": "pa7f-f87d-7fb1-0058",
+            "id": "pae7-dd7b-e7b1-0054",
             "primary": false,
             "name": "Faction: Adeptus Mechanicus"
           }
@@ -41749,14 +41741,14 @@
             "import": true,
             "name": "Grav-gun",
             "hidden": false,
-            "id": "paab-525e-abd2-0059",
+            "id": "pa7d-1b4e-7dc1-0055",
             "profiles": [
               {
                 "name": "Grav-gun",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
-                "id": "pa70-e870-704c-005a",
+                "id": "pa68-ba50-689c-0056",
                 "characteristics": [
                   {
                     "name": "Range",
@@ -41803,7 +41795,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paac-9ea1-acf3-005b"
+                "id": "pa11-2bf0-118a-0057"
               },
               {
                 "type": "max",
@@ -41811,7 +41803,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa0b-606a-0bda-005c"
+                "id": "pa05-7810-05b3-0058"
               }
             ]
           },
@@ -41820,14 +41812,14 @@
             "import": true,
             "name": "Hydraulic claw",
             "hidden": false,
-            "id": "pa0d-fa69-0d89-005d",
+            "id": "pada-b25e-dae4-0059",
             "profiles": [
               {
                 "name": "Hydraulic claw",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
-                "id": "pae9-2098-e9fe-005e",
+                "id": "pa6d-162f-6d73-005a",
                 "characteristics": [
                   {
                     "name": "Range",
@@ -41874,7 +41866,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa86-7fb4-86d6-005f"
+                "id": "pa60-072e-6080-005b"
               },
               {
                 "type": "max",
@@ -41882,538 +41874,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paad-a147-adc1-0060"
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "set",
-            "value": true,
-            "field": "hidden",
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "model",
-        "import": true,
-        "name": "Terrax-pattern Termite",
-        "hidden": false,
-        "id": "pa3e-a610-3e83-0062",
-        "profiles": [
-          {
-            "name": "Terrax-pattern Termite",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "pa06-872b-06f4-0063",
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "10"
-              },
-              {
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "14"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              }
-            ]
-          },
-          {
-            "name": "CORE",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pae7-1d7c-e7e2-0064",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deadly Demise D3, Deep Strike"
-              }
-            ]
-          },
-          {
-            "name": "FACTION",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pad4-91c4-d4ad-0065",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Doctrina Imperatives"
-              }
-            ]
-          },
-          {
-            "name": "Termite Assault",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pa1e-1283-1ec5-0066",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
-              }
-            ]
-          },
-          {
-            "name": "Damaged",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "pa21-9d0b-215d-0067",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "DAMAGED: 1-5 WOUNDS REMAINING - While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-              }
-            ]
-          }
-        ],
-        "categoryLinks": [
-          {
-            "targetId": "dbd4-63-af05-998",
-            "id": "pa83-b409-8319-0068",
-            "primary": true,
-            "name": "Vehicle"
-          },
-          {
-            "targetId": "aff3-d6a3-2a95-9dc",
-            "id": "pa1c-a097-1cb8-0069",
-            "primary": false,
-            "name": "Imperium"
-          },
-          {
-            "targetId": "75e8-57c4-40e3-1817",
-            "id": "pa47-11a1-47d4-006a",
-            "primary": false,
-            "name": "Transport"
-          },
-          {
-            "targetId": "ba07-411c-2832-1f79",
-            "id": "pa5c-0d71-5c3d-006b",
-            "primary": false,
-            "name": "Dedicated Transport"
-          },
-          {
-            "targetId": "5f5c-48ec-136a-7c17",
-            "id": "pa36-84bb-3653-006c",
-            "primary": false,
-            "name": "Terrax-pattern Termite"
-          },
-          {
-            "targetId": "5418-f86b-6e76-c5a",
-            "id": "pa3a-ff97-3a62-006d",
-            "primary": false,
-            "name": "Adeptus Mechanicus"
-          },
-          {
-            "targetId": "5418-f86b-6e76-c5a",
-            "id": "pa3f-3b74-3f47-006e",
-            "primary": false,
-            "name": "Faction: Adeptus Mechanicus"
-          }
-        ],
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 0
-          }
-        ],
-        "selectionEntries": [
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Combi-bolter",
-            "hidden": false,
-            "id": "pac6-fb8c-c6e0-006f",
-            "profiles": [
-              {
-                "name": "Combi-bolter",
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "hidden": false,
-                "id": "paab-617a-ab7f-0070",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "24\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "4"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "0"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "RAPID FIRE 2"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa0b-4336-0bed-0071"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa02-0fa7-02cb-0072"
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Heavy flamer",
-            "hidden": false,
-            "id": "pad8-dd35-d8a6-0073",
-            "profiles": [
-              {
-                "name": "Heavy flamer",
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "hidden": false,
-                "id": "pa6b-52b2-6b6d-0074",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "12\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "N/A"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-1"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "IGNORES COVER, TORRENT"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa89-cffe-8982-0075"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa1d-37a6-1d87-0076"
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Terrax melta cutter",
-            "hidden": false,
-            "id": "pa81-7970-8173-0077",
-            "profiles": [
-              {
-                "name": "Terrax melta cutter",
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "hidden": false,
-                "id": "pacb-9fc0-cbb0-0078",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "12\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "9"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-4"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "MELTA 2"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa69-c38a-6932-0079"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa1d-cc8f-1ddc-007a"
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Twin volkite charger",
-            "hidden": false,
-            "id": "pabd-516c-bda7-007b",
-            "profiles": [
-              {
-                "name": "Twin volkite charger",
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "hidden": false,
-                "id": "pa6a-43da-6abe-007c",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "18\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "0"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "DEVASTATING WOUNDS, TWIN-LINKED"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa40-52d3-4093-007d"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa03-df08-0320-007e"
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Termite drill",
-            "hidden": false,
-            "id": "pafe-d819-feb2-007f",
-            "profiles": [
-              {
-                "name": "Termite drill",
-                "typeId": "8a40-4aaa-c780-9046",
-                "typeName": "Melee Weapons",
-                "hidden": false,
-                "id": "pa21-be5a-21af-0080",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "914c-b413-91e3-a132",
-                    "$text": "Melee"
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "2337-daa1-6682-b110",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba",
-                    "$text": "14"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "3254-9fe6-d824-513e",
-                    "$text": "D3+3"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e",
-                    "$text": "ANTI-VEHICLE 3+"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "pa44-f56d-4472-0081"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "paf3-3876-f3b6-0082"
+                "id": "pa9e-ddb0-9e8f-005c"
               }
             ]
           }
@@ -45912,7 +45373,7 @@
           },
           {
             "name": "Cohort Acquisitus Enhancements",
-            "id": "pa31-775b-319c-0005",
+            "id": "pab4-543b-b4e3-0005",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45920,14 +45381,14 @@
                 "import": true,
                 "name": "Explorator Dispensation",
                 "hidden": false,
-                "id": "pa35-0b07-35cc-0000",
+                "id": "pa2b-44bc-2b78-0000",
                 "profiles": [
                   {
                     "name": "Explorator Dispensation",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa06-7c26-06bb-0001",
+                    "id": "pa99-2315-99b1-0001",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -45944,7 +45405,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pad9-b716-d9f5-0002"
+                    "id": "pa3f-95af-3f14-0002"
                   },
                   {
                     "type": "max",
@@ -45952,7 +45413,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pac7-6de4-c72e-0003",
+                    "id": "pafb-35d5-fb80-0003",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -45969,7 +45430,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8a-401f-8a32-0004",
+                    "id": "pa52-5b5d-5242-0004",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46032,13 +45493,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa14-91d0-1432-0006"
+                "id": "pa3b-4f6a-3bcd-0006"
               }
             ]
           },
           {
             "name": "Lords of the Forge Enhancements",
-            "id": "pa3f-30cf-3f67-0018",
+            "id": "pabd-56fc-bd8b-0018",
             "hidden": false,
             "selectionEntries": [
               {
@@ -46046,14 +45507,14 @@
                 "import": true,
                 "name": "Vingh's Wafers of Dynamism",
                 "hidden": false,
-                "id": "pa1e-ef90-1e4b-000e",
+                "id": "pa49-b23a-4969-000e",
                 "profiles": [
                   {
                     "name": "Vingh's Wafers of Dynamism",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa66-b4dc-663d-000f",
+                    "id": "pa8f-05eb-8f72-000f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46070,7 +45531,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa31-3ea1-3127-0010"
+                    "id": "paf2-066e-f2d5-0010"
                   },
                   {
                     "type": "max",
@@ -46078,7 +45539,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa7e-55b0-7e6a-0011",
+                    "id": "pa4a-59a0-4aae-0011",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46095,7 +45556,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa92-297e-9203-0012",
+                    "id": "pa85-76c6-8530-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46121,14 +45582,14 @@
                 "import": true,
                 "name": "TL-4Ø09",
                 "hidden": false,
-                "id": "pae6-fe08-e69d-0013",
+                "id": "paee-d4ee-eee2-0013",
                 "profiles": [
                   {
                     "name": "TL-4Ø09",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paa6-8028-a60d-0014",
+                    "id": "pa55-98bb-55c1-0014",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46145,7 +45606,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paeb-d05a-eb1f-0015"
+                    "id": "pabe-db98-be9b-0015"
                   },
                   {
                     "type": "max",
@@ -46153,7 +45614,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pae0-ad7f-e0e0-0016",
+                    "id": "pa6b-8a15-6b16-0016",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46170,7 +45631,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pac8-a938-c82f-0017",
+                    "id": "pa23-7085-23ef-0017",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46233,13 +45694,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa32-e34c-328b-0019"
+                "id": "pa39-d9b5-3991-0019"
               }
             ]
           },
           {
             "name": "Luminen Auto-choir Enhancements",
-            "id": "pa0b-4ae9-0bd4-0026",
+            "id": "pa11-ca78-11fd-0024",
             "hidden": false,
             "selectionEntries": [
               {
@@ -46247,14 +45708,14 @@
                 "import": true,
                 "name": "Voltagheist Reliquary",
                 "hidden": false,
-                "id": "paff-344d-ffc6-001c",
+                "id": "pa4b-e52e-4b42-001a",
                 "profiles": [
                   {
                     "name": "Voltagheist Reliquary",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa60-9851-60c8-001d",
+                    "id": "pa49-7ee4-49cc-001b",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46271,7 +45732,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa23-17c2-237a-001e"
+                    "id": "pa30-bce1-303c-001c"
                   },
                   {
                     "type": "max",
@@ -46279,7 +45740,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa92-6fae-92a0-001f",
+                    "id": "pa61-a0f2-6155-001d",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46296,7 +45757,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa9f-95f3-9fd0-0020",
+                    "id": "pa59-c245-5989-001e",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46322,14 +45783,14 @@
                 "import": true,
                 "name": "Electromiasmic Brazier",
                 "hidden": false,
-                "id": "pa94-0354-94ca-0021",
+                "id": "pa0b-e63f-0b43-001f",
                 "profiles": [
                   {
                     "name": "Electromiasmic Brazier",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa2a-2120-2ab3-0022",
+                    "id": "pa8f-ad23-8fc5-0020",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46346,7 +45807,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa18-1b8d-185a-0023"
+                    "id": "pa50-96d9-508a-0021"
                   },
                   {
                     "type": "max",
@@ -46354,7 +45815,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa83-515f-8380-0024",
+                    "id": "pab3-c8ee-b319-0022",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46371,7 +45832,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pade-d448-defb-0025",
+                    "id": "pae5-f11d-e507-0023",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46417,7 +45878,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "padc-893d-dcde-001a",
+                        "childId": "65e6-9ab1-6a2c-5410",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -46434,13 +45895,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pae0-f7c6-e085-0027"
+                "id": "paf9-3b6a-f999-0025"
               }
             ]
           },
           {
             "name": "Haloscreed Battle Clade Enhancements",
-            "id": "pa4f-e341-4fc8-003f",
+            "id": "pa00-9f21-0036-003b",
             "hidden": false,
             "selectionEntries": [
               {
@@ -46448,14 +45909,14 @@
                 "import": true,
                 "name": "Transoracular Dyad Wafers",
                 "hidden": false,
-                "id": "pa1e-ed03-1e56-002a",
+                "id": "paa8-477b-a8d5-0026",
                 "profiles": [
                   {
                     "name": "Transoracular Dyad Wafers",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paa1-166b-a1ed-002b",
+                    "id": "pa5f-c3d1-5f05-0027",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46472,7 +45933,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa5a-48d0-5a26-002c"
+                    "id": "pa84-b0f8-84f7-0028"
                   },
                   {
                     "type": "max",
@@ -46480,7 +45941,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa32-4deb-32e6-002d",
+                    "id": "paba-3b0a-ba34-0029",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46497,7 +45958,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf7-9b02-f774-002e",
+                    "id": "pa33-28d6-337c-002a",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46523,14 +45984,14 @@
                 "import": true,
                 "name": "Cognitive Reinforcement",
                 "hidden": false,
-                "id": "pa5e-98c6-5e41-002f",
+                "id": "pa95-4ceb-95d7-002b",
                 "profiles": [
                   {
                     "name": "Cognitive Reinforcement",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa8e-1e56-8ee8-0030",
+                    "id": "pa09-35d2-0984-002c",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46547,7 +46008,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa11-f49e-1188-0031"
+                    "id": "pa6a-c3fc-6aa2-002d"
                   },
                   {
                     "type": "max",
@@ -46555,7 +46016,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pab8-e48f-b8a7-0032",
+                    "id": "paec-1056-ec9b-002e",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46572,7 +46033,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa61-3fff-6163-0033",
+                    "id": "pa6d-e269-6db8-002f",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46595,7 +46056,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa98-72a1-982b-0034",
+                    "id": "pa9e-81fd-9e1c-0030",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -46616,14 +46077,14 @@
                 "import": true,
                 "name": "Sanctified Ordnance",
                 "hidden": false,
-                "id": "pafd-d41c-fd9c-0035",
+                "id": "padf-5f7e-dfee-0031",
                 "profiles": [
                   {
                     "name": "Sanctified Ordnance",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paf0-a808-f00e-0036",
+                    "id": "pab3-5440-b32d-0032",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46640,7 +46101,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa48-b680-4858-0037"
+                    "id": "pa9d-4e83-9de1-0033"
                   },
                   {
                     "type": "max",
@@ -46648,7 +46109,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pad5-5169-d5e7-0038",
+                    "id": "pa36-6860-36ef-0034",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46665,7 +46126,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa36-d92e-3655-0039",
+                    "id": "pa2b-11fe-2b6b-0035",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46691,14 +46152,14 @@
                 "import": true,
                 "name": "Inloaded Lethality",
                 "hidden": false,
-                "id": "pa05-2fe0-052d-003a",
+                "id": "pa9d-015b-9d1e-0036",
                 "profiles": [
                   {
                     "name": "Inloaded Lethality",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paff-c98c-ff55-003b",
+                    "id": "paf6-59d9-f6dc-0037",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -46715,7 +46176,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paf7-c314-f716-003c"
+                    "id": "pa29-9021-29cf-0038"
                   },
                   {
                     "type": "max",
@@ -46723,7 +46184,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paf0-d9bb-f0be-003d",
+                    "id": "pac4-c9e0-c458-0039",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -46740,7 +46201,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf0-3af5-f0db-003e",
+                    "id": "pa3d-3f4f-3dfe-003a",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46806,7 +46267,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa93-7435-93e7-0028",
+                        "childId": "ce65-6b89-4a0e-4f3b",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -46823,7 +46284,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pada-4cab-dab3-0040"
+                "id": "pa5c-2749-5c1a-003c"
               }
             ]
           }
@@ -55196,50 +54657,6 @@
                 "value": 0
               }
             ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Luminen Auto-choir",
-            "hidden": false,
-            "id": "padc-893d-dcde-001a",
-            "rules": [
-              {
-                "name": "Cyber-static Canticles",
-                "id": "pa2e-ec4a-2e95-001b",
-                "hidden": false,
-                "description": "With voices or binharic emissions raised in holy verse, the disciples of the Motive Force roar their worship. Thunderheads of potentiality roil above them, and rival sects vie to prove the supremacy of their visionary dogma with coruscating intensity.\n\n- Friendly CORPUSCARII units' ranged attacks have [LETHAL HITS].\n- When a friendly FULGURITE unit has fought, that unit heals D3 wounds.\n\nThis detachment has the DATA-PSALM tag and cannot be taken with another DATA-PSALM detachment."
-              }
-            ],
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Haloscreed Battle Clade",
-            "hidden": false,
-            "id": "pa93-7435-93e7-0028",
-            "rules": [
-              {
-                "name": "Noospheric Transference",
-                "id": "pa61-18ab-6130-0029",
-                "hidden": false,
-                "description": "Tech-Priests can override the will of their thralls and project martial data inloads into the minds of their warriors, blessing the soldiery with endless streams of precisely tailored binharic code.\n\nIn your Command phase, select one or more Adeptus Mechanicus units from your army (including units that are embarked within Transports). The maximum number of units you can select depends on the battle size, as follows:\n- INCURSION: 1 UNIT\n- STRIKE FORCE: 2 UNITS\n- ONSLAUGHT: 3 UNITS\n\nUntil the start of your next Command phase, those units gain the Halo Override keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the Halo Override keyword have the selected Override ability:\n\nElectromotive Energisation: Add 2\" to the Move characteristic of models in this unit.\nMicroactuator Bracing: Add 1 to the Toughness characteristic of models in this unit.\nPredation Protocols: This unit is eligible to declare a charge in a turn in which it Advanced.\nMuted Servomotors: Models in this unit have the Stealth ability."
-              }
-            ],
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 3
-              }
-            ]
           }
         ],
         "name": "Detachments",
@@ -55249,13 +54666,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pafa-9de4-fa7d-0041",
+        "id": "pad3-4cfa-d3c4-003d",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Cohort Acquisitus Upgrades",
-            "id": "pa6b-f763-6b16-000c",
+            "id": "pa55-8601-551b-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -55263,14 +54680,14 @@
                 "import": true,
                 "name": "Stealth-Screened Cybercanids",
                 "hidden": false,
-                "id": "pa82-ef8f-8268-0007",
+                "id": "pa7d-3722-7da9-0007",
                 "profiles": [
                   {
                     "name": "Stealth-Screened Cybercanids",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab9-a74b-b99c-0008",
+                    "id": "pa7a-f67f-7a78-0008",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -55287,7 +54704,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa08-6acb-08ae-0009"
+                    "id": "pac5-5836-c5c4-0009"
                   },
                   {
                     "type": "max",
@@ -55295,7 +54712,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa27-d713-2704-000a",
+                    "id": "pabc-8fe1-bc72-000a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -55304,7 +54721,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -55312,7 +54729,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad0-9e76-d089-000b",
+                    "id": "pa45-6320-456d-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -55375,7 +54792,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa23-5e42-23b2-000d"
+                "id": "pa3d-d51d-3d8e-000d"
               }
             ]
           }
@@ -55387,7 +54804,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pabc-038f-bc18-0042",
+            "id": "pa88-2483-88dd-003e",
             "includeChildSelections": true
           },
           {
@@ -55396,7 +54813,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "paf1-7658-f138-0043",
+            "id": "pafc-cd88-fcf8-003f",
             "includeChildSelections": true
           }
         ]

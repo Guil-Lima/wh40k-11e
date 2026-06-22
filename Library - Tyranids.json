@@ -505,7 +505,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 170
+            "value": 185
           },
           {
             "name": "Crusade Points",
@@ -2202,25 +2202,26 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 80
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 155,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 10,
+                "type": "atLeast",
+                "value": 20,
                 "field": "selections",
                 "scope": "9ce8-7a63-15c3-0347",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -3458,7 +3459,50 @@
         "import": true,
         "name": "Hyperadapted Raveners",
         "hidden": false,
-        "id": "c10d-772e-a54f-a2b9"
+        "id": "c10d-772e-a54f-a2b9",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c10d-772e-a54f-a2b9",
+                        "shared": true,
+                        "childName": "Hyperadapted Raveners"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -4857,7 +4901,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -5528,7 +5572,50 @@
         "import": true,
         "name": "Neurolictor",
         "hidden": false,
-        "id": "642f-9302-4fdc-ab68"
+        "id": "642f-9302-4fdc-ab68",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "642f-9302-4fdc-ab68",
+                        "shared": true,
+                        "childName": "Neurolictor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -5659,7 +5746,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           }
         ],
         "infoLinks": [
@@ -7024,7 +7111,50 @@
         "import": true,
         "name": "Raveners",
         "hidden": false,
-        "id": "3f5-f7d6-1ce8-e6b9"
+        "id": "3f5-f7d6-1ce8-e6b9",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "3f5-f7d6-1ce8-e6b9",
+                        "shared": true,
+                        "childName": "Raveners"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -7824,7 +7954,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 90
           }
         ],
         "infoLinks": [
@@ -8385,25 +8515,26 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "9bd8-ac8c-2d3b-79f6",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -9545,22 +9676,26 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 40,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "equalTo",
+                "type": "atLeast",
                 "value": 2,
                 "field": "selections",
                 "scope": "1de2-b57b-aa0a-1f0d",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 40,
-            "field": "51b2-306e-1021-d207"
+            ]
           },
           {
+            "type": "set",
+            "value": 50,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -9569,12 +9704,10 @@
                 "scope": "1de2-b57b-aa0a-1f0d",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 50,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "modifierGroups": [
@@ -9688,7 +9821,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 25
+            "value": 30
           },
           {
             "name": "Crusade Points",
@@ -20812,7 +20945,7 @@
           },
           {
             "name": "Heroes of the Uprising Enhancements",
-            "id": "paf9-b0a2-f92e-000c",
+            "id": "pa97-8a41-97c4-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -20820,14 +20953,14 @@
                 "import": true,
                 "name": "Gene-tailored Toxins",
                 "hidden": false,
-                "id": "pa65-5310-6505-0002",
+                "id": "pabc-e01d-bc4c-0002",
                 "profiles": [
                   {
                     "name": "Gene-tailored Toxins",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa8d-8464-8db8-0003",
+                    "id": "pa99-cd00-99a7-0003",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -20844,7 +20977,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pade-83bb-de45-0004"
+                    "id": "pafa-575d-fa11-0004"
                   },
                   {
                     "type": "max",
@@ -20852,7 +20985,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa6b-b534-6bc9-0005",
+                    "id": "pa97-3a9a-971a-0005",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -20861,7 +20994,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 35
                   }
                 ],
                 "modifiers": [
@@ -20869,7 +21002,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa38-4e36-38b0-0006",
+                    "id": "pa72-2e72-7293-0006",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -20915,14 +21048,14 @@
                 "import": true,
                 "name": "Contraband Munitions",
                 "hidden": false,
-                "id": "pa95-13ee-958f-0007",
+                "id": "pae6-006d-e609-0007",
                 "profiles": [
                   {
                     "name": "Contraband Munitions",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa82-276c-82c6-0008",
+                    "id": "pa3a-c548-3af4-0008",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -20939,7 +21072,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa71-7d24-710a-0009"
+                    "id": "pabe-d039-beaa-0009"
                   },
                   {
                     "type": "max",
@@ -20947,7 +21080,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa4f-7619-4fde-000a",
+                    "id": "pa43-ecf3-43c2-000a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -20956,7 +21089,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 20
                   }
                 ],
                 "modifiers": [
@@ -20964,7 +21097,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa6e-38eb-6eaf-000b",
+                    "id": "pab9-7143-b972-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -21030,7 +21163,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pac7-42e4-c732-0000",
+                        "childId": "pabd-9716-bd3d-0000",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -21047,13 +21180,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa95-6bfa-954a-000d"
+                "id": "pa8e-d31f-8ef0-000d"
               }
             ]
           },
           {
             "name": "Purestrain Broodswarm Enhancements",
-            "id": "pa0a-a5df-0a5c-0015",
+            "id": "pa30-9a53-307d-0015",
             "hidden": false,
             "selectionEntries": [
               {
@@ -21061,14 +21194,14 @@
                 "import": true,
                 "name": "Talons of the Sire",
                 "hidden": false,
-                "id": "pabd-3ce0-bda7-0010",
+                "id": "pa2c-dfd5-2c41-0010",
                 "profiles": [
                   {
                     "name": "Talons of the Sire",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paa8-86b9-a8dd-0011",
+                    "id": "paa2-4ca6-a2c7-0011",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -21085,7 +21218,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa05-bea3-05b2-0012"
+                    "id": "pa60-1954-6090-0012"
                   },
                   {
                     "type": "max",
@@ -21093,7 +21226,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa99-1565-99c2-0013",
+                    "id": "paab-95f8-ab3a-0013",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -21102,7 +21235,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -21110,7 +21243,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paba-07cd-bad9-0014",
+                    "id": "pa97-e9c5-9704-0014",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -21156,7 +21289,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa32-975b-32f6-000e",
+                        "childId": "pa19-ab5b-195d-000e",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -21173,13 +21306,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paf5-c5e8-f5a2-0016"
+                "id": "pace-0dc4-ce36-0016"
               }
             ]
           },
           {
             "name": "Xenocult Masses Enhancements",
-            "id": "pabf-e3c0-bfa4-0025",
+            "id": "pabb-41f5-bbe1-0025",
             "hidden": false,
             "selectionEntries": [
               {
@@ -21187,14 +21320,14 @@
                 "import": true,
                 "name": "Inspired to Greatness",
                 "hidden": false,
-                "id": "pab1-7570-b17d-0020",
+                "id": "pa0f-fb87-0f31-0020",
                 "profiles": [
                   {
                     "name": "Inspired to Greatness",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa6e-f4d9-6eb6-0021",
+                    "id": "pa23-eadf-230c-0021",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -21211,7 +21344,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa78-97b5-78a1-0022"
+                    "id": "pac4-a79a-c42a-0022"
                   },
                   {
                     "type": "max",
@@ -21219,7 +21352,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa20-39f5-2096-0023",
+                    "id": "pa5d-f057-5dd7-0023",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -21228,7 +21361,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -21236,7 +21369,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa81-4b24-8142-0024",
+                    "id": "pa89-b1ce-896f-0024",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -21302,7 +21435,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa19-3ada-19bd-001e",
+                        "childId": "pae6-2558-e6da-001e",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -21319,7 +21452,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa59-8768-5947-0026"
+                "id": "paf0-83c4-f0b0-0026"
               }
             ]
           }
@@ -21403,6 +21536,11 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
               }
             ],
             "rules": [
@@ -21492,7 +21630,14 @@
             "import": true,
             "name": "Assimilation Swarm",
             "hidden": false,
-            "id": "bba-65f6-a4d1-66ae"
+            "id": "bba-65f6-a4d1-66ae",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -21525,7 +21670,14 @@
             "import": true,
             "name": "Crusher Stampede",
             "hidden": false,
-            "id": "850e-bee1-4845-820d"
+            "id": "850e-bee1-4845-820d",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -21558,7 +21710,14 @@
             "import": true,
             "name": "Synaptic Nexus",
             "hidden": false,
-            "id": "16ff-a068-4c31-285a"
+            "id": "16ff-a068-4c31-285a",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -21591,7 +21750,14 @@
             "import": true,
             "name": "Unending Swarm",
             "hidden": false,
-            "id": "4cd9-313f-cd9b-c85a"
+            "id": "4cd9-313f-cd9b-c85a",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -21630,7 +21796,14 @@
             "import": true,
             "name": "Vanguard Onslaught",
             "hidden": false,
-            "id": "f773-f91c-2999-c7e1"
+            "id": "f773-f91c-2999-c7e1",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "modifiers": [
@@ -21691,7 +21864,14 @@
             "import": true,
             "name": "Warrior Bioform Onslaught",
             "hidden": false,
-            "id": "7416-b7cc-fdbf-5bf0"
+            "id": "7416-b7cc-fdbf-5bf0",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
+              }
+            ]
           },
           {
             "rules": [
@@ -21730,7 +21910,14 @@
             "import": true,
             "name": "Subterranean Assault",
             "hidden": false,
-            "id": "731f-1524-da02-945b"
+            "id": "731f-1524-da02-945b",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -21936,13 +22123,20 @@
             "import": true,
             "name": "Heroes of the Uprising",
             "hidden": false,
-            "id": "pac7-42e4-c732-0000",
+            "id": "pabd-9716-bd3d-0000",
             "rules": [
               {
                 "name": "Killer Reputation",
-                "id": "pac0-90fc-c016-0001",
+                "id": "pa32-c30b-32a8-0001",
                 "hidden": false,
                 "description": "What passes for folk heroism amongst the deviants of the Genestealer Cults is part broodmind compulsion and unwilling worship, and part these champions' ability to commit deeds of great and terrible violence against any who stand in the way of the cult.\n\n- Friendly KELERMORPH/LOCUS/REDUCTUS SABOTEUR/SANCTUS models have KILLER.\n- Friendly KILLER models' attacks can:\n  - Re-roll hit rolls of 1.\n  - Re-roll wound rolls of 1."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           },
@@ -21951,13 +22145,20 @@
             "import": true,
             "name": "Purestrain Broodswarm",
             "hidden": false,
-            "id": "pa32-975b-32f6-000e",
+            "id": "pa19-ab5b-195d-000e",
             "rules": [
               {
                 "name": "Enemy Within",
-                "id": "pa99-b09b-9928-000f",
+                "id": "pa14-2a55-1421-000f",
                 "hidden": false,
                 "description": "Genestealers on the hunt combine malevolent cunning and inhuman agility to strike and fade again and again, until their prey are reduced to panicked disarray.\n\nAt the end of your opponent's Fight phase, friendly unengaged PURESTRAIN GENESTEALER units can be placed in strategic reserves.\n\nThis detachment has the PURESTRAIN tag and cannot be taken with another PURESTRAIN detachment."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           },
@@ -21966,13 +22167,20 @@
             "import": true,
             "name": "Xenocult Masses",
             "hidden": false,
-            "id": "pa19-3ada-19bd-001e",
+            "id": "pae6-2558-e6da-001e",
             "rules": [
               {
                 "name": "Hordes of the Faithful",
-                "id": "pa63-103c-63ae-001f",
+                "id": "pa0e-d51f-0e0d-001f",
                 "hidden": false,
                 "description": "More and yet more Neophytes surge from tunnel mouths, mine entrances and derelict fortifications, drowning the foe in a tide of fanatical killers.\n\nIn your Command phase, if a friendly NEOPHYTE HYBRIDS unit is within a terrain area, that unit heals 3 wounds.\n\nThis detachment has the HOSTS tag and cannot be taken with another HOSTS detachment."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           },
@@ -21981,13 +22189,20 @@
             "import": true,
             "name": "Final Day",
             "hidden": false,
-            "id": "pa03-8042-0349-002e",
+            "id": "pa86-5c26-8687-002e",
             "rules": [
               {
                 "name": "Psionic Parasitism",
-                "id": "pa7b-edb0-7b2e-002f",
+                "id": "pa2e-9b00-2e4e-002f",
                 "hidden": false,
                 "description": "With each tug on the synaptic leash, the Hive Mind drains more of its hapless worshippers.\n\nAt the end of your Movement phase, for each Tyranids Synapse unit from your army, you can select one friendly Genestealer Cults unit (excluding Purestrain Genestealer and Patriarch units) and one friendly Tyranids unit each within 9\" of and visible to that Synapse unit. If you do, that Genestealer Cults unit from your army suffers D3+1 mortal wounds and one model in the selected Tyranids unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected Tyranids unit makes an attack, add 1 to the Hit roll.\n\nTyranids units from your army have the following ability:\n\nCatalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly Genestealer Cults unit makes an attack that targets that enemy unit, add 1 to the Hit roll.\n\nThe Star Children's Blessings: You can include Tyranids Vanguard Invader units (excluding Aircraft, Broodlord and Genestealers units) in your army. The combined points cost of such units depends on your battle size:\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nNo Tyranids models from your army can be your Warlord."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
               }
             ]
           },
@@ -21996,13 +22211,20 @@
             "import": true,
             "name": "Ambush Predators",
             "hidden": false,
-            "id": "pa54-e320-54d0-0000",
+            "id": "paa4-77bc-a4cc-0000",
             "rules": [
               {
                 "name": "Mindhunger",
-                "id": "pafd-67f2-fdb4-0001",
+                "id": "paf5-9ef1-f57f-0001",
                 "hidden": false,
                 "description": "Ravenous instinct drives these vanguard organisms to predate leaders amongst the prey, and to crack open their crania and devour the quivering mind-meat within.\n\n- Friendly DEATHLEAPER/LICTOR/NEUROLICTOR units have Deep Strike.\n- Friendly LICTOR/NEUROLICTOR units' attacks that target a CHARACTER unit can re-roll hit rolls of 1."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           },
@@ -22011,13 +22233,20 @@
             "import": true,
             "name": "Talons of the Norn Queen",
             "hidden": false,
-            "id": "pa4c-65fc-4c95-0002",
+            "id": "pada-eb40-dac1-0002",
             "rules": [
               {
                 "name": "Higher Imperatives",
-                "id": "pa8f-b688-8fc7-0003",
+                "id": "paa2-ac9f-a206-0003",
                 "hidden": false,
                 "description": "Capable of incredibly complex reasoning and a frightening level of self-direction, Norn Emissaries and Assimilators display great agency and alien cunning in the completion of their tasks.\n\nFriendly NORN EMISSARY/NORN ASSIMILATOR units have the following ability:\n  Protean Purpose: (Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its Singular Purpose ability (this replaces the previous selection)."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           }
@@ -25479,7 +25708,14 @@
             "import": true,
             "name": "Host of Ascension",
             "hidden": false,
-            "id": "0a79-5968-68f0-56b5"
+            "id": "0a79-5968-68f0-56b5",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
+              }
+            ]
           },
           {
             "infoLinks": [
@@ -25521,7 +25757,14 @@
             "import": true,
             "name": "Xenocreed Congregation",
             "hidden": false,
-            "id": "536a-b3ea-7597-81bb"
+            "id": "536a-b3ea-7597-81bb",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -25554,7 +25797,14 @@
             "import": true,
             "name": "Biosanctic Broodsurge",
             "hidden": false,
-            "id": "ff11-0fa4-2950-380e"
+            "id": "ff11-0fa4-2950-380e",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -25587,7 +25837,14 @@
             "import": true,
             "name": "Outlander Claw",
             "hidden": false,
-            "id": "59e2-4fec-2b00-b1e8"
+            "id": "59e2-4fec-2b00-b1e8",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -29968,13 +30225,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa20-cd9e-2047-0030",
+        "id": "pa04-b195-0499-0030",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Purestrain Broodswarm Upgrades",
-            "id": "pa5b-93b4-5bc2-001c",
+            "id": "padf-8f65-df4e-001c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -29982,14 +30239,14 @@
                 "import": true,
                 "name": "Mark of the Star Children",
                 "hidden": false,
-                "id": "pa92-de40-920d-0017",
+                "id": "pa61-aac9-61b4-0017",
                 "profiles": [
                   {
                     "name": "Mark of the Star Children",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paab-7938-ab30-0018",
+                    "id": "pa0c-c4c6-0cf9-0018",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -30006,7 +30263,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa51-3a8d-51ac-0019"
+                    "id": "pa87-539a-87c8-0019"
                   },
                   {
                     "type": "max",
@@ -30014,7 +30271,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa6c-67f8-6c30-001a",
+                    "id": "pa32-ec55-32e6-001a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -30023,7 +30280,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 30
                   }
                 ],
                 "modifiers": [
@@ -30031,7 +30288,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa6f-4436-6f23-001b",
+                    "id": "pa12-0c83-1201-001b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -30077,7 +30334,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa32-975b-32f6-000e",
+                        "childId": "pa19-ab5b-195d-000e",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -30094,13 +30351,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa6b-54a4-6b89-001d"
+                "id": "pab3-3f6b-b3c0-001d"
               }
             ]
           },
           {
             "name": "Xenocult Masses Upgrades",
-            "id": "pa75-16db-75c5-002c",
+            "id": "paa3-77c5-a3b3-002c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -30108,14 +30365,14 @@
                 "import": true,
                 "name": "Devious Disguises",
                 "hidden": false,
-                "id": "pa40-7de7-40d0-0027",
+                "id": "pad8-44b6-d819-0027",
                 "profiles": [
                   {
                     "name": "Devious Disguises",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa3f-766f-3f2f-0028",
+                    "id": "pa5b-16c4-5bf1-0028",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -30132,7 +30389,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa9c-a76b-9ce5-0029"
+                    "id": "pa0d-f5ac-0d19-0029"
                   },
                   {
                     "type": "max",
@@ -30140,7 +30397,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa65-c3d0-6525-002a",
+                    "id": "pa95-34f0-9525-002a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -30149,7 +30406,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   }
                 ],
                 "modifiers": [
@@ -30157,7 +30414,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa1e-0581-1efd-002b",
+                    "id": "pad9-0373-d9db-002b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -30203,7 +30460,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa19-3ada-19bd-001e",
+                        "childId": "pae6-2558-e6da-001e",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -30220,7 +30477,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa9c-dc41-9c46-002d"
+                "id": "pa5d-63e4-5dc0-002d"
               }
             ]
           }
@@ -30232,7 +30489,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa61-27f7-61b7-0031",
+            "id": "pa8d-88fc-8de4-0031",
             "includeChildSelections": true
           },
           {
@@ -30241,7 +30498,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa35-cb05-3516-0032",
+            "id": "pafa-2f87-fa7a-0032",
             "includeChildSelections": true
           }
         ]
