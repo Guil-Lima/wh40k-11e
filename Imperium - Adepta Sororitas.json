@@ -751,9 +751,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa84-b259-840d-0023",
+            "id": "pae0-a407-e0dd-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -5276,9 +5276,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad1-8f3e-d1c4-0019",
+            "id": "pab0-ba9a-b047-0019",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -7287,9 +7287,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6b-7177-6b70-0022",
+            "id": "pa49-c205-4960-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -8100,9 +8100,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabf-29e8-bf3d-0024",
+            "id": "paf4-1408-f4ba-0024",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -8241,9 +8241,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0b-9c4a-0b08-001a",
+            "id": "pae9-851e-e9e5-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -8872,9 +8872,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3a-e61f-3aaa-001b",
+            "id": "pa1e-9341-1ed1-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -10880,9 +10880,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad6-06ab-d606-0021",
+            "id": "pa1c-8e7a-1c2e-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -11697,9 +11697,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa74-eec0-7456-001c",
+            "id": "pa2f-92a5-2f72-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -12384,9 +12384,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa35-2845-3537-001d",
+            "id": "pa71-a537-7199-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -14205,9 +14205,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2f-c2fa-2f07-0025",
+            "id": "pac5-4138-c5ed-0025",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -16037,9 +16037,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa20-dcca-20e0-0026",
+            "id": "pa46-34c2-4628-0026",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -16900,9 +16900,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1d-0d56-1da4-001e",
+            "id": "padc-357b-dc90-001e",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -20843,9 +20843,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pafa-90f0-faf4-001f",
+            "id": "pa3e-7177-3ee6-001f",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -26819,9 +26819,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa19-617b-19f8-0027",
+            "id": "pae6-0c0e-e67b-0027",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -29798,9 +29798,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa62-8e89-6200-0020",
+            "id": "pac5-cec5-c5a6-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -31519,9 +31519,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa69-69c4-69f0-0028",
+            "id": "pab2-e672-b2cb-0028",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -35206,9 +35206,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa65-ddf0-6530-0029",
+            "id": "pa1f-1fa5-1fe0-0029",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -35811,9 +35811,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa56-3fdc-56fe-002a",
+            "id": "pa1c-2a1d-1c9c-002a",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -36409,9 +36409,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1d-e2f4-1dd0-002b",
+            "id": "pa3c-905a-3c80-002b",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -37471,9 +37471,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae0-5c3a-e0f2-002c",
+            "id": "pa86-eb5a-86fa-002c",
             "type": "selectionEntryGroup",
-            "targetId": "pa34-017c-3479-0016",
+            "targetId": "pac8-7661-c872-0016",
             "sortIndex": 4
           }
         ],
@@ -41552,7 +41552,7 @@
         "selectionEntryGroups": [
           {
             "name": "Chorus of Condemnation Enhancements",
-            "id": "pad2-8da0-d247-0000",
+            "id": "pa4b-ab35-4b46-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41635,7 +41635,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5f-f504-5f02-0002",
+                    "id": "pa4b-6108-4b4d-0002",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41700,13 +41700,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa7f-65d3-7f43-0001"
+                "id": "pa6f-1bf6-6f21-0001"
               }
             ]
           },
           {
             "name": "Sacred Champions Enhancements",
-            "id": "pa1d-7196-1d66-0006",
+            "id": "pa25-e759-251b-0006",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41732,7 +41732,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad6-c822-d69b-0008",
+                    "id": "paf5-bf40-f500-0008",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41854,13 +41854,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa77-915b-7768-0007"
+                "id": "pa1c-9b82-1cc9-0007"
               }
             ]
           },
           {
             "name": "Champions of Faith Enhancements",
-            "id": "pa86-2b3c-86d3-0010",
+            "id": "pad4-aaa1-d43a-0010",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41944,7 +41944,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa50-3c0b-5018-0012",
+                    "id": "paca-d42b-ca08-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -42112,7 +42112,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa4e-cc19-4e27-0013",
+                    "id": "pa72-f503-72a3-0013",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -42216,7 +42216,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa11-aa74-1105-0014",
+                    "id": "pa5a-1830-5ace-0014",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -42320,7 +42320,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad7-2c50-d726-0015",
+                    "id": "pa1c-6589-1c62-0015",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -42385,7 +42385,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa24-4b35-249f-0011"
+                "id": "pa33-a43e-3351-0011"
               }
             ]
           }
@@ -52044,13 +52044,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa34-017c-3479-0016",
+        "id": "pac8-7661-c872-0016",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Chorus of Condemnation Upgrades",
-            "id": "pab5-4a54-b5a0-0003",
+            "id": "pad3-2a0a-d313-0003",
             "hidden": false,
             "selectionEntries": [
               {
@@ -52176,7 +52176,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paae-dda8-aec6-0005",
+                    "id": "pa6b-4982-6bf3-0005",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -52239,13 +52239,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa75-6dd3-75e0-0004"
+                "id": "pa19-53c2-19f8-0004"
               }
             ]
           },
           {
             "name": "Sacred Champions Upgrades",
-            "id": "pa84-a98b-847a-0009",
+            "id": "pa14-9ab4-1462-0009",
             "hidden": false,
             "selectionEntries": [
               {
@@ -52287,7 +52287,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8f-58f1-8f9f-000b",
+                    "id": "pa4e-9c4b-4ee0-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -52435,13 +52435,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa10-4e2f-1079-000a"
+                "id": "pa88-2279-88f3-000a"
               }
             ]
           },
           {
             "name": "Sanctified Orators Upgrades",
-            "id": "pa44-1257-44ad-000c",
+            "id": "pafd-ec55-fdb6-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -52491,7 +52491,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa92-76fa-92a3-000e",
+                    "id": "pa5d-4925-5d7c-000e",
                     "conditionGroups": [
                       {
                         "type": "or",
@@ -52524,7 +52524,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3e-202a-3ea0-000f",
+                    "id": "pa28-e590-281a-000f",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -52624,7 +52624,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa8d-9b57-8dc4-000d"
+                "id": "pa09-6c59-0978-000d"
               }
             ]
           }
@@ -52636,7 +52636,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pae3-fb6f-e328-0017",
+            "id": "pacf-c1d8-cf0f-0017",
             "includeChildSelections": true
           },
           {
@@ -52645,7 +52645,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "paf3-2ee7-f382-0018",
+            "id": "pa74-e14d-746d-0018",
             "includeChildSelections": true
           }
         ]

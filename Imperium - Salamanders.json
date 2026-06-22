@@ -45,7 +45,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 80
           }
         ],
         "categoryLinks": [
@@ -772,7 +772,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 85
           }
         ],
         "categoryLinks": [

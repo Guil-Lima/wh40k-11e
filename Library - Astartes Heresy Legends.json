@@ -26291,7 +26291,14 @@
         "name": "Armoured Speartip",
         "hidden": false,
         "id": "187b-6ef3-33dd-fe0d",
-        "comment": "Moved to top level library for logic support"
+        "comment": "Moved to top level library for logic support",
+        "costs": [
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 3
+          }
+        ]
       },
       {
         "profiles": [
