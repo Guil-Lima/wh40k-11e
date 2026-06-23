@@ -32292,6 +32292,7 @@
     "name": "Warhammer 40,000 11th Edition",
     "revision": 118,
     "battleScribeVersion": 2.03,
-    "type": "gameSystem"
+    "type": "gameSystem",
+    "readme": "EXPERIMENTAL PREVIEW OF 11th\nThis version of 11th has been generated automatically from the Faction Packs and MFM, it will be temporarily used by New Recruit until 11th is ready. Please mind the Following:\n- Leaders are not in (old system may be used).\n- Anything not in the Faction Packs will not be in, some detachments are already in the 40k app but not released officially.\n- Lists you make here may be lost when 11th is officially released on New Recruit (probably within 1-2 weeks)."
   }
 }
