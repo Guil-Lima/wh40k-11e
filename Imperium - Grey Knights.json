@@ -35751,6 +35751,17 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "44ee-1bac-32fd-229e"
+              }
             ]
           },
           {
@@ -35790,6 +35801,17 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 3
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "cf2b-bd75-8faf-15b1"
               }
             ]
           },
@@ -35831,6 +35853,17 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "cd64-6252-184e-8b1a"
+              }
             ]
           },
           {
@@ -35870,6 +35903,17 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "3aac-61b4-7de8-cf49"
               }
             ]
           },
@@ -35911,6 +35955,17 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "dd49-e173-e3fc-2c27"
+              }
             ]
           },
           {
@@ -35950,6 +36005,17 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "4864-f51c-cb24-f50d"
               }
             ]
           },
@@ -36006,7 +36072,18 @@
             "import": true,
             "name": "Void Purge Force",
             "hidden": false,
-            "id": "ae8e-359f-01ff-52d1"
+            "id": "ae8e-359f-01ff-52d1",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "e1bd-dac7-8b88-3b27"
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -36061,7 +36138,18 @@
             "import": true,
             "name": "Baneslayer Strike",
             "hidden": false,
-            "id": "29c0-f8cf-111e-a87c"
+            "id": "29c0-f8cf-111e-a87c",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "3bea-74c8-47b4-834f"
+              }
+            ]
           },
           {
             "rules": [
@@ -36100,6 +36188,17 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "50e9-57dd-b122-b60b"
               }
             ]
           },
@@ -36141,6 +36240,17 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "e8c9-4f98-8eef-550a"
+              }
             ]
           },
           {
@@ -36180,6 +36290,17 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "includeChildSelections": true,
+                "id": "5daf-5696-8fe2-b149"
               }
             ]
           }

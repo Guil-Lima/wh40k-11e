@@ -663,9 +663,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf9-9598-f983-0022",
+            "id": "pa89-1ea8-ef95-4fc7",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ]
@@ -1256,9 +1256,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa97-c062-9784-0020",
+            "id": "pa96-7514-a474-b70a",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ]
@@ -1819,9 +1819,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf2-dea6-f258-0021",
+            "id": "paba-e4c8-a403-3d64",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ]
@@ -2346,9 +2346,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa85-5958-858d-001f",
+            "id": "pa80-fec3-8df9-5aba",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ]
@@ -2554,9 +2554,9 @@
                 "import": true,
                 "name": "Upgrades",
                 "hidden": false,
-                "id": "pa62-60d9-624e-0019",
+                "id": "paff-73e6-336f-a72a",
                 "type": "selectionEntryGroup",
-                "targetId": "pa2d-bd69-2d99-0016",
+                "targetId": "paaa-8856-a358-91fb",
                 "sortIndex": 4
               }
             ],
@@ -12952,9 +12952,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa5b-29f2-5b0f-001a",
+            "id": "pacd-cce1-8379-8b89",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ],
@@ -17849,9 +17849,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf6-e10c-f629-001b",
+            "id": "pa43-2461-9136-d306",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ],
@@ -19179,6 +19179,17 @@
                     "typeId": "f759-1bc4-cb3a-f0d2",
                     "value": 0
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "id": "4d72-25c4-7dd5-fa01"
+                  }
                 ]
               },
               {
@@ -19235,6 +19246,17 @@
                     "name": "Enhancements",
                     "typeId": "f759-1bc4-cb3a-f0d2",
                     "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "id": "470b-3fb9-eba0-cc0b"
                   }
                 ]
               },
@@ -19293,6 +19315,17 @@
                     "typeId": "f759-1bc4-cb3a-f0d2",
                     "value": 0
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "id": "acf5-c9ed-d623-7527"
+                  }
                 ]
               },
               {
@@ -19350,6 +19383,17 @@
                     "typeId": "f759-1bc4-cb3a-f0d2",
                     "value": 0
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "id": "a94f-3f39-583a-836e"
+                  }
                 ]
               },
               {
@@ -19406,6 +19450,17 @@
                     "name": "Enhancements",
                     "typeId": "f759-1bc4-cb3a-f0d2",
                     "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "id": "33a7-ce8e-487a-33b0"
                   }
                 ]
               }
@@ -19718,9 +19773,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa52-565e-52ce-001c",
+            "id": "pa58-a05d-bc3d-eaec",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ],
@@ -20751,9 +20806,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf6-b278-f694-001d",
+            "id": "pafb-d5b0-99e4-6e5e",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ],
@@ -22440,23 +22495,6 @@
                 "shared": true,
                 "includeChildSelections": false,
                 "childName": "Imperium - Agents of the Imperium"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 100,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 7,
-                "field": "selections",
-                "scope": "4469-7239-717e-9abd",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           },
@@ -30327,9 +30365,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae4-ea5c-e47b-001e",
+            "id": "pa7d-e0c4-1d5c-6758",
             "type": "selectionEntryGroup",
-            "targetId": "pa2d-bd69-2d99-0016",
+            "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
           }
         ],
@@ -33913,6 +33951,37 @@
             "field": "hidden"
           },
           {
+            "conditionGroups": [
+              {
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 5,
+                    "field": "selections",
+                    "scope": "0744-61ce-619d-ffe1",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "b00-cd86-4b4c-97ba",
+                    "shared": true,
+                    "id": "764e-c2de-54a4-bc1c",
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "and"
+              }
+            ],
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 4,
             "field": "dc92-681c-9681-938b",
@@ -33926,23 +33995,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 190,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "0744-61ce-619d-ffe1",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           },
@@ -58600,23 +58652,6 @@
                 "includeChildForces": true
               }
             ]
-          },
-          {
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "b040-ce24-7e1a-c903",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ],
         "constraints": [
@@ -78386,13 +78421,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa2d-bd69-2d99-0016",
+        "id": "paaa-8856-a358-91fb",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Veiled Blade Elimination Force Upgrades",
-            "id": "pa1e-c7ca-1edd-0000",
+            "id": "pad2-21bb-1142-fb4b",
             "hidden": false,
             "selectionEntries": [
               {
@@ -78400,14 +78435,14 @@
                 "import": true,
                 "name": "Decoy Targets",
                 "hidden": false,
-                "id": "pa84-4e29-84c8-0002",
+                "id": "pac1-12b8-a155-b853",
                 "profiles": [
                   {
                     "name": "Decoy Targets",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa6f-b90a-6fa7-0003",
+                    "id": "pa5c-cb4b-233e-af91",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78424,7 +78459,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa71-a55c-71b0-0004"
+                    "id": "pac8-6210-fa5a-eef8"
                   },
                   {
                     "type": "max",
@@ -78432,7 +78467,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "padd-5ea1-dd18-0005",
+                    "id": "pac1-419d-a3d0-8ce3",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78449,7 +78484,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa4c-cd2a-4c36-0006",
+                    "id": "pa6c-7e90-70fa-5c18",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78475,14 +78510,14 @@
                 "import": true,
                 "name": "Esoteric Explosives",
                 "hidden": false,
-                "id": "pa19-657f-1943-0007",
+                "id": "paee-e9c9-54d0-b889",
                 "profiles": [
                   {
                     "name": "Esoteric Explosives",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa62-32e9-6258-0008",
+                    "id": "pac9-e8c1-745f-3cd4",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78499,7 +78534,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa96-55ba-9691-0009"
+                    "id": "pa65-f415-409f-52b3"
                   },
                   {
                     "type": "max",
@@ -78507,7 +78542,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pabd-ea92-bd7d-000a",
+                    "id": "pad2-f1f6-60c6-20d0",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78524,7 +78559,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa67-27c7-67dd-000b",
+                    "id": "pa9b-6d5c-a54c-47e4",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78550,14 +78585,14 @@
                 "import": true,
                 "name": "Intraneural Biotech",
                 "hidden": false,
-                "id": "paec-c871-ec27-000c",
+                "id": "pac5-5fce-610f-61d4",
                 "profiles": [
                   {
                     "name": "Intraneural Biotech",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa54-9d59-5436-000d",
+                    "id": "pa2f-680f-3c4e-a4ab",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78574,7 +78609,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa8c-37cd-8c66-000e"
+                    "id": "pa91-3508-5e31-cab1"
                   },
                   {
                     "type": "max",
@@ -78582,7 +78617,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pacc-d628-cc33-000f",
+                    "id": "pa38-980e-52ca-1b23",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78599,7 +78634,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pae2-cc3c-e211-0010",
+                    "id": "pa46-4f16-ec4b-b5de",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78625,14 +78660,14 @@
                 "import": true,
                 "name": "Micromelta Rounds",
                 "hidden": false,
-                "id": "pa9f-30fb-9fa1-0011",
+                "id": "pa53-9bc9-d0e2-30ff",
                 "profiles": [
                   {
                     "name": "Micromelta Rounds",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa21-6606-2113-0012",
+                    "id": "padf-ca00-bfe1-f14f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78649,7 +78684,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa78-22a9-78c9-0013"
+                    "id": "paa8-9c39-f4ee-fc77"
                   },
                   {
                     "type": "max",
@@ -78657,7 +78692,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paed-f4f3-ed64-0014",
+                    "id": "pac6-6494-c212-916e",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78674,7 +78709,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad5-7c51-d513-0015",
+                    "id": "paa4-64b4-8ad2-340d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78737,7 +78772,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paf1-1c30-f1f5-0001"
+                "id": "pa8a-e3cc-5ce1-3bef"
               }
             ]
           }
@@ -78749,7 +78784,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa3d-bdf3-3d06-0017",
+            "id": "pa55-8500-e25e-f8e0",
             "includeChildSelections": true
           },
           {
@@ -78758,7 +78793,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa89-919c-8939-0018",
+            "id": "pab6-e5cf-1245-6da3",
             "includeChildSelections": true
           }
         ]
