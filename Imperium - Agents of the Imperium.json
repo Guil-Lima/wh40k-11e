@@ -11422,7 +11422,7 @@
           },
           {
             "type": "set",
-            "value": 110,
+            "value": 75,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
